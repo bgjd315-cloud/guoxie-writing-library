@@ -1,0 +1,27 @@
+body.class-page{margin:0;background:#f4f2ea;color:#22302b;font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.7}
+.class-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 24px;background:#244c42;color:#fff}
+.class-top a{color:#fff;text-decoration:none;font-weight:600}.class-top nav{display:flex;gap:16px;flex-wrap:wrap}.class-top nav a{font-weight:400;opacity:.9}
+.class-page main{max-width:1100px;margin:0 auto;padding:24px 16px 60px}
+.class-hero h1{margin:4px 0 8px;font-size:1.8rem}.class-hero .eyebrow{margin:0;font-size:.75rem;letter-spacing:.1em;color:#6c7a64}
+.class-panel{margin:18px 0;padding:20px;background:#fff;border:1px solid #e0e2d6;border-radius:12px}
+.class-panel h2{margin:0 0 8px;font-size:1.2rem}.class-panel h2 small{font-weight:400;color:#6c7a64;font-size:.85rem}
+.class-steps{padding-left:1.3em}.class-steps li{margin:4px 0}
+.class-who{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end}.class-who label{display:flex;flex-direction:column;font-size:.85rem;gap:4px;min-width:110px}.class-who label.wide{flex:1 1 320px}
+.class-who input,.class-panel textarea{padding:8px 10px;border:1px solid #c9cfbf;border-radius:8px;font:inherit}.class-panel textarea{width:100%;box-sizing:border-box}
+.class-bar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:8px}
+.class-theme{margin:22px 0 8px;font-size:1.02rem;border-bottom:1px solid #e3e5da;padding-bottom:4px}.class-theme small{font-weight:400;color:#6c7a64}
+.class-item{margin:10px 0;padding:12px 14px;border:1px solid #e3e5da;border-radius:10px;background:#fbfaf5}.class-item.posted{opacity:.7;border-style:dashed}
+.class-item pre{margin:0 0 10px;white-space:pre-wrap;word-break:break-word;font:inherit;font-size:.92rem}
+.class-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.class-done{font-size:.88rem;display:flex;gap:6px;align-items:center}
+.class-link{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.class-link code{flex:1 1 300px;padding:8px 10px;background:#f1f3ec;border-radius:8px;word-break:break-all;font-size:.85rem}
+.theme-list{white-space:pre-wrap;background:#f6f7f1;padding:10px;border-radius:8px;font:inherit;font-size:.9rem}
+.table-wrap{overflow-x:auto;max-width:100%}.class-table{border-collapse:collapse;font-size:.85rem;min-width:100%}
+.class-table th,.class-table td{border:1px solid #e0e2d6;padding:6px 8px;text-align:center;white-space:nowrap}.class-table th{background:#f1f3ec;position:sticky;top:0}
+.class-table td.full{background:#e3f1e4}.class-table td.half{background:#fbf0cf}.class-table td.empty{background:#f3f3f0;color:#a0a39a}.class-table tr.none td{color:#b04a3a}
+.class-table .link{background:none;border:0;color:#244c42;text-decoration:underline;cursor:pointer;font:inherit;padding:0}
+.theme-summary{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin:10px 0 16px}.theme-summary div{padding:8px 10px;background:#f6f7f1;border-radius:8px;display:flex;flex-direction:column;font-size:.85rem}
+.class-page .tabs{display:flex;gap:6px}.class-page .tabs button{padding:6px 12px;border:1px solid #c9cfbf;border-radius:999px;background:#fff;cursor:pointer;font:inherit}.class-page .tabs button.active{background:#244c42;color:#fff;border-color:#244c42}
+.class-page .btn{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border:1px solid #244c42;border-radius:8px;background:#fff;color:#244c42;text-decoration:none;cursor:pointer;font:inherit}.class-page .btn.primary{background:#244c42;color:#fff}.class-page .btn[disabled]{opacity:.5;cursor:not-allowed}
+.class-page .file-label input{display:none}.class-page .small{font-size:.85rem;color:#5b675f}.class-page .empty-line{color:#6c7a64}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);padding:10px 16px;background:#22302b;color:#fff;border-radius:8px;opacity:0;transition:opacity .2s;pointer-events:none}#toast.show{opacity:1}
+@media (max-width:600px){.class-hero h1{font-size:1.4rem}.class-panel{padding:16px}}

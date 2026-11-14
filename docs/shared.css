@@ -24,3 +24,4 @@
 @media (max-width:760px){.topic-link-card,.read-on-hub{flex-direction:column;align-items:flex-start}.topic-link-card .btn,.read-on-hub .btn{white-space:normal}}
 /* 工作台只留一排導覽：整合列在上，模組自己的麵包屑列隱藏（功能都在側欄）。 */
 body.workbench>.shell>.topbar,body.workbench>.workspace>.topbar{display:none}
+.bank-mode{margin:0 0 16px;padding:10px 14px;border-left:4px solid #c9a24a;background:#fbf6e8;border-radius:6px;font-size:.92rem}.bank-mode strong{margin-right:8px;color:#8a6a1e}
