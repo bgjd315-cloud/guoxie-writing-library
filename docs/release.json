@@ -1,7 +1,7 @@
 {
   "site": "拾光寫作",
   "sourceCommit": "3ba105e9ce60ceed0ecdf0909c7e0391eadefb93",
-  "version": "materials-bank-2026-11-15",
+  "version": "site-cleanup-2026-11-15",
   "sitesVersion": 9,
   "base": "/guoxie-writing-library/",
   "features": {
@@ -12,6 +12,7 @@
     "othersExamples": 324,
     "selfPrompts": 186,
     "fullLengthModels": 14,
+    "juniorMaterialCards": 24,
     "materialBank": true
   }
 }
