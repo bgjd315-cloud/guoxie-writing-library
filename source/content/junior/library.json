@@ -1,0 +1,4854 @@
+{
+  "version": "junior-v1",
+  "updated": "2026-11-14",
+  "papers": [
+    {
+      "id": "BCT095T",
+      "slug": "9501writing",
+      "year": 95,
+      "series": "基測",
+      "phase": "試辦",
+      "round": "",
+      "label": "95年基測・試辦",
+      "title": "體諒別人的辛勞",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "一天的生活當中，有許多人為我們做許多事，不可能凡事只靠自己。如果能多體諒別人，懂得感謝和寬容，不僅自己覺得快樂，家庭、社會也將更溫馨和諧。想一想：在你的生活周遭，親戚、朋友、社會大眾……，那些人為你付出、為你服務？你應當用什麼樣的心態、行動來面對或回報他們？若他們的付出或服務不能盡如你意時，你又該如何？"
+        }
+      ],
+      "restrictions": [
+        "不可在文中暴露自己的姓名",
+        "請勿使用詩歌體"
+      ],
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9501Writing.pdf",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/95-102writing/9501writing.html",
+      "sixSource": "https://cap.rcpet.edu.tw/exam/95-102writing/9501writing-6.pdf",
+      "verified": "2026-11-14",
+      "theme": "人物與關係",
+      "tasks": [
+        "看見服務背後的付出",
+        "說明感謝或回報的具體行動",
+        "面對不如意服務時仍能體諒"
+      ],
+      "risks": [
+        "只說要感恩",
+        "將付出者寫成沒有疲憊的工具人",
+        "忽略不盡如意時的態度"
+      ],
+      "chain": [
+        "原先只注意結果",
+        "發現勞動細節",
+        "理解限制",
+        "調整自己的回應"
+      ],
+      "concepts": [
+        "J01",
+        "J02"
+      ],
+      "insight": "從接受者角度轉到服務者處境，讓體諒落在言語、等待與分擔之中。",
+      "sampleFocus": "人物做了什麼？你原先如何回應？發現辛勞後，哪個行動改變？",
+      "sampleCount": 1,
+      "type": "argument",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "BCT096-1",
+      "slug": "9601writing",
+      "year": 96,
+      "series": "基測",
+      "phase": "正式",
+      "round": "1",
+      "label": "96年第1次基測",
+      "title": "夏天最棒的享受",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "豔陽高掛，暑氣炎炎，有時讓人精神振作、充滿活力，有時又使人汗流浹背、苦不堪言。你可能很喜歡在酷熱的夏天裡運動、閱讀、乘涼、甚至吃火鍋……。你覺得在夏天最棒的享受是什麼？請寫下你的經驗、感受或想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing.pdf",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing.html",
+      "sixSource": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing-6.pdf",
+      "verified": "2026-11-14",
+      "theme": "感官與生活",
+      "tasks": [
+        "選定夏天一項最棒享受",
+        "寫清具體情境與感官",
+        "說明為何特別"
+      ],
+      "risks": [
+        "把夏日活動排成清單",
+        "只有形容詞沒有經驗",
+        "未凸顯夏天的關係"
+      ],
+      "chain": [
+        "夏日情境",
+        "一項享受",
+        "感受細節",
+        "它對我的意義"
+      ],
+      "concepts": [
+        "J03",
+        "J04"
+      ],
+      "insight": "季節不是布景，熱、光、聲音與身體感受應參與情緒的形成。",
+      "sampleFocus": "哪些細節只有在這個季節才成立？這份享受與誰、哪種需要相關？",
+      "sampleCount": 8,
+      "type": "observe",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "BCT096-2",
+      "slug": "9602writing",
+      "year": 96,
+      "series": "基測",
+      "phase": "正式",
+      "round": "2",
+      "label": "96年第2次基測",
+      "title": "我從同學身上學到的事",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在我們求學的過程中，會遇見許多同學。每個同學都有各自的特點，從他們身上，我們可以學到一些事，因而影響了自己的想法或行為。請就你的經驗、感受或想法，寫出從同學身上所學到的事。"
+        }
+      ],
+      "restrictions": [
+        "若提及同學姓名，請用甲同學、乙同學……代替",
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing.pdf",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing.html",
+      "sixSource": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing-6.pdf",
+      "verified": "2026-11-14",
+      "theme": "人物與關係",
+      "tasks": [
+        "指出同學一項特點",
+        "呈現觀察或互動",
+        "說明自己想法或行為的改變"
+      ],
+      "risks": [
+        "只替同學寫人物介紹",
+        "學到什麼說不清",
+        "只用他很努力概括"
+      ],
+      "chain": [
+        "對同學的原先印象",
+        "具體事件",
+        "看見特點",
+        "我的改變"
+      ],
+      "concepts": [
+        "J05",
+        "J06"
+      ],
+      "insight": "文章的主角也包括學習中的自己，要讓同學的行動與自己的變化建立因果。",
+      "sampleFocus": "哪個片刻讓你重新評價同學？你後來實際學著怎麼做？",
+      "sampleCount": 8,
+      "type": "growth",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "BCT097-1",
+      "slug": "9701writing",
+      "year": 97,
+      "series": "基測",
+      "phase": "正式",
+      "round": "1",
+      "label": "97年第1次基測",
+      "title": "當一天的老師",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "求學至今，你遇過許多不同的老師。如果請你當一天的老師，你會做些什麼？是在家政課上，安排學生服裝表演？還是帶領學生進行戶外教學？或者是整天都面帶微笑，不責備學生？……請寫出你的想法與做法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可在文中使用真實的人名與校名",
+        "不可使用詩歌體"
+      ],
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing.pdf",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing.html",
+      "sixSource": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing-6.pdf",
+      "verified": "2026-11-14",
+      "theme": "想像與設計",
+      "tasks": [
+        "進入一天老師的角色",
+        "提出具體教學或相處做法",
+        "讓想法與做法互相支持"
+      ],
+      "risks": [
+        "只宣洩對老師的不滿",
+        "只有願望沒有安排",
+        "忽略學生需要"
+      ],
+      "chain": [
+        "希望改善的處境",
+        "一天安排",
+        "具體互動",
+        "想達成的改變"
+      ],
+      "concepts": [
+        "J06",
+        "J07"
+      ],
+      "insight": "想像應具有內在邏輯，從學生的需要倒推教學安排，而非只追求好玩。",
+      "sampleFocus": "你想讓學生學到什麼？做法如何達成目的？遇到問題時怎樣調整？",
+      "sampleCount": 6,
+      "type": "design",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "BCT097-2",
+      "slug": "9702writing",
+      "year": 97,
+      "series": "基測",
+      "phase": "正式",
+      "round": "2",
+      "label": "97年第2次基測",
+      "title": "那一刻，真美",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "生活中有許多動人而美好的時刻：也許是走出戶外，發現山的壯麗與海的遼闊；或者是閱讀的時候，某段文字觸動了內心；也可能是在大雨中，看見父母為子女遞送雨傘的身影……。那些動人的時刻，總是給我們美好的感覺。請寫下你生活中美的那一刻，說明它的特別之處，以及你的感受或想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9702writing.pdf",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/95-102writing/9702writing.html",
+      "sixSource": "https://cap.rcpet.edu.tw/exam/95-102writing/9702writing-6.pdf",
+      "verified": "2026-11-14",
+      "theme": "感官與生活",
+      "tasks": [
+        "聚焦一個動人時刻",
+        "寫出它的特別之處",
+        "交代感受或想法"
+      ],
+      "risks": [
+        "用多次事件沖淡那一刻",
+        "只說很美",
+        "結尾套用不相干格言"
+      ],
+      "chain": [
+        "日常背景",
+        "瞬間細節",
+        "心裡震動",
+        "重新理解美"
+      ],
+      "concepts": [
+        "J04",
+        "J08"
+      ],
+      "insight": "美可以來自風景、文字或人的行動，重點是為何由你在此刻感受到。",
+      "sampleFocus": "若拿掉漂亮形容詞，還有哪些動作或景象能使讀者理解這份美？",
+      "sampleCount": 5,
+      "type": "observe",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "BCT098-1",
+      "slug": "9801writing",
+      "year": 98,
+      "series": "基測",
+      "phase": "正式",
+      "round": "1",
+      "label": "98年第1次基測",
+      "title": "常常，我想起那雙手",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在成長過程中，或許有那麼一雙手，常常出現在你腦海。它可能是親人的手、老師的手，是農夫、畫家的手，也可能是乞求的手、掙扎的手，是撫慰、指引的手……。每當你想起那雙手，心中就充滿感觸。請寫出那雙你常常想起的手，以及它帶給你的感受、影響或啟發。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9801writing.pdf",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/95-102writing/9801writing.html",
+      "sixSource": "https://cap.rcpet.edu.tw/exam/95-102writing/9801writing-6.pdf",
+      "verified": "2026-11-14",
+      "theme": "人物與關係",
+      "tasks": [
+        "以一雙手為敘述核心",
+        "呈現與手相關的事件",
+        "說明反覆想起的原因與影響"
+      ],
+      "risks": [
+        "只描寫外形",
+        "寫完整人生傳記卻忘了手",
+        "把辛勞當單一催淚符號"
+      ],
+      "chain": [
+        "想起手的線索",
+        "動作與事件",
+        "關係變化",
+        "現在的影響"
+      ],
+      "concepts": [
+        "J01",
+        "J09"
+      ],
+      "insight": "讓手的動作推動事件，外形細節與人物性格、關係及啟發互相照應。",
+      "sampleFocus": "那雙手做過什麼？為何今天仍想起？你是否以相似動作回應他人？",
+      "sampleCount": 5,
+      "type": "observe",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "BCT098-2",
+      "slug": "9802writing",
+      "year": 98,
+      "series": "基測",
+      "phase": "正式",
+      "round": "2",
+      "label": "98年第2次基測",
+      "title": "我曾那樣追尋",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "在生活中，我們都曾有過追尋：或許是一台可以完成環島夢想的腳踏車，或許是創作帶來的喜悅，也或許是征服一座山的成就感。在追尋的過程中，我們可能有明確的方向，也可能覺得迷惘。我們付出努力，流下汗與淚，那苦澀或甜美的滋味，都是生命的一部分。你曾有過怎樣的追尋？你又為何追尋？請寫出你的經驗、體會或想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing.pdf",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing.html",
+      "sixSource": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing-6.pdf",
+      "verified": "2026-11-14",
+      "theme": "成長與選擇",
+      "tasks": [
+        "說清追尋對象與動機",
+        "描寫投入和困難",
+        "提出體會"
+      ],
+      "risks": [
+        "只報告最後成功",
+        "過程只剩努力兩字",
+        "結尾否定原先追尋卻沒交代理由"
+      ],
+      "chain": [
+        "為何想要",
+        "如何追尋",
+        "受阻與調整",
+        "對追尋的新理解"
+      ],
+      "concepts": [
+        "J10",
+        "J11"
+      ],
+      "insight": "追尋可以未完成，重要的是過程中願望、方法或自我認識如何改變。",
+      "sampleFocus": "追尋前後，你重視的事有何不同？哪次調整能顯示這種變化？",
+      "sampleCount": 6,
+      "type": "growth",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "BCT099-1",
+      "slug": "9901writing",
+      "year": 99,
+      "series": "基測",
+      "phase": "正式",
+      "round": "1",
+      "label": "99年第1次基測",
+      "title": "可貴的合作經驗",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "人際互動中，常有合作的機會，譬如：共同討論完成任務、彼此合力進行創作、一起組隊參加競賽……。合作的過程中，大家一起面對考驗，體會到解決問題的甘苦，並且累積了許多經驗。請寫下自己與他人合作的經驗及其可貴之處，並說明感受或想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9901writing.pdf",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/95-102writing/9901writing.html",
+      "sixSource": "https://cap.rcpet.edu.tw/exam/95-102writing/9901writing-6.pdf",
+      "verified": "2026-11-14",
+      "theme": "群體與公共",
+      "tasks": [
+        "交代合作任務與成員",
+        "呈現協調或考驗",
+        "具體說明可貴之處"
+      ],
+      "risks": [
+        "只有我們成功了",
+        "將一人英雄故事稱為合作",
+        "未寫互動與分工"
+      ],
+      "chain": [
+        "共同任務",
+        "分歧或困難",
+        "協調行動",
+        "合作帶來的理解"
+      ],
+      "concepts": [
+        "J12",
+        "J13"
+      ],
+      "insight": "可貴不只在成果，也可能在學會聽見不同意見、承認限制與合理分工。",
+      "sampleFocus": "誰的觀點曾改變安排？如果沒有彼此配合，事情會有何不同？",
+      "sampleCount": 3,
+      "type": "growth",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "BCT099-2",
+      "slug": "9902writing",
+      "year": 99,
+      "series": "基測",
+      "phase": "正式",
+      "round": "2",
+      "label": "99年第2次基測",
+      "title": "那一次，我自己做決定",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "從年幼至今，雖有不少事是由別人替你決定，但或許曾有一次，你自己做決定：決定改變髮型、決定買下渴望已久的東西、決定爭取參加活動的機會、決定選擇一條和大家不同的路……。這個決定，不管是否令人滿意，可能都對你有深刻的意義。請敘述一次你自己做決定的經驗，以及你的感受或想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9902writing.pdf",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/95-102writing/9902writing.html",
+      "sixSource": "https://cap.rcpet.edu.tw/exam/95-102writing/9902writing-6.pdf",
+      "verified": "2026-11-14",
+      "theme": "成長與選擇",
+      "tasks": [
+        "聚焦自己一次決定",
+        "呈現選項與理由",
+        "說明結果與感受"
+      ],
+      "risks": [
+        "決定全由別人完成",
+        "只談選擇重要",
+        "把不滿意結果寫成完全沒有意義"
+      ],
+      "chain": [
+        "面臨選項",
+        "權衡理由",
+        "自己決定",
+        "承擔並回望"
+      ],
+      "concepts": [
+        "J11",
+        "J14"
+      ],
+      "insight": "自主不等於拒絕建議，文章要說清自己最後採納什麼理由並承擔什麼。",
+      "sampleFocus": "你的選擇曾放棄什麼？結果與預期不同時，你如何回應？",
+      "sampleCount": 3,
+      "type": "growth",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "BCT100-1",
+      "slug": "1001writing",
+      "year": 100,
+      "series": "基測",
+      "phase": "正式",
+      "round": "1",
+      "label": "100年第1次基測",
+      "title": "我在成長中逐漸明白的一件事",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "人生的智慧會隨著時間慢慢地累積，從前不懂的事也會隨著成長漸漸地明白。或許你透過閱讀與學習，一步步累積知識、拓展視野、理解這個世界；或許你透過交流與體會，知道了更多待人處事的道理……。什麼是你在成長中逐漸明白的一件事？你又從中獲得了什麼？請以「我在成長中逐漸明白的一件事」為題，寫出你的經驗，以及體會或想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/1001Writing150DPI.pdf",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/95-102writing/1001writing.html",
+      "sixSource": "https://cap.rcpet.edu.tw/exam/95-102writing/1001writing-6.pdf",
+      "verified": "2026-11-14",
+      "theme": "成長與選擇",
+      "tasks": [
+        "選定逐漸明白的一件事",
+        "呈現時間或多次經驗的累積",
+        "說明體會"
+      ],
+      "risks": [
+        "一瞬間頓悟卻沒有逐漸",
+        "同時講太多道理",
+        "事件和領會脫節"
+      ],
+      "chain": [
+        "原先不懂",
+        "反覆經驗",
+        "理解修正",
+        "目前的體會"
+      ],
+      "concepts": [
+        "J15",
+        "J06"
+      ],
+      "insight": "逐漸要求理解有層次，可用兩次相似事件對照，呈現認識如何累積。",
+      "sampleFocus": "第一次和後來的你，對同一件事各怎麼想？中間是哪個經驗造成改變？",
+      "sampleCount": 3,
+      "type": "growth",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "BCT100-2",
+      "slug": "1002writing",
+      "year": 100,
+      "series": "基測",
+      "phase": "正式",
+      "round": "2",
+      "label": "100年第2次基測",
+      "title": "當我和別人意見不同的時候",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "我們難免會有和別人意見不同的時候，也許是對課本知識有不同的理解，也許是對班會提案有不同的立場，又或許是對美味的標準有各自的堅持……。當你和別人意見不同的時候，你會積極地為自己辯護？或者試著找到彼此的共識？又或者會離開現場，讓各自有思考的空間？請以「當我和別人意見不同的時候」為題，寫出你的經驗、感受或想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/1002Writing150DPI.pdf",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/95-102writing/1002writing.html",
+      "sixSource": "https://cap.rcpet.edu.tw/exam/95-102writing/1002writing-6.pdf",
+      "verified": "2026-11-14",
+      "theme": "群體與公共",
+      "tasks": [
+        "呈現具體意見差異",
+        "寫出自己的處理方式",
+        "回望互動與感受"
+      ],
+      "risks": [
+        "只證明對方錯",
+        "把意見差異寫成單純人身衝突",
+        "沒有回應的過程"
+      ],
+      "chain": [
+        "分歧是什麼",
+        "雙方依據",
+        "溝通或暫停",
+        "反思做法"
+      ],
+      "concepts": [
+        "J13",
+        "J07"
+      ],
+      "insight": "理解對方的理由與維持自身立場可以並存，無須強迫以全體和解收尾。",
+      "sampleFocus": "你曾認真聽見哪個不同理由？做法如何影響關係與討論？",
+      "sampleCount": 3,
+      "type": "argument",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "BCT101",
+      "slug": "101writing",
+      "year": 101,
+      "series": "基測",
+      "phase": "正式",
+      "round": "",
+      "label": "101年基測",
+      "title": "影響生活的一項發明",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "想像一下，沒有眼鏡、牙刷、沖水馬桶、鞋子、照相機……，生活會有什麼不同？許多發明對生活產生極大的影響，鎖的發明，除了保護居家的安全，也是對個人隱私權的一種宣示；藥物的發明，除了舒緩個人身體的不適，也可以控制人類疾病的蔓延，但有時也可能因濫用而危害生命。請寫出一項發明，就你的經驗或見聞，說明它對生活的影響。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/101Writing150DPI.pdf",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing.html",
+      "sixSource": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing-6.pdf",
+      "verified": "2026-11-14",
+      "theme": "媒體與思辨",
+      "tasks": [
+        "選一項發明",
+        "結合經驗或見聞",
+        "具體分析生活影響"
+      ],
+      "risks": [
+        "介紹發明史取代影響",
+        "羅列許多發明",
+        "只有方便與危險的空泛評語"
+      ],
+      "chain": [
+        "一項發明",
+        "使用情境",
+        "行為或關係改變",
+        "條件與反思"
+      ],
+      "concepts": [
+        "J16",
+        "J17"
+      ],
+      "insight": "比較有無這項工具時的差異，並說明影響如何透過使用方式產生。",
+      "sampleFocus": "誰得到便利？誰可能被忽略？改變做法後，影響是否也會改變？",
+      "sampleCount": 10,
+      "type": "argument",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "BCT102",
+      "slug": "102bctestwriting",
+      "year": 102,
+      "series": "基測",
+      "phase": "正式",
+      "round": "",
+      "label": "102年基測",
+      "title": "來不及",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "生活中有各種來不及的狀況，來不及參加朋友聚會、來不及趕赴一場比賽、來不及說謝謝、來不及阻止紛爭、來不及救援……。這些來不及做的事，可能造成遺憾，但也可能帶來意想不到的結果。請以你的經驗或見聞為例，寫下你的感受或想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/102Writing150dpi.pdf",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting.html",
+      "sixSource": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting-6.pdf",
+      "verified": "2026-11-14",
+      "theme": "成長與選擇",
+      "tasks": [
+        "交代一個來不及的情境",
+        "說明結果",
+        "發展感受或想法"
+      ],
+      "risks": [
+        "只有遺憾口號",
+        "未交代為何來不及",
+        "強行將所有錯失美化"
+      ],
+      "chain": [
+        "原先期待",
+        "來不及的轉折",
+        "實際結果",
+        "現在的理解與回應"
+      ],
+      "concepts": [
+        "J18",
+        "J08"
+      ],
+      "insight": "來不及可能留下遺憾，也可能帶來新發現；體悟需從具體結果長出。",
+      "sampleFocus": "錯失之後你看見什麼？有沒有一項現在能做的回應，而非只有如果當初？",
+      "sampleCount": 7,
+      "type": "growth",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "TNK100",
+      "slug": "tnkwriting",
+      "year": 100,
+      "series": "北北基聯測",
+      "phase": "正式",
+      "round": "",
+      "label": "100年北北基聯測",
+      "title": "我在成長中逐漸明白的一件事",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "人生的智慧會隨著時間慢慢地累積，從前不懂的事也會隨著成長漸漸地明白。或許你透過閱讀與學習，一步步累積知識、拓展視野、理解這個世界；或許你透過交流與體會，知道了更多待人處事的道理……。什麼是你在成長中逐漸明白的一件事？你又從中獲得了什麼？請以「我在成長中逐漸明白的一件事」為題，寫出你的經驗，以及體會或想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/TNK100Writing150DPI.pdf",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/95-102writing/tnkwriting.html",
+      "sixSource": "https://cap.rcpet.edu.tw/exam/95-102writing/100TNKwriting-6.pdf",
+      "verified": "2026-11-14",
+      "theme": "成長與選擇",
+      "tasks": [
+        "以北北基聯測原題為準",
+        "呈現逐漸明白的過程",
+        "說明一件事的體會"
+      ],
+      "risks": [
+        "因題名相同就混淆樣卷來源",
+        "用同一瞬間代替成長歷程",
+        "只寫抽象道理"
+      ],
+      "chain": [
+        "原先想法",
+        "經驗累積",
+        "理解鬆動",
+        "新的選擇"
+      ],
+      "concepts": [
+        "J15",
+        "J06"
+      ],
+      "insight": "此題與100第一次基測題名相同，但考試來源與六級分樣卷分開記錄。",
+      "sampleFocus": "比對兩組樣卷時，哪些寫法都能回應逐漸？你自己的經驗如何支撐？",
+      "sampleCount": 3,
+      "type": "growth",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "CAP102T",
+      "slug": "CAP102",
+      "year": 102,
+      "series": "會考",
+      "phase": "試辦",
+      "round": "",
+      "label": "102年會考・試辦",
+      "title": "從那件事中，我發現了不一樣的自己",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "也許你總是無法在籃球場上與人搶快爭球，嘗試練投三分球後，才發現自己可以成為一名稱職的射手；也許你一直以為自己內向寡言，擔任義工之後，卻發現自己也可以大方地付出愛與關懷；也許你曾為嗓門太大感到困擾，卻在因緣際會時，發現自己聲音的特點也可以發揮作用……。你，曾從哪件事中發現了不一樣的自己？又給了自己什麼樣的新評價？請以「從那件事中，我發現了不一樣的自己」為題，寫下你的經驗、感受或想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://drive.google.com/file/d/1mlP3HeETetUsrRraGe1mdFWvHm1nNhX2/view?usp=drive_link",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/102/102writing.html",
+      "sixSource": "https://drive.google.com/file/d/1ZrXHssLc_rPGzosr7PNxFmBENhyDk_CJ/view?usp=drive_link",
+      "verified": "2026-11-14",
+      "theme": "成長與選擇",
+      "tasks": [
+        "原先怎樣看自己",
+        "一件事使你發現差異",
+        "提出有依據的新評價"
+      ],
+      "risks": [
+        "只寫活動成功",
+        "沒有前後自我認識對照",
+        "把試辦題誤標為正式會考"
+      ],
+      "chain": [
+        "原先自我標籤",
+        "關鍵事件",
+        "新發現",
+        "修正自我評價"
+      ],
+      "concepts": [
+        "J05",
+        "J14"
+      ],
+      "insight": "不一樣未必全是優點，也可發現盲點；重要的是新評價與事件能對得起來。",
+      "sampleFocus": "是能力、性格還是態度改變了你的自我認識？事件提供了什麼證據？",
+      "sampleCount": 9,
+      "type": "growth",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "CAP103",
+      "slug": "CAP103",
+      "year": 103,
+      "series": "會考",
+      "phase": "正式",
+      "round": "",
+      "label": "103年會考",
+      "title": "面對未來，我應該具備的能力",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "即將畢業的你，將邁入人生新的階段，遇到不同的挑戰。面對未來，你認為自己最應該具備的能力是什麼？也許是培養專業技術、發展多元思考；也許是觀察生活、了解周遭情勢；又或者是學習包容與體諒，積極與他人溝通……。這個能力可能是你此刻缺乏，也可能應該提前準備，以因應瞬息萬變的社會。請寫出你面對未來時，應該具備的能力，並說明其中的理由。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://drive.google.com/file/d/1tcSqrysMJnzUZF02aJMY99wZ_WSoK2Kn/view?usp=drive_link",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/103/103writing.html",
+      "sixSource": "https://drive.google.com/file/d/14_zM7By6cYZ4udkDicd81jVJfemCYTjs/view?usp=drive_link",
+      "verified": "2026-11-14",
+      "theme": "成長與選擇",
+      "tasks": [
+        "選定面對未來應具備的能力",
+        "說明需要的理由",
+        "連結未來情境"
+      ],
+      "risks": [
+        "列出太多能力",
+        "只描述理想職業",
+        "沒有解釋能力如何發揮作用"
+      ],
+      "chain": [
+        "未來挑戰",
+        "核心能力",
+        "經驗與理由",
+        "培養方向"
+      ],
+      "concepts": [
+        "J10",
+        "J19"
+      ],
+      "insight": "能力不是漂亮名詞，需要具體說明它在某種情境裡如何幫助自己回應問題。",
+      "sampleFocus": "如果缺乏這項能力會遇到什麼困難？你現有的經驗如何支持判斷？",
+      "sampleCount": 3,
+      "type": "argument",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "CAP104",
+      "slug": "CAP104",
+      "year": 104,
+      "series": "會考",
+      "phase": "正式",
+      "round": "",
+      "label": "104年會考",
+      "title": "捨不得",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "搬家時，送出陪伴自己多年的玩具，告別每天相處的朋友；畢業時，離開熟悉的校園，向無怨付出的老師說再見……，這些時候我們總覺得依依難捨。又或者，捨不得叫醒必須上大夜班的母親，捨不得花錢，捨不得放手，捨不得先吃蛋糕上的草莓……，這些情況都讓人感到猶豫掙扎。面對難以割捨的事物，你有什麼體會？請以「捨不得」為題，寫下你的經驗、感受或想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://drive.google.com/file/d/1ECeOclyCA9LpP4mM-bl83gSKWnN01lHj/view?usp=drive_link",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/104/104writing.html",
+      "sixSource": "https://drive.google.com/file/d/1J2IVykcx0A5bBigx6CQ6HfD4GAfkKXP2/view?usp=drive_link",
+      "verified": "2026-11-14",
+      "theme": "人物與關係",
+      "tasks": [
+        "選定割捨或不捨的對象",
+        "說清猶豫及珍惜的原因",
+        "發展體會"
+      ],
+      "risks": [
+        "只寫悲傷",
+        "沒有不捨的理由",
+        "強迫所有告別都要放下"
+      ],
+      "chain": [
+        "觸發不捨",
+        "具體記憶或兩難",
+        "選擇",
+        "與不捨相處"
+      ],
+      "concepts": [
+        "J09",
+        "J18"
+      ],
+      "insight": "捨不得包含情感依戀與取捨兩難，不必限縮成離別或死亡情節。",
+      "sampleFocus": "留住它與放手各意味什麼？哪個細節能呈現你的猶豫？",
+      "sampleCount": 9,
+      "type": "observe",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "CAP105",
+      "slug": "CAP105",
+      "year": 105,
+      "series": "會考",
+      "phase": "正式",
+      "round": "",
+      "label": "105年會考",
+      "title": "從陌生到熟悉",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "也許是來到一個全新的環境，從分不清東南西北，最後對所有的巷弄瞭若指掌；也許是加入一個團體，從剛開始找不到對象說話，到漸漸認識志同道合的朋友，暢談彼此的夢想；也許是接觸新事物或者學習新技能，從獨自摸索、反覆嘗試，到終於駕輕就熟，而有深切體會……。從陌生到熟悉，其中有著苦甜的滋味，也帶給我們許多思考。請以「從陌生到熟悉」為題，寫下你的經驗、感受或想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://drive.google.com/file/d/1ydZEnpnygNoXNubgstAlbH8fgtzTV8xC/view?usp=drive_link",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/105/105writing.html",
+      "sixSource": "https://drive.google.com/file/d/1oxq_mIqoHf1lhz0cLvSIf3lWMTpOfs1Z/view?usp=drive_link",
+      "verified": "2026-11-14",
+      "theme": "成長與選擇",
+      "tasks": [
+        "交代最初陌生",
+        "呈現熟悉的過程",
+        "說明苦甜與體會"
+      ],
+      "risks": [
+        "直接跳到最後很熟",
+        "只寫環境介紹",
+        "熟悉只有朋友變多"
+      ],
+      "chain": [
+        "陌生的具體困難",
+        "嘗試與受挫",
+        "逐漸掌握",
+        "新的關係或理解"
+      ],
+      "concepts": [
+        "J05",
+        "J15"
+      ],
+      "insight": "熟悉是一段有變化的過程，可透過同一動作前後的差別呈現。",
+      "sampleFocus": "最初做不到或不理解的事，後來如何改變？是什麼帶來這種變化？",
+      "sampleCount": 6,
+      "type": "growth",
+      "material": "文字引導",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "CAP106",
+      "slug": "CAP106",
+      "year": 106,
+      "series": "會考",
+      "phase": "正式",
+      "round": "",
+      "label": "106年會考",
+      "title": "在這樣的傳統習俗裡，我看見……",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "請閱讀以下圖表及文字，按題意要求完成一篇作文。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/CAP106.png",
+          "alt": "原題圖表：傳統習俗分為歲時、祭祀、生育婚喪與其他，列出各類例子。"
+        },
+        {
+          "type": "text",
+          "text": "從小到大，許多傳統習俗伴隨我們成長。在這些傳統習俗裡，你也許感受到它所傳遞的情感，也許發現它值得保存的內涵，也許察覺到它不合時宜的地方。"
+        },
+        {
+          "type": "text",
+          "text": "請就個人生活見聞，以「在這樣的傳統習俗裡，我看見……」為題，寫下你的經驗、感受或想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://drive.google.com/file/d/1ZUgFgSATej3dr-1SgKDRtjdmB8BJNYqD/view?usp=drive_link",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/106/106writing.html",
+      "sixSource": "https://drive.google.com/file/d/1-QCTmtZeuxOMXQUjXJw6qDEOdLaZOPmE/view?usp=drive_link",
+      "verified": "2026-11-14",
+      "theme": "群體與公共",
+      "tasks": [
+        "以一項傳統習俗為核心",
+        "結合個人見聞",
+        "提出看到的情感、價值或限制"
+      ],
+      "risks": [
+        "只介紹習俗知識",
+        "沒有自己的觀察",
+        "一概贊成或否定傳統"
+      ],
+      "chain": [
+        "一個習俗場景",
+        "參與者與細節",
+        "看見內涵或問題",
+        "自己的思考"
+      ],
+      "concepts": [
+        "J20",
+        "J01"
+      ],
+      "insight": "保存價值與檢查不合時宜之處可以並行，結論要與生活見聞相連。",
+      "sampleFocus": "這個做法原來回應什麼需要？今天哪些部分值得保留或調整？",
+      "sampleCount": 9,
+      "type": "argument",
+      "material": "圖像／圖表＋文字",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "CAP107",
+      "slug": "CAP107",
+      "year": 107,
+      "series": "會考",
+      "phase": "正式",
+      "round": "",
+      "label": "107年會考",
+      "title": "我們這個世代",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "請先閱讀以下提示，並按題意要求完成一篇文章。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/CAP107.png",
+          "alt": "原題提示圖：以世代對話及年齡軸，呈現對飲食、自由、動漫、未來等特質的不同觀察。"
+        },
+        {
+          "type": "text",
+          "text": "每個世代都有其關注的事物、困擾的問題，或是對未來的想像，構成了各個世代的精采面貌。你覺得自己的這個世代有什麼樣的特質？這些特質也許是刻板印象，也許是你身處其中的真實觀察。請以「我們這個世代」為題，寫下你的經驗、感受或想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://drive.google.com/file/d/1IvOzDGWeI3jNXhG1EjvJFSDmQrt1dX0_/view?usp=drive_link",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/107/107writing.html",
+      "sixSource": "https://drive.google.com/file/d/1f32zYI98Ndlte7nGlme0OQW23SfdVO4d/view?usp=drive_link",
+      "verified": "2026-11-14",
+      "theme": "群體與公共",
+      "tasks": [
+        "辨認自己世代的特質",
+        "以經驗或觀察支撐",
+        "區分刻板印象與具體判斷"
+      ],
+      "risks": [
+        "只批評長輩",
+        "以一人代表整代",
+        "羅列流行物而無分析"
+      ],
+      "chain": [
+        "一項世代觀察",
+        "具體情境",
+        "特質及原因",
+        "反思與期待"
+      ],
+      "concepts": [
+        "J21",
+        "J16"
+      ],
+      "insight": "世代是一個觀察角度，不是所有人完全相同的保證，要為主張保留範圍。",
+      "sampleFocus": "哪個共同生活條件塑造這項特質？你是否也看見相反的例子？",
+      "sampleCount": 10,
+      "type": "argument",
+      "material": "圖像／圖表＋文字",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "CAP108",
+      "slug": "CAP108",
+      "year": 108,
+      "series": "會考",
+      "phase": "正式",
+      "round": "",
+      "label": "108年會考",
+      "title": "青銀共居與世代互動",
+      "named": false,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "請先閱讀以下資訊，並按題意要求完成一篇文章："
+        },
+        {
+          "type": "figure",
+          "src": "figures/CAP108.png",
+          "alt": "原題青銀共居資訊圖：呈現不同年齡者對照顧、租金、互助與相處的期待及顧慮。"
+        },
+        {
+          "type": "text",
+          "text": "若參考上述「青銀共居」的事例，思考高齡化社會的相關議題，你對年輕人與銀髮族的互動或相處模式，有什麼期待？請就你與年長者的相處經驗，或生活周遭的觀察，表達你的感受或看法。"
+        }
+      ],
+      "restrictions": [
+        "文章不必訂題目",
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://drive.google.com/file/d/1hOalLevzC7KOVol8OqQqNZ2QPk0pWWff/view?usp=drive_link",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/108/108writing.html",
+      "sixSource": "https://drive.google.com/file/d/1tOQKTVH6esxgLHKfSzWj692kea6jVovQ/view?usp=drive_link",
+      "verified": "2026-11-14",
+      "theme": "人物與關係",
+      "tasks": [
+        "理解青銀互動情境",
+        "結合與長者相處的經驗或觀察",
+        "表達互動模式的期待"
+      ],
+      "risks": [
+        "只寫孝順口號",
+        "把長者當成同一類人",
+        "提出期待卻無具體互動"
+      ],
+      "chain": [
+        "一段相處",
+        "需要與誤會",
+        "互相理解",
+        "可行的相處期待"
+      ],
+      "concepts": [
+        "J02",
+        "J07"
+      ],
+      "insight": "雙方都可能提供支持，也都可能有界線；不要只以年齡預設能力與需要。",
+      "sampleFocus": "對方實際在意什麼？怎樣的安排能讓兩個世代都保有選擇？",
+      "sampleCount": 10,
+      "type": "argument",
+      "material": "圖像／圖表＋文字",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "CAP109",
+      "slug": "CAP109",
+      "year": 109,
+      "series": "會考",
+      "phase": "正式",
+      "round": "",
+      "label": "109年會考",
+      "title": "我想開設一家這樣的店",
+      "named": true,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "請先閱讀以下資訊，並按題意要求完成一篇文章："
+        },
+        {
+          "type": "figure",
+          "src": "figures/CAP109.png",
+          "alt": "原題店面想像圖：不同人物提出家庭料理、二手書、手作飾品與花店等想像。"
+        },
+        {
+          "type": "text",
+          "text": "開一家店，可能是為了實踐某個夢想，也可能是為了滿足生活中的各種期盼。你想開設一家怎樣的店？為什麼要開這家店？它又會是什麼樣貌？請以「我想開設一家這樣的店」為題，具體寫下你的想法。"
+        }
+      ],
+      "restrictions": [
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://drive.google.com/file/d/1ycJSiLZTSTqltZidwaL2of6_q1wUvGS1/view?usp=drive_link",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/109/109writing.html",
+      "sixSource": "https://drive.google.com/file/d/1qxMI09W8tzJTfkLVmHXTHpaZUViYE5de/view?usp=drive_link",
+      "verified": "2026-11-14",
+      "theme": "想像與設計",
+      "tasks": [
+        "具體說清店的樣貌",
+        "交代開店動機",
+        "讓服務或安排實踐期盼"
+      ],
+      "risks": [
+        "只有店名與裝潢",
+        "動機與設計無關",
+        "只列商品清單"
+      ],
+      "chain": [
+        "想回應的需要",
+        "店的核心",
+        "具體安排",
+        "期待帶來的改變"
+      ],
+      "concepts": [
+        "J19",
+        "J22"
+      ],
+      "insight": "開店是表達生活願景的媒介，想像仍需讓目的、對象與做法互相支持。",
+      "sampleFocus": "哪一項設計最能證明你為何開店？它如何影響來到店裡的人？",
+      "sampleCount": 10,
+      "type": "design",
+      "material": "圖像／圖表＋文字",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "CAP110",
+      "slug": "CAP110",
+      "year": 110,
+      "series": "會考",
+      "phase": "正式",
+      "round": "",
+      "label": "110年會考",
+      "title": "未成功的物品展覽會",
+      "named": false,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "請先閱讀以下資訊，並按題意要求完成一篇文章："
+        },
+        {
+          "type": "figure",
+          "src": "figures/CAP110.png",
+          "alt": "原題展覽圖：魚缸、落選科展作品、被拒絕的紀念服與蛋糕失敗紀錄照片。"
+        },
+        {
+          "type": "text",
+          "text": "如果邀你省視自己的過往，參加「未成功的物品展覽會」，你準備放入一項什麼樣的展品？在外觀上，它有何特別之處？在情感上，它對你的意義又是什麼？請寫出你的經驗、感受或想法。"
+        }
+      ],
+      "restrictions": [
+        "不必訂題",
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://drive.google.com/file/d/1BNnGYauKt4ojl-nI__oJUPvS9-XAxn5a/view?usp=drive_link",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/110/110writing.html",
+      "sixSource": "https://drive.google.com/file/d/1iqbYSsd40C1BwZCG1isPlPpTRO7O0JJp/view?usp=drive_link",
+      "verified": "2026-11-14",
+      "theme": "成長與選擇",
+      "tasks": [
+        "選一項與未成功經驗相連的物品",
+        "寫清外觀特徵",
+        "解釋情感意義"
+      ],
+      "risks": [
+        "只有失敗事件而沒有物品",
+        "物品外觀與意義脫節",
+        "硬把失敗寫成最後得獎"
+      ],
+      "chain": [
+        "展品的外觀",
+        "未成功事件",
+        "情感變化",
+        "如今保存的意義"
+      ],
+      "concepts": [
+        "J09",
+        "J11"
+      ],
+      "insight": "物件是經驗的載體，未成功不必靠日後成功才有價值，也可以留下限制與提醒。",
+      "sampleFocus": "哪一道痕跡能連回事件？你現在如何看待這項尚未成功的經驗？",
+      "sampleCount": 10,
+      "type": "growth",
+      "material": "圖像／圖表＋文字",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "CAP111",
+      "slug": "CAP111",
+      "year": 111,
+      "series": "會考",
+      "phase": "正式",
+      "round": "",
+      "label": "111年會考",
+      "title": "多做多得",
+      "named": false,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "請先閱讀以下資訊，並按題意要求完成一篇文章。"
+        },
+        {
+          "type": "text",
+          "text": "線上班級群組裡，師生正在討論園遊會："
+        },
+        {
+          "type": "figure",
+          "src": "figures/CAP111.png",
+          "alt": "原題班級群組對話：同學對多做事、被肯定、能力與面對挫折提出不同想法。"
+        },
+        {
+          "type": "text",
+          "text": "日常生活中，你可能常會聽到「多做多得」的勉勵，你或許認同，或許感到困惑，也或許有其他體會。請結合自己的經驗或見聞，寫下你對「多做多得」的感受或想法。"
+        }
+      ],
+      "restrictions": [
+        "不必訂題",
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://drive.google.com/file/d/1AkgLsD9UNsfIhulaXSqMGLKdXoWWPT4P/view?usp=drive_link",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/111/111writing.html",
+      "sixSource": "https://drive.google.com/file/d/1SXBUEWkZD4qAZpJaMtayd6oBkcx7Kl1L/view?usp=drive_link",
+      "verified": "2026-11-14",
+      "theme": "媒體與思辨",
+      "tasks": [
+        "辨認多做與所得的意思",
+        "結合經驗或見聞",
+        "表達自己的感受或判斷"
+      ],
+      "risks": [
+        "只套勤能補拙",
+        "不說得到的是什麼",
+        "把相關直接等同必然"
+      ],
+      "chain": [
+        "生活主張",
+        "實際經驗",
+        "所得與代價",
+        "成立條件或新理解"
+      ],
+      "concepts": [
+        "J12",
+        "J23"
+      ],
+      "insight": "所得可以是能力、關係或經驗，也可能有不相稱的付出；須說清自己採用的判準。",
+      "sampleFocus": "多做什麼、得到什麼？分工、方法或資源會不會改變結果？",
+      "sampleCount": 10,
+      "type": "argument",
+      "material": "圖像／圖表＋文字",
+      "explicitMaterialAnalysis": false
+    },
+    {
+      "id": "CAP112",
+      "slug": "CAP112",
+      "year": 112,
+      "series": "會考",
+      "phase": "正式",
+      "round": "",
+      "label": "112年會考",
+      "title": "影劇類型喜好與生活經驗",
+      "named": false,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "請先閱讀以下資訊，並按題意要求完成一篇文章。"
+        },
+        {
+          "type": "text",
+          "text": "下列是近年來臺灣民眾最喜愛的影劇類型統計："
+        },
+        {
+          "type": "figure",
+          "src": "figures/CAP112.png",
+          "alt": "原題統計圖：依序列出動作冒險、奇幻想像、恐怖驚悚、浪漫愛情、家庭倫理與其他的喜好人數百分比。"
+        },
+        {
+          "type": "text",
+          "text": "文章整體內容應包含："
+        },
+        {
+          "type": "text",
+          "text": "一、對於上列圖表顯示的類型喜好，簡要說明你的理解是什麼？"
+        },
+        {
+          "type": "text",
+          "text": "二、將這樣的理解結合你的經驗或見聞，寫下感受或想法。"
+        },
+        {
+          "type": "text",
+          "text": "◎你對上列圖表的理解，可以是針對某一類型的解讀，例如：浪漫愛情電影仍有人喜愛，因為滿足了人們的期待；也可以是多個類型的比較，例如：和家庭倫理劇相比，更多人喜歡刺激的恐怖驚悚劇；或者是其他的想法。"
+        }
+      ],
+      "restrictions": [
+        "不必訂題",
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://drive.google.com/file/d/1EUA2uOUApWOF-rrB91umx2Hi887KQ_3t/view?usp=drive_link",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/112/112writing.html",
+      "sixSource": "https://drive.google.com/file/d/1x2RjSG5jR9ahz9GJgjX78oHaGdphhhmY/view?usp=drive_link",
+      "verified": "2026-11-14",
+      "theme": "媒體與思辨",
+      "tasks": [
+        "先簡要說明圖表理解",
+        "將理解連到經驗或見聞",
+        "提出感受或想法"
+      ],
+      "risks": [
+        "直接寫喜愛電影而未讀圖",
+        "編造精確百分比",
+        "把圖表喜好當成所有人的原因"
+      ],
+      "chain": [
+        "圖表一項比較或解讀",
+        "我的經驗",
+        "解釋其關聯",
+        "想法與限制"
+      ],
+      "concepts": [
+        "J17",
+        "J24"
+      ],
+      "insight": "圖表提供的是喜好分布，選一項可信觀察作起點，再用經驗展開，避免把推測說成統計事實。",
+      "sampleFocus": "你採用哪個圖表訊息？後面的經驗是在支持、補充還是反思這個理解？",
+      "sampleCount": 7,
+      "type": "materials",
+      "material": "圖像／圖表＋文字",
+      "explicitMaterialAnalysis": true
+    },
+    {
+      "id": "CAP113",
+      "slug": "CAP113",
+      "year": 113,
+      "series": "會考",
+      "phase": "正式",
+      "round": "",
+      "label": "113年會考",
+      "title": "標題設計與群眾心理",
+      "named": false,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "請先閱讀以下資訊，並按題意要求完成一篇文章。"
+        },
+        {
+          "type": "text",
+          "text": "以下是一些產品文案、社群平臺、報章雜誌中常見的標題："
+        },
+        {
+          "type": "figure",
+          "src": "figures/CAP113.png",
+          "alt": "原題擬例標題：以新奇、危機、名人、獵奇、懸念與數字等手法吸引目光；這些是試題材料。"
+        },
+        {
+          "type": "text",
+          "text": "「標題」的擬定，常運用特殊設計，以吸引大眾目光，其中可能反映了某些群眾心理或社會面貌。"
+        },
+        {
+          "type": "text",
+          "text": "請思考上述標題運用了什麼樣的設計方式？這樣的標題設計是受到什麼原因影響？背後反映了什麼現象？並結合你的生活經驗、見聞，寫下對此的觀察與想法。"
+        }
+      ],
+      "restrictions": [
+        "不必訂題",
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://drive.google.com/file/d/1fhW7ywN8LoIGGroAMQS5JzqCStKlY2Ux/view?usp=drive_link",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/113/113writing.html",
+      "sixSource": "https://drive.google.com/file/d/1K7Z2yQ9s-UpgoYSuOKhxnTvv9TlFwwFO/view?usp=drive_link",
+      "verified": "2026-11-14",
+      "theme": "媒體與思辨",
+      "tasks": [
+        "說明標題的設計方式",
+        "分析原因與現象",
+        "結合生活經驗或見聞"
+      ],
+      "risks": [
+        "只批評誇大",
+        "重抄標題",
+        "沒有分析吸引注意的機制"
+      ],
+      "chain": [
+        "一種設計",
+        "吸引誰及如何吸引",
+        "生活事例",
+        "現象與反思"
+      ],
+      "concepts": [
+        "J16",
+        "J24"
+      ],
+      "insight": "由語言形式走向心理與社會原因，再檢查注意力如何影響判斷，而非只有道德批判。",
+      "sampleFocus": "標題用了哪個手法？讀者的什麼期待被喚起？實際內容是否支持它？",
+      "sampleCount": 8,
+      "type": "materials",
+      "material": "圖像／圖表＋文字",
+      "explicitMaterialAnalysis": true
+    },
+    {
+      "id": "CAP114",
+      "slug": "CAP114",
+      "year": 114,
+      "series": "會考",
+      "phase": "正式",
+      "round": "",
+      "label": "114年會考",
+      "title": "從圖像選詞，連結生活觀察",
+      "named": false,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "請先閱讀以下資訊，並按題意要求完成一篇文章。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/CAP114.png",
+          "alt": "原題圖一為兩隻老鼠與開口的籠子；圖二列盲目、冒險、耽溺、自由、選擇、牢籠六個詞彙。"
+        },
+        {
+          "type": "text",
+          "text": "觀察圖一，並依下列條件完成寫作："
+        },
+        {
+          "type": "text",
+          "text": "（一）從圖二選出你認為較能說明圖一情境的詞彙，以此為依據進行書寫。"
+        },
+        {
+          "type": "text",
+          "text": "（二）文中先說明所選定的「詞彙」與「圖一」之間的關聯，並就選定的詞彙及對圖片的詮釋，結合你在生活中的觀察或個人經驗，寫下感受或想法。"
+        }
+      ],
+      "restrictions": [
+        "不必訂題",
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://drive.google.com/file/d/15yGt7NgV0OsYTP8LdYF7BCntfTjZwQ7q/view?usp=drive_link",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/114/114writing.html",
+      "sixSource": "https://drive.google.com/file/d/12qsAjT9hZmLlUVlyIVuWXBVh2EwN_dNn/view?usp=drive_link",
+      "verified": "2026-11-14",
+      "theme": "媒體與思辨",
+      "tasks": [
+        "從指定六詞選定解讀依據",
+        "先說詞與圖一的關聯",
+        "再連到生活觀察或個人經驗"
+      ],
+      "risks": [
+        "沒用指定詞",
+        "只寫故事而無圖像詮釋",
+        "看圖說故事但沒有生活連結"
+      ],
+      "chain": [
+        "選詞與圖像證據",
+        "詮釋",
+        "相連生活情境",
+        "感受或想法"
+      ],
+      "concepts": [
+        "J14",
+        "J17"
+      ],
+      "insight": "選詞需有圖像依據；可以採取不同觀點，但須讓圖像、詞彙與經驗形成同一條思路。",
+      "sampleFocus": "圖中哪個細節支持你的詞？換一個詞時，詮釋與事例要怎樣調整？",
+      "sampleCount": 6,
+      "type": "materials",
+      "material": "圖像／圖表＋文字",
+      "explicitMaterialAnalysis": true
+    },
+    {
+      "id": "CAP115",
+      "slug": "CAP115",
+      "year": 115,
+      "series": "會考",
+      "phase": "正式",
+      "round": "",
+      "label": "115年會考",
+      "title": "賦予事物新面貌",
+      "named": false,
+      "minutes": 50,
+      "blocks": [
+        {
+          "type": "text",
+          "text": "請先閱讀以下資訊，並依據題意要求完成一篇文章。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/CAP115.png",
+          "alt": "原題資訊圖：以物品、空間及舊事物更新的例子，引導思考賦予事物新面貌。"
+        },
+        {
+          "type": "text",
+          "text": "在日常生活中，有些事物只要加入巧思、翻新樣式、結合新元素……就可以呈現不同的面貌、開展出其他的用途。你想賦予什麼事物新面貌？又會怎麼做？請結合你的經驗或見聞，寫下對此的感受、想法。"
+        }
+      ],
+      "restrictions": [
+        "不必訂題",
+        "不可在文中洩漏私人身分",
+        "不可使用詩歌體"
+      ],
+      "source": "https://drive.google.com/file/d/1NceEHPUXT0fZo6UgdCuSdGApQ4embM0t/view?usp=drive_link",
+      "sampleIndex": "https://cap.rcpet.edu.tw/exam/115/115writing.html",
+      "sixSource": "https://drive.google.com/file/d/1MSG0LyS7baOyiQljRUhAnav11YCl81AB/view?usp=drive_link",
+      "verified": "2026-11-14",
+      "theme": "想像與設計",
+      "tasks": [
+        "說清要改變的事物",
+        "提出具體新面貌與做法",
+        "結合經驗或見聞及感受想法"
+      ],
+      "risks": [
+        "只寫想像結果而無做法",
+        "只有改造步驟沒有意義",
+        "把新面貌限縮成外觀變漂亮"
+      ],
+      "chain": [
+        "原來樣貌或用途",
+        "為何改變",
+        "具體做法",
+        "新的價值與感受"
+      ],
+      "concepts": [
+        "J22",
+        "J20"
+      ],
+      "insight": "新面貌可以是形式、用途或意義的轉變，文章要讓改變與生活經驗真正相連。",
+      "sampleFocus": "你保留了什麼、改變了什麼？這項調整為誰帶來什麼新的可能？",
+      "sampleCount": 5,
+      "type": "design",
+      "material": "圖像／圖表＋文字",
+      "explicitMaterialAnalysis": false
+    }
+  ],
+  "concepts": [
+    {
+      "id": "J01",
+      "title": "看見辛勞，讓感謝有動作",
+      "theme": "人物與關係",
+      "definition": "理解他人的付出，需要看見工作細節、限制與自己的回應，而不只停在謝謝。",
+      "keywords": [
+        "辛勞",
+        "細節",
+        "體諒"
+      ],
+      "paragraphs": [
+        "理解他人的付出，需要看見工作細節、限制與自己的回應，而不只停在謝謝。",
+        "有人替我們準備好一切時，生活往往順利得讓人忘記背後的勞動。餐點準時出現、場地維持整潔、活動安全完成，都包含許多未被注意的準備。直到自己參與一次工作，才可能發現，看似簡單的步驟也需要耐心與判斷。",
+        "寫這類經驗，可以選一個原先抱怨、後來重新理解的片刻，讓讀者看見辛勞如何被發現。體諒也要有界線，不必把所有不合理的要求都說成應當忍受；重要的是分清困難與失責，再決定如何回應。具體分擔、認真等待或改變說話方式，都能使感謝有可見的重量。當自己的行動因理解而改變，情感才不只是結尾的一句口號。"
+      ],
+      "keySentence": "有人替我們準備好一切時，生活往往順利得讓人忘記背後的勞動。",
+      "count": 272,
+      "question": "你曾在哪次親手嘗試後，重新看懂別人的工作？",
+      "exams": [
+        "BCT095T",
+        "BCT098-1",
+        "CAP106"
+      ]
+    },
+    {
+      "id": "J02",
+      "title": "照顧也需要先詢問",
+      "theme": "人物與關係",
+      "definition": "關懷的方式應回應對方的需要，並保留選擇與表達意願的空間。",
+      "keywords": [
+        "照顧",
+        "需要",
+        "詢問"
+      ],
+      "paragraphs": [
+        "關懷的方式應回應對方的需要，並保留選擇與表達意願的空間。",
+        "想幫忙以前，先知道對方希望得到什麼。看見長輩走得慢，可能立刻伸手攙扶；發現朋友難過，也可能急著提出方法。這些行動出於好意，卻未必符合眼前的人。有時他想自己試試，有時他只需要有人完整聽完。",
+        "可以從一次幫助沒有被接受的經驗切入，描述當下的疑惑，以及後來怎樣透過詢問改變理解。避免只把對方寫成需要被拯救的人，也要看見他的能力與生活經驗。好的照顧不必做得最多，而是能依情境調整，必要時承認自己的限制。當雙方都能說出願望、接受或拒絕，關係才有互相支持的可能，善意也更容易真正抵達對方。"
+      ],
+      "keySentence": "想幫忙以前，先知道對方希望得到什麼。",
+      "count": 264,
+      "question": "哪些幫助需要先取得同意？如何從對方的回應調整做法？",
+      "exams": [
+        "BCT095T",
+        "CAP108"
+      ]
+    },
+    {
+      "id": "J03",
+      "title": "季節裡的身體感受",
+      "theme": "感官與生活",
+      "definition": "季節的意義會透過溫度、聲音、氣味與日常活動，連到個人的生活經驗。",
+      "keywords": [
+        "季節",
+        "感受",
+        "細節"
+      ],
+      "paragraphs": [
+        "季節的意義會透過溫度、聲音、氣味與日常活動，連到個人的生活經驗。",
+        "同樣的夏天，可以使不同的人想起完全不同的生活。有人記得傍晚運動後的風，有人想到市場裡的聲音，也有人珍惜炎熱午後安靜閱讀的片刻。季節不是一組固定形容詞，而是身體如何與環境相遇的具體經驗。",
+        "寫作時先選一項真正熟悉的活動，再辨認哪個細節使它與這個季節分不開。流汗後喝水、等待天色轉暗或一陣突然的雨，都可能參與情緒的變化。不必平均寫滿五種感官，也不必使用誇張詞語；讓最有作用的感受連到人物與事件，就能使場景可信。最後再說明自己為何珍惜這份享受，季節便能從外在風景，走進個人生命的節奏與記憶。"
+      ],
+      "keySentence": "同樣的夏天，可以使不同的人想起完全不同的生活。",
+      "count": 272,
+      "question": "哪一種身體感受，能讓你立刻想起某段季節生活？",
+      "exams": [
+        "BCT096-1"
+      ]
+    },
+    {
+      "id": "J04",
+      "title": "把一個瞬間寫清楚",
+      "theme": "感官與生活",
+      "definition": "聚焦一個片刻，能讓動作、感官與心情互相作用，使體悟有具體依據。",
+      "keywords": [
+        "瞬間",
+        "動作",
+        "感受"
+      ],
+      "paragraphs": [
+        "聚焦一個片刻，能讓動作、感官與心情互相作用，使體悟有具體依據。",
+        "有些重要的發現，只發生在很短的一段時間裡。有人停下腳步等你、一道光照進原本昏暗的角落，或一句話忽然被重新聽懂，都可能使平常事物產生新的意義。真正動人的往往不是事情多驚人，而是那個瞬間改變了什麼。",
+        "描寫時可以先縮小範圍，把注意力放在最有作用的兩三個細節，再呈現當下與原先心情的差別。若只寫感動、美好或難忘，讀者仍不知道發生了什麼；若只有景物清單，也看不見你的感受。可以讓動作先出現，想法慢一步到來，最後回到此刻留下的影響。這種安排讓一個小片刻有完整的內在變化，不必靠大量事件或華麗結論證明它的重要。"
+      ],
+      "keySentence": "有些重要的發現，只發生在很短的一段時間裡。",
+      "count": 278,
+      "question": "哪一個細微動作，是這段經驗不可替代的中心？",
+      "exams": [
+        "BCT096-1",
+        "BCT097-2"
+      ]
+    },
+    {
+      "id": "J05",
+      "title": "重新認識自己與他人",
+      "theme": "成長與選擇",
+      "definition": "一次實際經驗可以修正原先的標籤，使人的能力、性格與可能性被重新理解。",
+      "keywords": [
+        "標籤",
+        "經驗",
+        "改變"
+      ],
+      "paragraphs": [
+        "一次實際經驗可以修正原先的標籤，使人的能力、性格與可能性被重新理解。",
+        "熟悉一個稱呼久了，人容易把它當成不會改變的事實。安靜的人被認為不擅表達，成績好的人被預設什麼都會，自己也可能用膽小或粗心限制每次嘗試。直到某件事出現不同結果，原本單一的印象才開始鬆動。",
+        "文章需要先交代舊印象，再讓事件提供新的線索，最後說明評價怎樣修正。新的發現不必都是優點，也可以是察覺自己曾經忽略別人的感受。避免只用成功證明一切，應寫出具體選擇、互動與內心變化。若結尾保留仍需練習之處，自我認識會更真實。成長並非找到一個更好看的標籤，而是逐漸願意用更多經驗理解自己，也容許他人超出最初的想像。"
+      ],
+      "keySentence": "熟悉一個稱呼久了，人容易把它當成不會改變的事實。",
+      "count": 280,
+      "question": "哪件事讓你發現原先對自己或同學的判斷並不完整？",
+      "exams": [
+        "BCT096-2",
+        "CAP102T",
+        "CAP105"
+      ]
+    },
+    {
+      "id": "J06",
+      "title": "從模仿到形成自己的做法",
+      "theme": "人物與關係",
+      "definition": "向他人學習，需要辨認行動背後的理由，再依自己的情境轉化與實踐。",
+      "keywords": [
+        "學習",
+        "理由",
+        "做法"
+      ],
+      "paragraphs": [
+        "向他人學習，需要辨認行動背後的理由，再依自己的情境轉化與實踐。",
+        "看見一個人做得很好，未必已經知道自己能學到什麼。同學處理分歧時願意等待、老師說明問題時會換個例子，表面的動作之外，都可能有值得理解的判斷。若只模仿語氣或形式，換了情境便可能失去作用。",
+        "寫作可以先呈現他人一項具體行動，再說明這項行動如何影響你對事情的理解。接著寫自己實際嘗試的過程，包括不習慣、調整與尚未做好的部分。不要把對方寫成毫無缺點的榜樣，也不需要讓自己的改變立刻帶來成功。當你能說清楚為何採取新做法，以及哪些條件需要修正，學習就不再只是接受道理，而成為有理由的選擇。這種轉化能使人物描寫與自我成長自然相連。"
+      ],
+      "keySentence": "看見一個人做得很好，未必已經知道自己能學到什麼。",
+      "count": 286,
+      "question": "你欣賞的行動背後，有什麼可以理解並轉化的理由？",
+      "exams": [
+        "BCT096-2",
+        "BCT097-1",
+        "BCT100-1",
+        "TNK100"
+      ]
+    },
+    {
+      "id": "J07",
+      "title": "換位思考與保留界線",
+      "theme": "人物與關係",
+      "definition": "換位思考是理解不同處境與理由，也讓自己能以更清楚的方式表達立場。",
+      "keywords": [
+        "理解",
+        "處境",
+        "界線"
+      ],
+      "paragraphs": [
+        "換位思考是理解不同處境與理由，也讓自己能以更清楚的方式表達立場。",
+        "站在另一個位置，有時會發現原來的衝突比想像更複雜。家長在意安全，孩子希望被相信；年輕人追求效率，長者可能珍惜熟悉的節奏。不同選擇未必只因誰固執，而可能來自資訊、經驗與承擔風險的差異。",
+        "文章可以把雙方的需要分別寫清楚，再透過一句詢問或一次觀察，使原先的判斷有所調整。理解不是替所有傷害找理由，仍須對具體行為提出界線，也不必強行安排完全和解。較可信的改變，是自己開始能聽完不同理由，並用不羞辱他人的方式表達需求。即使最後沒有相同答案，也能知道分歧真正在哪裡，讓關係從互相猜測走向比較有依據的溝通。"
+      ],
+      "keySentence": "站在另一個位置，有時會發現原來的衝突比想像更複雜。",
+      "count": 277,
+      "question": "如果由對方敘述同一件事，他最在意的困難會是什麼？",
+      "exams": [
+        "BCT097-1",
+        "BCT100-2",
+        "CAP108"
+      ]
+    },
+    {
+      "id": "J08",
+      "title": "重新看見平常的美",
+      "theme": "感官與生活",
+      "definition": "美的經驗來自注意力與意義的連結，可以存在於風景、文字，也可以存在於人的行動。",
+      "keywords": [
+        "美",
+        "注意力",
+        "平常"
+      ],
+      "paragraphs": [
+        "美的經驗來自注意力與意義的連結，可以存在於風景、文字，也可以存在於人的行動。",
+        "我們有時因為走得太快，錯過本來就在眼前的事物。等車時才注意到樹影，替人收拾後才看懂一項準備，或一次沒有如期完成的行程，反而讓人留意身旁的陪伴。美未必是特別稀有的景觀，也可能是觀看方式發生了變化。",
+        "寫作時可以比較原先的匆忙與後來的停留，讓讀者知道注意力為何改變。重要的不是把所有意外都說成禮物，而是忠實呈現你實際看到與感受到的事。也許遺憾仍在，卻同時多了一份理解。透過一個具體場景、人物的動作與心情轉折，平常的事便能有層次。結尾若回到現在願意如何生活，就能使美的發現越過短暫感動，成為持續觀察日常的一種能力。"
+      ],
+      "keySentence": "我們有時因為走得太快，錯過本來就在眼前的事物。",
+      "count": 290,
+      "question": "哪次停留，使你看見原先匆忙中忽略的事物？",
+      "exams": [
+        "BCT097-2",
+        "BCT102"
+      ]
+    },
+    {
+      "id": "J09",
+      "title": "物品與動作承載的關係",
+      "theme": "人物與關係",
+      "definition": "一件物品或一個反覆的動作，可以連結人物、事件與時間，使情感具體可感。",
+      "keywords": [
+        "物品",
+        "動作",
+        "關係"
+      ],
+      "paragraphs": [
+        "一件物品或一個反覆的動作，可以連結人物、事件與時間，使情感具體可感。",
+        "有些回憶不會先以完整故事出現，而是從一道磨損、一雙手的姿勢或熟悉的觸感開始。這些細節之所以重要，是因為它們曾與某個人的生活相連。物品的價值也未必來自價格，可能來自陪伴、努力、衝突或尚未完成的期待。",
+        "寫作時要讓外形與經驗互相照應。例如一道痕跡是在什麼情境留下，一個動作曾怎樣回應你的需要，再說明自己如今為何重新看待它。避免只描寫物品而忘了人，也不要一開始就宣布它象徵愛，卻沒有事件支撐。最後可以回到現在如何保留、使用或放下它。當同一細節在不同時間具有不同感受，讀者便能透過可見之物，理解原本難以直接說出的關係與變化。"
+      ],
+      "keySentence": "有些回憶不會先以完整故事出現，而是從一道磨損、一雙手的姿勢或熟悉的觸感開始。",
+      "count": 290,
+      "question": "哪件物品或哪個動作，能帶出一段你真正熟悉的關係？",
+      "exams": [
+        "BCT098-1",
+        "CAP104",
+        "CAP110"
+      ]
+    },
+    {
+      "id": "J10",
+      "title": "追尋的理由與方向",
+      "theme": "成長與選擇",
+      "definition": "辨認追尋的動機，能幫助人檢查方法、面對代價，並在需要時調整方向。",
+      "keywords": [
+        "追尋",
+        "理由",
+        "方向"
+      ],
+      "paragraphs": [
+        "辨認追尋的動機，能幫助人檢查方法、面對代價，並在需要時調整方向。",
+        "想得到一個成果以前，先問自己為什麼在意它。有人追求獎項，是希望證明能力；有人練習一項技能，是享受逐漸掌握的過程。表面上相似的投入，背後可能有不同願望，也會影響遇到困難時怎樣理解與選擇。",
+        "文章可以從一項具體追尋展開，寫清起點、投入與受阻的時刻，再觀察自己的理由是否改變。不要讓過程只剩努力很久，應呈現曾如何修改方法、尋求支持或重新衡量代價。追尋也可以暫停，關鍵是說明這個決定如何形成。結尾不必用成功替所有辛苦兌現價值，而能指出自己因此更明白什麼值得投入。當方向來自反思，持續與調整才都有可以理解的理由。"
+      ],
+      "keySentence": "想得到一個成果以前，先問自己為什麼在意它。",
+      "count": 281,
+      "question": "你最初追求的成果，與後來真正重視的東西相同嗎？",
+      "exams": [
+        "BCT098-2",
+        "CAP103"
+      ]
+    },
+    {
+      "id": "J11",
+      "title": "未成功經驗中的修正",
+      "theme": "成長與選擇",
+      "definition": "未成功可以呈現嘗試、限制與調整；它的意義不必等到後來成功才成立。",
+      "keywords": [
+        "未成功",
+        "修正",
+        "經驗"
+      ],
+      "paragraphs": [
+        "未成功可以呈現嘗試、限制與調整；它的意義不必等到後來成功才成立。",
+        "一件作品沒有被選上，或一次計畫沒有完成，並不會使投入過程自動消失。留下的材料、紀錄與習慣，可能幫助人辨認哪裡想得太簡單，也可能提醒某項目標需要更多資源。未成功值得理解，卻不必被強行美化。",
+        "寫作應選定一個具體問題，呈現原先做法、實際結果與後來的修正，而不是只說失敗使我成長。也可以承認有些困難暫時無法克服，自己的情緒尚未整理完成。若以物品作為線索，要讓外觀痕跡與事件相連，說明如今保留它的原因。文章的力量來自誠實看待經驗：哪些判斷需要改變，哪些努力仍願意繼續，以及下一步能做什麼。這比保證終將成功更有思考的深度。"
+      ],
+      "keySentence": "一件作品沒有被選上，或一次計畫沒有完成，並不會使投入過程自動消失。",
+      "count": 286,
+      "question": "你能指出一次沒有成功，卻因此調整過的具體做法嗎？",
+      "exams": [
+        "BCT098-2",
+        "BCT099-2",
+        "CAP110"
+      ]
+    },
+    {
+      "id": "J12",
+      "title": "合作中的互賴與分工",
+      "theme": "群體與公共",
+      "definition": "合作的意義在於成員互相影響、協調資源與責任，共同完成個人難以獨力完成的事。",
+      "keywords": [
+        "合作",
+        "分工",
+        "協調"
+      ],
+      "paragraphs": [
+        "合作的意義在於成員互相影響、協調資源與責任，共同完成個人難以獨力完成的事。",
+        "把工作分給幾個人，還不一定形成真正的合作。有人承接所有困難，有人不清楚自己的任務，或彼此各做各的，最後都可能影響共同成果。合作需要的不只是態度良好，也包括清楚的分工、願意回報問題，以及調整安排的能力。",
+        "文章可以從一次任務展開，寫出成員原先的差異、遇到的考驗，以及哪個協調行動改變了進程。不要只以最後得獎證明可貴，也可以呈現自己學會讓別人參與、承認能力有限，或停止用同一標準要求所有人。當付出與責任能被看見，合作的價值就有具體依據。回望時還可問，哪些做法下次值得保留，哪些分配需要改善，使經驗從一場活動延伸成理解共同生活的方法。"
+      ],
+      "keySentence": "把工作分給幾個人，還不一定形成真正的合作。",
+      "count": 299,
+      "question": "哪一次協調，使事情因為彼此合作而有了不同結果？",
+      "exams": [
+        "BCT099-1",
+        "CAP111"
+      ]
+    },
+    {
+      "id": "J13",
+      "title": "分歧中的理由與回應",
+      "theme": "群體與公共",
+      "definition": "意見不同時，先區分主張、理由與感受，才能找到真正需要協商的問題。",
+      "keywords": [
+        "分歧",
+        "理由",
+        "回應"
+      ],
+      "paragraphs": [
+        "意見不同時，先區分主張、理由與感受，才能找到真正需要協商的問題。",
+        "爭論有時越激烈，真正的問題卻越模糊。大家可能都想完成任務，卻對時間、方法與風險有不同理解；若只把不同意見看成不配合，討論就容易轉成人身評價。能說清楚彼此各自在意什麼，是讓分歧成為學習機會的起點。",
+        "寫作可以選一個有具體選項的情境，呈現雙方理由，以及自己曾怎樣回應。不要一開始就安排誰對誰錯，而應讓後來的資訊或互動推動判斷。可以找到共識，也可以維持不同立場，重點是做法是否讓問題更清楚。若曾因語氣傷害他人，也應承認並說明如何調整。這樣的文章能同時呈現思考與情感，使溝通不是一句彼此尊重，而是一連串可被理解的選擇。"
+      ],
+      "keySentence": "爭論有時越激烈，真正的問題卻越模糊。",
+      "count": 285,
+      "question": "哪一個問題，能讓爭論從互相指責回到具體理由？",
+      "exams": [
+        "BCT099-1",
+        "BCT100-2"
+      ]
+    },
+    {
+      "id": "J14",
+      "title": "自己選擇，也承擔結果",
+      "theme": "成長與選擇",
+      "definition": "自主選擇包含理解選項、說明理由，並願意對結果作出回應與調整。",
+      "keywords": [
+        "選擇",
+        "理由",
+        "結果"
+      ],
+      "paragraphs": [
+        "自主選擇包含理解選項、說明理由，並願意對結果作出回應與調整。",
+        "一次自己做的決定，可能很小，卻讓人第一次看見願望與責任的關係。選活動、安排時間或採取不同方法，都可能意味著放棄另一個機會。選擇不只發生在說出我要的瞬間，也包含之後如何面對不確定與實際後果。",
+        "文章可以交代原先有哪些選項、各自吸引什麼，再描寫自己如何蒐集資訊與作出判斷。聽取建議並不會取消自主，關鍵是最後是否理解採納的理由。若結果不如預期，也不必立刻證明決定正確，而可以呈現補救與修正。這種回望使成長有真實的代價與層次。當一個人開始能說明為何如此，也知道失誤後能做什麼，選擇便逐漸成為自己的生活能力，而不只是任性的宣告。"
+      ],
+      "keySentence": "一次自己做的決定，可能很小，卻讓人第一次看見願望與責任的關係。",
+      "count": 287,
+      "question": "這次決定由你承擔的部分是什麼？你如何回應後來的結果？",
+      "exams": [
+        "BCT099-2",
+        "CAP102T",
+        "CAP114"
+      ]
+    },
+    {
+      "id": "J15",
+      "title": "逐漸改變的理解",
+      "theme": "成長與選擇",
+      "definition": "理解常由多次經驗累積形成；比較不同時間的想法，能呈現成長的層次。",
+      "keywords": [
+        "理解",
+        "經驗",
+        "時間"
+      ],
+      "paragraphs": [
+        "理解常由多次經驗累積形成；比較不同時間的想法，能呈現成長的層次。",
+        "有些道理聽過很多次，直到經驗改變，才慢慢知道它真正意味什麼。原先覺得麻煩的提醒，可能在自己負責一件事後得到新解釋；最初陌生的環境，也可能因一次次走過而有了方向。成長因此不一定是突然明白，而是反覆修正的過程。",
+        "寫作可以選擇兩次相近的場景，讓同一件事在不同時間出現不同反應。中間要有實際經驗作為橋梁，不能只寫年齡增加便自然成熟。也可以保留尚未完全理解的部分，說明自己目前的看法如何形成。這樣既能避免空泛地談人生，也能使時間在文章裡發揮作用。當讀者看見原先的誤解如何一點點鬆動，體悟便有累積的重量，不必靠宏大的結論替成長命名。"
+      ],
+      "keySentence": "有些道理聽過很多次，直到經驗改變，才慢慢知道它真正意味什麼。",
+      "count": 291,
+      "question": "哪一件事，是你經過幾次經驗才慢慢改變看法的？",
+      "exams": [
+        "BCT100-1",
+        "TNK100",
+        "CAP105"
+      ]
+    },
+    {
+      "id": "J16",
+      "title": "媒體如何吸引注意",
+      "theme": "媒體與思辨",
+      "definition": "媒體的呈現方式會影響注意力與期待，理解設計手法有助於檢查訊息與判斷。",
+      "keywords": [
+        "媒體",
+        "注意力",
+        "標題"
+      ],
+      "paragraphs": [
+        "媒體的呈現方式會影響注意力與期待，理解設計手法有助於檢查訊息與判斷。",
+        "一個標題能使人停下來，常因它喚起某種期待。驚訝、害怕、好奇或想要得到好處，都可能成為點閱的理由。標題的設計不必然有問題，但若承諾與內容不相稱，注意力便可能被用來交換誤解，甚至推動未經思考的選擇。",
+        "分析時先辨認具體手法，例如強調數字、使用疑問、製造對立或放大新奇，再說明它如何作用於讀者。接著用生活觀察檢查影響，而不是只說網路很危險。也應分清吸引人與不實，避免把所有生動語言都當成欺騙。若能比較點開之前與閱讀之後的理解，就能讓反思有依據。寫作的重點是把形式、心理與行為連起來，最後提出自己如何選擇觀看與分享的方式。"
+      ],
+      "keySentence": "一個標題能使人停下來，常因它喚起某種期待。",
+      "count": 289,
+      "question": "最近一個讓你停下來的標題，用了什麼方法，又省略了什麼？",
+      "exams": [
+        "BCT101",
+        "CAP107",
+        "CAP113"
+      ]
+    },
+    {
+      "id": "J17",
+      "title": "先讀懂材料，再連結生活",
+      "theme": "媒體與思辨",
+      "definition": "材料轉化需要先辨認可見訊息，再建立解讀與生活經驗之間清楚的關係。",
+      "keywords": [
+        "材料",
+        "解讀",
+        "依據"
+      ],
+      "paragraphs": [
+        "材料轉化需要先辨認可見訊息，再建立解讀與生活經驗之間清楚的關係。",
+        "圖表與圖片提供線索，也留下需要解釋的空間。看見某類型較受歡迎，可以描述分布差異，卻不能立刻知道所有人的動機；看見圖中人物的動作，也需要說明哪些細節支持自己的理解。把觀察與推測分開，能使想法更清楚。",
+        "寫作時可以先選一項有依據的訊息，用簡短語言說明，再轉到與它確實相連的生活情境。後面的經驗應支持、補充或反思前面的解讀，不能只是突然換成早已準備好的故事。若有指定詞彙或作答順序，也要逐一確認。材料不是裝飾，而是文章推進的一部分。當圖像、概念與經驗能連成一條思路，即使沒有命定題名，也能依任務形成集中而有層次的主旨。"
+      ],
+      "keySentence": "圖表與圖片提供線索，也留下需要解釋的空間。",
+      "count": 286,
+      "question": "你選用的生活經驗，究竟回應了材料中的哪個訊息？",
+      "exams": [
+        "BCT101",
+        "CAP112",
+        "CAP114"
+      ]
+    },
+    {
+      "id": "J18",
+      "title": "與錯失和不捨相處",
+      "theme": "成長與選擇",
+      "definition": "錯失與不捨會顯示一個人在意什麼，回應它們可以包含保存、告別與現在的行動。",
+      "keywords": [
+        "錯失",
+        "不捨",
+        "回應"
+      ],
+      "paragraphs": [
+        "錯失與不捨會顯示一個人在意什麼，回應它們可以包含保存、告別與現在的行動。",
+        "有些事來不及完成，有些東西即使知道需要放下，仍然捨不得。這些感受不必立刻被修成正向答案，因為它們可能連著關係、期待或一段熟悉生活。願意說清自己究竟失去了什麼，往往比急著宣告已經放下更接近真實。",
+        "文章可以從一個具體轉折開始，交代原先期待、實際發生的事與感受變化。不要只堆疊後悔，也不必安排突然成功來抵銷遺憾；可以寫現在仍能做的小事，或如何改變珍惜的方式。若有新的發現，也應讓它從經驗自然長出。成長有時是在承認無法重來之後，仍保留繼續生活與關心他人的能力。讓未完成存在，反而能使回應帶著可以理解的時間與重量。"
+      ],
+      "keySentence": "有些事來不及完成，有些東西即使知道需要放下，仍然捨不得。",
+      "count": 287,
+      "question": "除了如果當初，現在還有哪些行動能回應你的在意？",
+      "exams": [
+        "BCT102",
+        "CAP104"
+      ]
+    },
+    {
+      "id": "J19",
+      "title": "把願景變成具體安排",
+      "theme": "想像與設計",
+      "definition": "願景需要透過對象、目的與做法相連，才能從好聽的想法走向可理解的設計。",
+      "keywords": [
+        "願景",
+        "需要",
+        "安排"
+      ],
+      "paragraphs": [
+        "願景需要透過對象、目的與做法相連，才能從好聽的想法走向可理解的設計。",
+        "想像一個更好的地方，先要知道它希望回應誰的需要。開一家店、規畫一次活動或設計學習空間，都可能表達對生活的期待；但若只有漂亮名稱與裝潢，讀者仍不知道安排如何真正發生作用。具體設計能讓價值被看見。",
+        "可以先描述一個熟悉的困難，再提出最重要的目標，最後選兩三項安排說明。每個細節都應回到目的，例如安靜座位、共享工具或方便詢問的流程，分別如何改變使用者的感受。也要考慮時間、資源與不同人的需要，避免讓想像只剩無限制的願望。結尾不必保證所有問題都能解決，而應說清希望帶來哪種改變。當做法有理由，願景便能同時具有個人情感與說服力。"
+      ],
+      "keySentence": "想像一個更好的地方，先要知道它希望回應誰的需要。",
+      "count": 291,
+      "question": "你最想保留的一項安排，如何回應這個設計的核心目的？",
+      "exams": [
+        "CAP103",
+        "CAP109"
+      ]
+    },
+    {
+      "id": "J20",
+      "title": "傳統與新用途的對話",
+      "theme": "群體與公共",
+      "definition": "重新看待既有事物，可以同時辨認值得保留的價值，以及需要隨情境調整的部分。",
+      "keywords": [
+        "傳統",
+        "價值",
+        "改變"
+      ],
+      "paragraphs": [
+        "重新看待既有事物，可以同時辨認值得保留的價值，以及需要隨情境調整的部分。",
+        "一項習俗或一件舊物延續至今，可能因為它曾回應生活需要，也可能因為人們已習慣照做。面對改變，不必只在全部保存與全部丟棄之間選擇；先了解原先的用途、情感與限制，才知道哪些部分真正值得延續。",
+        "寫作可以從一次參與、使用或改造的經驗開始，描寫具體做法如何影響身旁的人，再提出自己的理解。若想更新，也要說明保留了什麼、改變了什麼，以及為何如此。避免把傳統一概寫成落後，也不要只因為存在已久就認為不可討論。讓不同世代的觀點進入文章，可以使取捨更立體。當改變仍能回應原來的情感或新的需要，延續便可能不只是一種複製，也是一種有理由的創造。"
+      ],
+      "keySentence": "一項習俗或一件舊物延續至今，可能因為它曾回應生活需要，也可能因為人們已習慣照做。",
+      "count": 295,
+      "question": "你希望延續的是某個形式，還是它背後真正重要的價值？",
+      "exams": [
+        "CAP106",
+        "CAP115"
+      ]
+    },
+    {
+      "id": "J21",
+      "title": "世代特質與個人差異",
+      "theme": "群體與公共",
+      "definition": "世代可以幫助觀察共同環境的影響，但不能取代對個別經驗與差異的理解。",
+      "keywords": [
+        "世代",
+        "差異",
+        "觀察"
+      ],
+      "paragraphs": [
+        "世代可以幫助觀察共同環境的影響，但不能取代對個別經驗與差異的理解。",
+        "同一個世代的人，可能共享科技、教育與公共事件，卻仍有不同家庭條件與生活方式。若只用幾個流行詞概括所有人，就容易把方便溝通的標籤當成完整事實。談論我們這個世代，需要共同觀察，也需要為差異保留位置。",
+        "文章可以選一項熟悉的特質，先提出具體情境，再分析它如何與生活環境相連。不要只批評另一代人，也不必用自豪掩蓋困難；可以同時看見便利、壓力與新的可能。若加入一個不符合印象的例子，判斷會更細緻。最後說明自己願意延續或改變的做法，世代討論就能從身份宣告走向生活選擇。這也提醒我們，理解群體時仍須看見人，而不是讓一個名稱替每個人決定未來。"
+      ],
+      "keySentence": "同一個世代的人，可能共享科技、教育與公共事件，卻仍有不同家庭條件與生活方式。",
+      "count": 294,
+      "question": "你觀察到的共同特質，有哪些生活條件與相反例子需要一起考慮？",
+      "exams": [
+        "CAP107"
+      ]
+    },
+    {
+      "id": "J22",
+      "title": "改造事物，也重想價值",
+      "theme": "想像與設計",
+      "definition": "新面貌可以是外觀、用途或意義的轉變，改造需要具體做法與生活理由互相支持。",
+      "keywords": [
+        "改造",
+        "用途",
+        "需要"
+      ],
+      "paragraphs": [
+        "新面貌可以是外觀、用途或意義的轉變，改造需要具體做法與生活理由互相支持。",
+        "同一件事物在不同情境裡，可能產生新的用途與意義。舊容器變成整理工具、熟悉空間加入新的活動，或一件不再使用的物品成為提醒，都可能使生活出現改變。新面貌不只關係到看起來不同，也在於它開始如何被使用與理解。",
+        "寫作可以先交代原來的樣子與問題，再提出改變的動機、步驟和預期影響。若只寫最後很美好，讀者便看不見你的巧思；若只有操作流程，也難以理解為何值得做。可以加入使用者的回應，檢查安排是否真的符合需要。改造未必一次成功，調整的過程同樣有意義。當保留與更新的理由被說清楚，一件平常事物就能成為思考資源、記憶與生活願景的入口。"
+      ],
+      "keySentence": "同一件事物在不同情境裡，可能產生新的用途與意義。",
+      "count": 292,
+      "question": "你想賦予新面貌的事物，會因哪個具體改變而獲得新價值？",
+      "exams": [
+        "CAP109",
+        "CAP115"
+      ]
+    },
+    {
+      "id": "J23",
+      "title": "努力、方法與所得",
+      "theme": "媒體與思辨",
+      "definition": "討論付出與收穫，需要說清做了什麼、得到什麼，以及影響結果的條件。",
+      "keywords": [
+        "努力",
+        "方法",
+        "所得"
+      ],
+      "paragraphs": [
+        "討論付出與收穫，需要說清做了什麼、得到什麼，以及影響結果的條件。",
+        "多花時間投入一件事，有時帶來進步，有時卻只增加疲倦。差異可能來自方法、分工、資源或目標是否合適；所得也不一定只有名次，還可能是能力、關係與對限制的認識。若沒有釐清這些層次，很容易把一句勉勵當成所有情況都成立的定律。",
+        "寫作應從一項實際經驗出發，交代付出的內容，再觀察結果如何形成。可以支持多做的價值，也可以提出疑問，但都需要理由與條件。不要只把沒成功的人說成不夠努力，也避免因一次挫折就否定所有投入。比較調整方法前後的差異，能讓判斷更有依據。當人既看見努力的重要，也願意檢查方向與負擔，收穫的討論才會從簡單口號，走向對自身生活負責的思考。"
+      ],
+      "keySentence": "多花時間投入一件事，有時帶來進步，有時卻只增加疲倦。",
+      "count": 299,
+      "question": "這次得到或沒有得到的結果，除了投入多少，還受哪些條件影響？",
+      "exams": [
+        "CAP111"
+      ]
+    },
+    {
+      "id": "J24",
+      "title": "資訊背後的期待與判斷",
+      "theme": "媒體與思辨",
+      "definition": "資訊會喚起期待；分辨資料、解釋與感受，有助形成有依據的觀點。",
+      "keywords": [
+        "資訊",
+        "期待",
+        "判斷"
+      ],
+      "paragraphs": [
+        "資訊會喚起期待；分辨資料、解釋與感受，有助形成有依據的觀點。",
+        "一張喜好圖表或一則吸引人的標題，可能使人覺得自己已經理解某種現象。其實，可見的資訊、我們推測的原因，以及個人的感受，仍是不同層次。越容易引起共鳴的說法，有時越需要停下來確認，它究竟提供了什麼依據。",
+        "分析可以先描述材料明確呈現的內容，再提出一個可能解釋，並用生活經驗補充或檢查。不要把單一故事當成所有人的原因，也不要因為存在不同解讀，就認為任何說法都同樣可靠。可以比較哪些細節支持自己的主張，哪些問題仍待確認。這種做法讓文章既有個人聲音，也保有判斷的界線。當期待不再獨自決定我們相信什麼，資訊便更可能成為理解世界的起點，而不是操控回應的按鈕。"
+      ],
+      "keySentence": "一張喜好圖表或一則吸引人的標題，可能使人覺得自己已經理解某種現象。",
+      "count": 299,
+      "question": "你現在的想法，哪些來自材料，哪些來自自己的推測與經驗？",
+      "exams": [
+        "CAP112",
+        "CAP113"
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "BCT095T-S1",
+      "exam": "BCT095T",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9501writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9501writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-1-S1",
+      "exam": "BCT096-1",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-1-S2",
+      "exam": "BCT096-1",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-1-S3",
+      "exam": "BCT096-1",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-1-S4",
+      "exam": "BCT096-1",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 8,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-1-S5",
+      "exam": "BCT096-1",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 9,
+      "endPage": 10,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-1-S6",
+      "exam": "BCT096-1",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 11,
+      "endPage": 12,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-1-S7",
+      "exam": "BCT096-1",
+      "ordinal": 7,
+      "level": 6,
+      "startPage": 13,
+      "endPage": 14,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-1-S8",
+      "exam": "BCT096-1",
+      "ordinal": 8,
+      "level": 6,
+      "startPage": 15,
+      "endPage": 16,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9601writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-2-S1",
+      "exam": "BCT096-2",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-2-S2",
+      "exam": "BCT096-2",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-2-S3",
+      "exam": "BCT096-2",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-2-S4",
+      "exam": "BCT096-2",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 8,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-2-S5",
+      "exam": "BCT096-2",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 9,
+      "endPage": 10,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-2-S6",
+      "exam": "BCT096-2",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 11,
+      "endPage": 12,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-2-S7",
+      "exam": "BCT096-2",
+      "ordinal": 7,
+      "level": 6,
+      "startPage": 13,
+      "endPage": 14,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT096-2-S8",
+      "exam": "BCT096-2",
+      "ordinal": 8,
+      "level": 6,
+      "startPage": 15,
+      "endPage": 16,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9602writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT097-1-S1",
+      "exam": "BCT097-1",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT097-1-S2",
+      "exam": "BCT097-1",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT097-1-S3",
+      "exam": "BCT097-1",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT097-1-S4",
+      "exam": "BCT097-1",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 8,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT097-1-S5",
+      "exam": "BCT097-1",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 9,
+      "endPage": 10,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT097-1-S6",
+      "exam": "BCT097-1",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 11,
+      "endPage": 12,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9701writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT097-2-S1",
+      "exam": "BCT097-2",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9702writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9702writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT097-2-S2",
+      "exam": "BCT097-2",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9702writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9702writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT097-2-S3",
+      "exam": "BCT097-2",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9702writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9702writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT097-2-S4",
+      "exam": "BCT097-2",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 8,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9702writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9702writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT097-2-S5",
+      "exam": "BCT097-2",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 9,
+      "endPage": 10,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9702writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9702writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT098-1-S1",
+      "exam": "BCT098-1",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9801writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9801writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT098-1-S2",
+      "exam": "BCT098-1",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9801writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9801writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT098-1-S3",
+      "exam": "BCT098-1",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9801writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9801writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT098-1-S4",
+      "exam": "BCT098-1",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 8,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9801writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9801writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT098-1-S5",
+      "exam": "BCT098-1",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 9,
+      "endPage": 10,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9801writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9801writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT098-2-S1",
+      "exam": "BCT098-2",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT098-2-S2",
+      "exam": "BCT098-2",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT098-2-S3",
+      "exam": "BCT098-2",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT098-2-S4",
+      "exam": "BCT098-2",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 8,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT098-2-S5",
+      "exam": "BCT098-2",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 9,
+      "endPage": 10,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT098-2-S6",
+      "exam": "BCT098-2",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 11,
+      "endPage": 12,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9802writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT099-1-S1",
+      "exam": "BCT099-1",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9901writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9901writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT099-1-S2",
+      "exam": "BCT099-1",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9901writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9901writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT099-1-S3",
+      "exam": "BCT099-1",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9901writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9901writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT099-2-S1",
+      "exam": "BCT099-2",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9902writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9902writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT099-2-S2",
+      "exam": "BCT099-2",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9902writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9902writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT099-2-S3",
+      "exam": "BCT099-2",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/9902writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/9902writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT100-1-S1",
+      "exam": "BCT100-1",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/1001writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/1001writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT100-1-S2",
+      "exam": "BCT100-1",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/1001writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/1001writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT100-1-S3",
+      "exam": "BCT100-1",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/1001writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/1001writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT100-2-S1",
+      "exam": "BCT100-2",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/1002writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/1002writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT100-2-S2",
+      "exam": "BCT100-2",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/1002writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/1002writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT100-2-S3",
+      "exam": "BCT100-2",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/1002writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/1002writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT101-S1",
+      "exam": "BCT101",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT101-S2",
+      "exam": "BCT101",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT101-S3",
+      "exam": "BCT101",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT101-S4",
+      "exam": "BCT101",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 8,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT101-S5",
+      "exam": "BCT101",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 9,
+      "endPage": 10,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT101-S6",
+      "exam": "BCT101",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 11,
+      "endPage": 12,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT101-S7",
+      "exam": "BCT101",
+      "ordinal": 7,
+      "level": 6,
+      "startPage": 13,
+      "endPage": 14,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT101-S8",
+      "exam": "BCT101",
+      "ordinal": 8,
+      "level": 6,
+      "startPage": 15,
+      "endPage": 16,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT101-S9",
+      "exam": "BCT101",
+      "ordinal": 9,
+      "level": 6,
+      "startPage": 17,
+      "endPage": 18,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT101-S10",
+      "exam": "BCT101",
+      "ordinal": 10,
+      "level": 6,
+      "startPage": 19,
+      "endPage": 20,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/101writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT102-S1",
+      "exam": "BCT102",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT102-S2",
+      "exam": "BCT102",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT102-S3",
+      "exam": "BCT102",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT102-S4",
+      "exam": "BCT102",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 8,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT102-S5",
+      "exam": "BCT102",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 9,
+      "endPage": 10,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT102-S6",
+      "exam": "BCT102",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 11,
+      "endPage": 12,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "BCT102-S7",
+      "exam": "BCT102",
+      "ordinal": 7,
+      "level": 6,
+      "startPage": 13,
+      "endPage": 14,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/102bctestwriting.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "TNK100-S1",
+      "exam": "TNK100",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/100TNKwriting-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/tnkwriting.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "TNK100-S2",
+      "exam": "TNK100",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/100TNKwriting-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/tnkwriting.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "TNK100-S3",
+      "exam": "TNK100",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://cap.rcpet.edu.tw/exam/95-102writing/100TNKwriting-6.pdf",
+      "index": "https://cap.rcpet.edu.tw/exam/95-102writing/tnkwriting.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP102T-S1",
+      "exam": "CAP102T",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://drive.google.com/file/d/1ZrXHssLc_rPGzosr7PNxFmBENhyDk_CJ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/102/102writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP102T-S2",
+      "exam": "CAP102T",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://drive.google.com/file/d/1ZrXHssLc_rPGzosr7PNxFmBENhyDk_CJ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/102/102writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP102T-S3",
+      "exam": "CAP102T",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://drive.google.com/file/d/1ZrXHssLc_rPGzosr7PNxFmBENhyDk_CJ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/102/102writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP102T-S4",
+      "exam": "CAP102T",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 8,
+      "source": "https://drive.google.com/file/d/1ZrXHssLc_rPGzosr7PNxFmBENhyDk_CJ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/102/102writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP102T-S5",
+      "exam": "CAP102T",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 9,
+      "endPage": 10,
+      "source": "https://drive.google.com/file/d/1ZrXHssLc_rPGzosr7PNxFmBENhyDk_CJ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/102/102writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP102T-S6",
+      "exam": "CAP102T",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 11,
+      "endPage": 12,
+      "source": "https://drive.google.com/file/d/1ZrXHssLc_rPGzosr7PNxFmBENhyDk_CJ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/102/102writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP102T-S7",
+      "exam": "CAP102T",
+      "ordinal": 7,
+      "level": 6,
+      "startPage": 13,
+      "endPage": 14,
+      "source": "https://drive.google.com/file/d/1ZrXHssLc_rPGzosr7PNxFmBENhyDk_CJ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/102/102writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP102T-S8",
+      "exam": "CAP102T",
+      "ordinal": 8,
+      "level": 6,
+      "startPage": 15,
+      "endPage": 16,
+      "source": "https://drive.google.com/file/d/1ZrXHssLc_rPGzosr7PNxFmBENhyDk_CJ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/102/102writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP102T-S9",
+      "exam": "CAP102T",
+      "ordinal": 9,
+      "level": 6,
+      "startPage": 17,
+      "endPage": 18,
+      "source": "https://drive.google.com/file/d/1ZrXHssLc_rPGzosr7PNxFmBENhyDk_CJ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/102/102writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP103-S1",
+      "exam": "CAP103",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://drive.google.com/file/d/14_zM7By6cYZ4udkDicd81jVJfemCYTjs/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/103/103writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP103-S2",
+      "exam": "CAP103",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://drive.google.com/file/d/14_zM7By6cYZ4udkDicd81jVJfemCYTjs/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/103/103writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP103-S3",
+      "exam": "CAP103",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://drive.google.com/file/d/14_zM7By6cYZ4udkDicd81jVJfemCYTjs/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/103/103writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP104-S1",
+      "exam": "CAP104",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://drive.google.com/file/d/1J2IVykcx0A5bBigx6CQ6HfD4GAfkKXP2/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/104/104writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP104-S2",
+      "exam": "CAP104",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://drive.google.com/file/d/1J2IVykcx0A5bBigx6CQ6HfD4GAfkKXP2/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/104/104writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP104-S3",
+      "exam": "CAP104",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://drive.google.com/file/d/1J2IVykcx0A5bBigx6CQ6HfD4GAfkKXP2/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/104/104writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP104-S4",
+      "exam": "CAP104",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 8,
+      "source": "https://drive.google.com/file/d/1J2IVykcx0A5bBigx6CQ6HfD4GAfkKXP2/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/104/104writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP104-S5",
+      "exam": "CAP104",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 9,
+      "endPage": 10,
+      "source": "https://drive.google.com/file/d/1J2IVykcx0A5bBigx6CQ6HfD4GAfkKXP2/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/104/104writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP104-S6",
+      "exam": "CAP104",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 11,
+      "endPage": 12,
+      "source": "https://drive.google.com/file/d/1J2IVykcx0A5bBigx6CQ6HfD4GAfkKXP2/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/104/104writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP104-S7",
+      "exam": "CAP104",
+      "ordinal": 7,
+      "level": 6,
+      "startPage": 13,
+      "endPage": 14,
+      "source": "https://drive.google.com/file/d/1J2IVykcx0A5bBigx6CQ6HfD4GAfkKXP2/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/104/104writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP104-S8",
+      "exam": "CAP104",
+      "ordinal": 8,
+      "level": 6,
+      "startPage": 15,
+      "endPage": 16,
+      "source": "https://drive.google.com/file/d/1J2IVykcx0A5bBigx6CQ6HfD4GAfkKXP2/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/104/104writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP104-S9",
+      "exam": "CAP104",
+      "ordinal": 9,
+      "level": 6,
+      "startPage": 17,
+      "endPage": 18,
+      "source": "https://drive.google.com/file/d/1J2IVykcx0A5bBigx6CQ6HfD4GAfkKXP2/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/104/104writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP105-S1",
+      "exam": "CAP105",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://drive.google.com/file/d/1oxq_mIqoHf1lhz0cLvSIf3lWMTpOfs1Z/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/105/105writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP105-S2",
+      "exam": "CAP105",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 5,
+      "source": "https://drive.google.com/file/d/1oxq_mIqoHf1lhz0cLvSIf3lWMTpOfs1Z/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/105/105writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP105-S3",
+      "exam": "CAP105",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 6,
+      "endPage": 7,
+      "source": "https://drive.google.com/file/d/1oxq_mIqoHf1lhz0cLvSIf3lWMTpOfs1Z/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/105/105writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP105-S4",
+      "exam": "CAP105",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 8,
+      "endPage": 9,
+      "source": "https://drive.google.com/file/d/1oxq_mIqoHf1lhz0cLvSIf3lWMTpOfs1Z/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/105/105writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP105-S5",
+      "exam": "CAP105",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 10,
+      "endPage": 11,
+      "source": "https://drive.google.com/file/d/1oxq_mIqoHf1lhz0cLvSIf3lWMTpOfs1Z/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/105/105writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP105-S6",
+      "exam": "CAP105",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 12,
+      "endPage": 13,
+      "source": "https://drive.google.com/file/d/1oxq_mIqoHf1lhz0cLvSIf3lWMTpOfs1Z/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/105/105writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP106-S1",
+      "exam": "CAP106",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://drive.google.com/file/d/1-QCTmtZeuxOMXQUjXJw6qDEOdLaZOPmE/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/106/106writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP106-S2",
+      "exam": "CAP106",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 5,
+      "source": "https://drive.google.com/file/d/1-QCTmtZeuxOMXQUjXJw6qDEOdLaZOPmE/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/106/106writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP106-S3",
+      "exam": "CAP106",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 6,
+      "endPage": 7,
+      "source": "https://drive.google.com/file/d/1-QCTmtZeuxOMXQUjXJw6qDEOdLaZOPmE/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/106/106writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP106-S4",
+      "exam": "CAP106",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 8,
+      "endPage": 9,
+      "source": "https://drive.google.com/file/d/1-QCTmtZeuxOMXQUjXJw6qDEOdLaZOPmE/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/106/106writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP106-S5",
+      "exam": "CAP106",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 10,
+      "endPage": 11,
+      "source": "https://drive.google.com/file/d/1-QCTmtZeuxOMXQUjXJw6qDEOdLaZOPmE/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/106/106writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP106-S6",
+      "exam": "CAP106",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 12,
+      "endPage": 13,
+      "source": "https://drive.google.com/file/d/1-QCTmtZeuxOMXQUjXJw6qDEOdLaZOPmE/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/106/106writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP106-S7",
+      "exam": "CAP106",
+      "ordinal": 7,
+      "level": 6,
+      "startPage": 14,
+      "endPage": 15,
+      "source": "https://drive.google.com/file/d/1-QCTmtZeuxOMXQUjXJw6qDEOdLaZOPmE/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/106/106writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP106-S8",
+      "exam": "CAP106",
+      "ordinal": 8,
+      "level": 6,
+      "startPage": 16,
+      "endPage": 17,
+      "source": "https://drive.google.com/file/d/1-QCTmtZeuxOMXQUjXJw6qDEOdLaZOPmE/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/106/106writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP106-S9",
+      "exam": "CAP106",
+      "ordinal": 9,
+      "level": 6,
+      "startPage": 18,
+      "endPage": 19,
+      "source": "https://drive.google.com/file/d/1-QCTmtZeuxOMXQUjXJw6qDEOdLaZOPmE/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/106/106writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP107-S1",
+      "exam": "CAP107",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://drive.google.com/file/d/1f32zYI98Ndlte7nGlme0OQW23SfdVO4d/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/107/107writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP107-S2",
+      "exam": "CAP107",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 4,
+      "source": "https://drive.google.com/file/d/1f32zYI98Ndlte7nGlme0OQW23SfdVO4d/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/107/107writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP107-S3",
+      "exam": "CAP107",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 5,
+      "endPage": 6,
+      "source": "https://drive.google.com/file/d/1f32zYI98Ndlte7nGlme0OQW23SfdVO4d/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/107/107writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP107-S4",
+      "exam": "CAP107",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 8,
+      "source": "https://drive.google.com/file/d/1f32zYI98Ndlte7nGlme0OQW23SfdVO4d/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/107/107writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP107-S5",
+      "exam": "CAP107",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 9,
+      "endPage": 10,
+      "source": "https://drive.google.com/file/d/1f32zYI98Ndlte7nGlme0OQW23SfdVO4d/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/107/107writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP107-S6",
+      "exam": "CAP107",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 11,
+      "endPage": 12,
+      "source": "https://drive.google.com/file/d/1f32zYI98Ndlte7nGlme0OQW23SfdVO4d/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/107/107writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP107-S7",
+      "exam": "CAP107",
+      "ordinal": 7,
+      "level": 6,
+      "startPage": 13,
+      "endPage": 14,
+      "source": "https://drive.google.com/file/d/1f32zYI98Ndlte7nGlme0OQW23SfdVO4d/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/107/107writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP107-S8",
+      "exam": "CAP107",
+      "ordinal": 8,
+      "level": 6,
+      "startPage": 15,
+      "endPage": 16,
+      "source": "https://drive.google.com/file/d/1f32zYI98Ndlte7nGlme0OQW23SfdVO4d/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/107/107writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP107-S9",
+      "exam": "CAP107",
+      "ordinal": 9,
+      "level": 6,
+      "startPage": 17,
+      "endPage": 18,
+      "source": "https://drive.google.com/file/d/1f32zYI98Ndlte7nGlme0OQW23SfdVO4d/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/107/107writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP107-S10",
+      "exam": "CAP107",
+      "ordinal": 10,
+      "level": 6,
+      "startPage": 19,
+      "endPage": 21,
+      "source": "https://drive.google.com/file/d/1f32zYI98Ndlte7nGlme0OQW23SfdVO4d/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/107/107writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP108-S1",
+      "exam": "CAP108",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 3,
+      "source": "https://drive.google.com/file/d/1tOQKTVH6esxgLHKfSzWj692kea6jVovQ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/108/108writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP108-S2",
+      "exam": "CAP108",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 4,
+      "endPage": 6,
+      "source": "https://drive.google.com/file/d/1tOQKTVH6esxgLHKfSzWj692kea6jVovQ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/108/108writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP108-S3",
+      "exam": "CAP108",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 8,
+      "source": "https://drive.google.com/file/d/1tOQKTVH6esxgLHKfSzWj692kea6jVovQ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/108/108writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP108-S4",
+      "exam": "CAP108",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 9,
+      "endPage": 10,
+      "source": "https://drive.google.com/file/d/1tOQKTVH6esxgLHKfSzWj692kea6jVovQ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/108/108writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP108-S5",
+      "exam": "CAP108",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 11,
+      "endPage": 12,
+      "source": "https://drive.google.com/file/d/1tOQKTVH6esxgLHKfSzWj692kea6jVovQ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/108/108writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP108-S6",
+      "exam": "CAP108",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 13,
+      "endPage": 14,
+      "source": "https://drive.google.com/file/d/1tOQKTVH6esxgLHKfSzWj692kea6jVovQ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/108/108writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP108-S7",
+      "exam": "CAP108",
+      "ordinal": 7,
+      "level": 6,
+      "startPage": 15,
+      "endPage": 17,
+      "source": "https://drive.google.com/file/d/1tOQKTVH6esxgLHKfSzWj692kea6jVovQ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/108/108writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP108-S8",
+      "exam": "CAP108",
+      "ordinal": 8,
+      "level": 6,
+      "startPage": 18,
+      "endPage": 19,
+      "source": "https://drive.google.com/file/d/1tOQKTVH6esxgLHKfSzWj692kea6jVovQ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/108/108writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP108-S9",
+      "exam": "CAP108",
+      "ordinal": 9,
+      "level": 6,
+      "startPage": 20,
+      "endPage": 22,
+      "source": "https://drive.google.com/file/d/1tOQKTVH6esxgLHKfSzWj692kea6jVovQ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/108/108writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP108-S10",
+      "exam": "CAP108",
+      "ordinal": 10,
+      "level": 6,
+      "startPage": 23,
+      "endPage": 25,
+      "source": "https://drive.google.com/file/d/1tOQKTVH6esxgLHKfSzWj692kea6jVovQ/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/108/108writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP109-S1",
+      "exam": "CAP109",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 3,
+      "source": "https://drive.google.com/file/d/1qxMI09W8tzJTfkLVmHXTHpaZUViYE5de/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/109/109writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP109-S2",
+      "exam": "CAP109",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 4,
+      "endPage": 5,
+      "source": "https://drive.google.com/file/d/1qxMI09W8tzJTfkLVmHXTHpaZUViYE5de/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/109/109writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP109-S3",
+      "exam": "CAP109",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 6,
+      "endPage": 7,
+      "source": "https://drive.google.com/file/d/1qxMI09W8tzJTfkLVmHXTHpaZUViYE5de/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/109/109writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP109-S4",
+      "exam": "CAP109",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 8,
+      "endPage": 9,
+      "source": "https://drive.google.com/file/d/1qxMI09W8tzJTfkLVmHXTHpaZUViYE5de/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/109/109writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP109-S5",
+      "exam": "CAP109",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 10,
+      "endPage": 11,
+      "source": "https://drive.google.com/file/d/1qxMI09W8tzJTfkLVmHXTHpaZUViYE5de/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/109/109writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP109-S6",
+      "exam": "CAP109",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 12,
+      "endPage": 14,
+      "source": "https://drive.google.com/file/d/1qxMI09W8tzJTfkLVmHXTHpaZUViYE5de/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/109/109writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP109-S7",
+      "exam": "CAP109",
+      "ordinal": 7,
+      "level": 6,
+      "startPage": 15,
+      "endPage": 17,
+      "source": "https://drive.google.com/file/d/1qxMI09W8tzJTfkLVmHXTHpaZUViYE5de/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/109/109writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP109-S8",
+      "exam": "CAP109",
+      "ordinal": 8,
+      "level": 6,
+      "startPage": 18,
+      "endPage": 20,
+      "source": "https://drive.google.com/file/d/1qxMI09W8tzJTfkLVmHXTHpaZUViYE5de/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/109/109writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP109-S9",
+      "exam": "CAP109",
+      "ordinal": 9,
+      "level": 6,
+      "startPage": 21,
+      "endPage": 23,
+      "source": "https://drive.google.com/file/d/1qxMI09W8tzJTfkLVmHXTHpaZUViYE5de/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/109/109writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP109-S10",
+      "exam": "CAP109",
+      "ordinal": 10,
+      "level": 6,
+      "startPage": 24,
+      "endPage": 25,
+      "source": "https://drive.google.com/file/d/1qxMI09W8tzJTfkLVmHXTHpaZUViYE5de/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/109/109writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP110-S1",
+      "exam": "CAP110",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://drive.google.com/file/d/1iqbYSsd40C1BwZCG1isPlPpTRO7O0JJp/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/110/110writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP110-S2",
+      "exam": "CAP110",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 5,
+      "source": "https://drive.google.com/file/d/1iqbYSsd40C1BwZCG1isPlPpTRO7O0JJp/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/110/110writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP110-S3",
+      "exam": "CAP110",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 6,
+      "endPage": 7,
+      "source": "https://drive.google.com/file/d/1iqbYSsd40C1BwZCG1isPlPpTRO7O0JJp/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/110/110writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP110-S4",
+      "exam": "CAP110",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 8,
+      "endPage": 9,
+      "source": "https://drive.google.com/file/d/1iqbYSsd40C1BwZCG1isPlPpTRO7O0JJp/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/110/110writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP110-S5",
+      "exam": "CAP110",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 10,
+      "endPage": 11,
+      "source": "https://drive.google.com/file/d/1iqbYSsd40C1BwZCG1isPlPpTRO7O0JJp/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/110/110writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP110-S6",
+      "exam": "CAP110",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 12,
+      "endPage": 13,
+      "source": "https://drive.google.com/file/d/1iqbYSsd40C1BwZCG1isPlPpTRO7O0JJp/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/110/110writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP110-S7",
+      "exam": "CAP110",
+      "ordinal": 7,
+      "level": 6,
+      "startPage": 14,
+      "endPage": 16,
+      "source": "https://drive.google.com/file/d/1iqbYSsd40C1BwZCG1isPlPpTRO7O0JJp/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/110/110writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP110-S8",
+      "exam": "CAP110",
+      "ordinal": 8,
+      "level": 6,
+      "startPage": 17,
+      "endPage": 18,
+      "source": "https://drive.google.com/file/d/1iqbYSsd40C1BwZCG1isPlPpTRO7O0JJp/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/110/110writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP110-S9",
+      "exam": "CAP110",
+      "ordinal": 9,
+      "level": 6,
+      "startPage": 19,
+      "endPage": 20,
+      "source": "https://drive.google.com/file/d/1iqbYSsd40C1BwZCG1isPlPpTRO7O0JJp/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/110/110writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP110-S10",
+      "exam": "CAP110",
+      "ordinal": 10,
+      "level": 6,
+      "startPage": 21,
+      "endPage": 22,
+      "source": "https://drive.google.com/file/d/1iqbYSsd40C1BwZCG1isPlPpTRO7O0JJp/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/110/110writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP111-S1",
+      "exam": "CAP111",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 2,
+      "source": "https://drive.google.com/file/d/1SXBUEWkZD4qAZpJaMtayd6oBkcx7Kl1L/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/111/111writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP111-S2",
+      "exam": "CAP111",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 3,
+      "endPage": 5,
+      "source": "https://drive.google.com/file/d/1SXBUEWkZD4qAZpJaMtayd6oBkcx7Kl1L/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/111/111writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP111-S3",
+      "exam": "CAP111",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 6,
+      "endPage": 7,
+      "source": "https://drive.google.com/file/d/1SXBUEWkZD4qAZpJaMtayd6oBkcx7Kl1L/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/111/111writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP111-S4",
+      "exam": "CAP111",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 8,
+      "endPage": 10,
+      "source": "https://drive.google.com/file/d/1SXBUEWkZD4qAZpJaMtayd6oBkcx7Kl1L/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/111/111writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP111-S5",
+      "exam": "CAP111",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 11,
+      "endPage": 13,
+      "source": "https://drive.google.com/file/d/1SXBUEWkZD4qAZpJaMtayd6oBkcx7Kl1L/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/111/111writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP111-S6",
+      "exam": "CAP111",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 14,
+      "endPage": 16,
+      "source": "https://drive.google.com/file/d/1SXBUEWkZD4qAZpJaMtayd6oBkcx7Kl1L/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/111/111writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP111-S7",
+      "exam": "CAP111",
+      "ordinal": 7,
+      "level": 6,
+      "startPage": 17,
+      "endPage": 19,
+      "source": "https://drive.google.com/file/d/1SXBUEWkZD4qAZpJaMtayd6oBkcx7Kl1L/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/111/111writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP111-S8",
+      "exam": "CAP111",
+      "ordinal": 8,
+      "level": 6,
+      "startPage": 20,
+      "endPage": 22,
+      "source": "https://drive.google.com/file/d/1SXBUEWkZD4qAZpJaMtayd6oBkcx7Kl1L/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/111/111writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP111-S9",
+      "exam": "CAP111",
+      "ordinal": 9,
+      "level": 6,
+      "startPage": 23,
+      "endPage": 24,
+      "source": "https://drive.google.com/file/d/1SXBUEWkZD4qAZpJaMtayd6oBkcx7Kl1L/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/111/111writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP111-S10",
+      "exam": "CAP111",
+      "ordinal": 10,
+      "level": 6,
+      "startPage": 25,
+      "endPage": 27,
+      "source": "https://drive.google.com/file/d/1SXBUEWkZD4qAZpJaMtayd6oBkcx7Kl1L/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/111/111writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP112-S1",
+      "exam": "CAP112",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 3,
+      "source": "https://drive.google.com/file/d/1x2RjSG5jR9ahz9GJgjX78oHaGdphhhmY/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/112/112writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP112-S2",
+      "exam": "CAP112",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 4,
+      "endPage": 6,
+      "source": "https://drive.google.com/file/d/1x2RjSG5jR9ahz9GJgjX78oHaGdphhhmY/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/112/112writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP112-S3",
+      "exam": "CAP112",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 9,
+      "source": "https://drive.google.com/file/d/1x2RjSG5jR9ahz9GJgjX78oHaGdphhhmY/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/112/112writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP112-S4",
+      "exam": "CAP112",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 10,
+      "endPage": 11,
+      "source": "https://drive.google.com/file/d/1x2RjSG5jR9ahz9GJgjX78oHaGdphhhmY/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/112/112writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP112-S5",
+      "exam": "CAP112",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 12,
+      "endPage": 13,
+      "source": "https://drive.google.com/file/d/1x2RjSG5jR9ahz9GJgjX78oHaGdphhhmY/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/112/112writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP112-S6",
+      "exam": "CAP112",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 14,
+      "endPage": 16,
+      "source": "https://drive.google.com/file/d/1x2RjSG5jR9ahz9GJgjX78oHaGdphhhmY/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/112/112writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP112-S7",
+      "exam": "CAP112",
+      "ordinal": 7,
+      "level": 6,
+      "startPage": 17,
+      "endPage": 19,
+      "source": "https://drive.google.com/file/d/1x2RjSG5jR9ahz9GJgjX78oHaGdphhhmY/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/112/112writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP113-S1",
+      "exam": "CAP113",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 3,
+      "source": "https://drive.google.com/file/d/1K7Z2yQ9s-UpgoYSuOKhxnTvv9TlFwwFO/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/113/113writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP113-S2",
+      "exam": "CAP113",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 4,
+      "endPage": 5,
+      "source": "https://drive.google.com/file/d/1K7Z2yQ9s-UpgoYSuOKhxnTvv9TlFwwFO/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/113/113writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP113-S3",
+      "exam": "CAP113",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 6,
+      "endPage": 7,
+      "source": "https://drive.google.com/file/d/1K7Z2yQ9s-UpgoYSuOKhxnTvv9TlFwwFO/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/113/113writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP113-S4",
+      "exam": "CAP113",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 8,
+      "endPage": 10,
+      "source": "https://drive.google.com/file/d/1K7Z2yQ9s-UpgoYSuOKhxnTvv9TlFwwFO/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/113/113writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP113-S5",
+      "exam": "CAP113",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 11,
+      "endPage": 13,
+      "source": "https://drive.google.com/file/d/1K7Z2yQ9s-UpgoYSuOKhxnTvv9TlFwwFO/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/113/113writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP113-S6",
+      "exam": "CAP113",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 14,
+      "endPage": 15,
+      "source": "https://drive.google.com/file/d/1K7Z2yQ9s-UpgoYSuOKhxnTvv9TlFwwFO/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/113/113writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP113-S7",
+      "exam": "CAP113",
+      "ordinal": 7,
+      "level": 6,
+      "startPage": 16,
+      "endPage": 17,
+      "source": "https://drive.google.com/file/d/1K7Z2yQ9s-UpgoYSuOKhxnTvv9TlFwwFO/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/113/113writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP113-S8",
+      "exam": "CAP113",
+      "ordinal": 8,
+      "level": 6,
+      "startPage": 18,
+      "endPage": 19,
+      "source": "https://drive.google.com/file/d/1K7Z2yQ9s-UpgoYSuOKhxnTvv9TlFwwFO/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/113/113writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP114-S1",
+      "exam": "CAP114",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 3,
+      "source": "https://drive.google.com/file/d/12qsAjT9hZmLlUVlyIVuWXBVh2EwN_dNn/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/114/114writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP114-S2",
+      "exam": "CAP114",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 4,
+      "endPage": 6,
+      "source": "https://drive.google.com/file/d/12qsAjT9hZmLlUVlyIVuWXBVh2EwN_dNn/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/114/114writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP114-S3",
+      "exam": "CAP114",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 9,
+      "source": "https://drive.google.com/file/d/12qsAjT9hZmLlUVlyIVuWXBVh2EwN_dNn/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/114/114writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP114-S4",
+      "exam": "CAP114",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 10,
+      "endPage": 12,
+      "source": "https://drive.google.com/file/d/12qsAjT9hZmLlUVlyIVuWXBVh2EwN_dNn/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/114/114writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP114-S5",
+      "exam": "CAP114",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 13,
+      "endPage": 15,
+      "source": "https://drive.google.com/file/d/12qsAjT9hZmLlUVlyIVuWXBVh2EwN_dNn/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/114/114writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP114-S6",
+      "exam": "CAP114",
+      "ordinal": 6,
+      "level": 6,
+      "startPage": 16,
+      "endPage": 18,
+      "source": "https://drive.google.com/file/d/12qsAjT9hZmLlUVlyIVuWXBVh2EwN_dNn/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/114/114writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP115-S1",
+      "exam": "CAP115",
+      "ordinal": 1,
+      "level": 6,
+      "startPage": 1,
+      "endPage": 3,
+      "source": "https://drive.google.com/file/d/1MSG0LyS7baOyiQljRUhAnav11YCl81AB/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/115/115writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP115-S2",
+      "exam": "CAP115",
+      "ordinal": 2,
+      "level": 6,
+      "startPage": 4,
+      "endPage": 6,
+      "source": "https://drive.google.com/file/d/1MSG0LyS7baOyiQljRUhAnav11YCl81AB/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/115/115writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP115-S3",
+      "exam": "CAP115",
+      "ordinal": 3,
+      "level": 6,
+      "startPage": 7,
+      "endPage": 9,
+      "source": "https://drive.google.com/file/d/1MSG0LyS7baOyiQljRUhAnav11YCl81AB/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/115/115writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP115-S4",
+      "exam": "CAP115",
+      "ordinal": 4,
+      "level": 6,
+      "startPage": 10,
+      "endPage": 11,
+      "source": "https://drive.google.com/file/d/1MSG0LyS7baOyiQljRUhAnav11YCl81AB/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/115/115writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    },
+    {
+      "id": "CAP115-S5",
+      "exam": "CAP115",
+      "ordinal": 5,
+      "level": 6,
+      "startPage": 12,
+      "endPage": 14,
+      "source": "https://drive.google.com/file/d/1MSG0LyS7baOyiQljRUhAnav11YCl81AB/view?usp=drive_link",
+      "index": "https://cap.rcpet.edu.tw/exam/115/115writing.html",
+      "verification": "官方頁面標示六級分；逐份原件頁首頁序核對。",
+      "verified": "2026-11-14"
+    }
+  ],
+  "types": [
+    {
+      "id": "observe",
+      "title": "觀察描寫與情感體會",
+      "exams": [
+        "BCT096-1",
+        "BCT097-2",
+        "BCT098-1",
+        "CAP104"
+      ],
+      "guide": {
+        "id": "JT-observe",
+        "title": "從可感的細節，走向情感理解",
+        "paragraphs": [
+          "這一類題目重視你如何看見生活，以及看見之後產生什麼感受。季節的一項享受、動人的片刻、一雙手或難以割捨的事物，都需要具體對象作為中心。材料可以很小，但要讓讀者知道，為什麼這個細節對你具有特別意義。",
+          "安排文章時，可以先交代情境，再用兩三個有作用的動作或感官推進，最後說明心情與理解。不要把整段人生縮成事件清單，也不必平均鋪滿所有感官。若一開始只有難忘或感動，可以再追問：誰做了什麼？我原先怎麼想？後來什麼變了？外在描寫與內在變化互相支持，體悟才不會像突然接上的口號。這類題目的深度，不在事物是否稀奇，而在觀察是否準確、情感是否有依據，以及最後的領會能否回到前面的經驗。"
+        ],
+        "keywords": [
+          "細節",
+          "感受",
+          "意義"
+        ],
+        "keySentence": "這一類題目重視你如何看見生活，以及看見之後產生什麼感受。",
+        "count": 281,
+        "label": "題型分析引導"
+      }
+    },
+    {
+      "id": "growth",
+      "title": "敘事歷程與自我省思",
+      "exams": [
+        "BCT096-2",
+        "BCT098-2",
+        "BCT099-1",
+        "BCT099-2",
+        "BCT100-1",
+        "BCT102",
+        "TNK100",
+        "CAP102T",
+        "CAP105",
+        "CAP110"
+      ],
+      "guide": {
+        "id": "JT-growth",
+        "title": "把前後差異，寫成有過程的省思",
+        "paragraphs": [
+          "這一類題目需要看見人如何經過事件而改變。學習同學、自己決定、追尋、逐漸明白、從陌生到熟悉，或回看未成功的經驗，都不能只交代最後結果。文章要讓讀者理解，原先的你與後來的你有何差異，而中間發生了什麼。",
+          "可以先選一件主事，再辨認起點、受阻、調整與回望。題目若強調逐漸，就應讓時間或重複經驗發揮作用；若聚焦一次決定，就要交代選項、理由與後果。成長未必等於得獎、變勇敢或從此不再難過，也可以是發現限制、改變方法，或更能理解別人。避免用努力很久代替過程，應具體呈現一次詢問、嘗試或修正。當體悟可以在事件裡找到線索，省思才有可信的層次，也能保留生活仍未完全解決的部分。"
+        ],
+        "keywords": [
+          "過程",
+          "改變",
+          "理解"
+        ],
+        "keySentence": "這一類題目需要看見人如何經過事件而改變。",
+        "count": 276,
+        "label": "題型分析引導"
+      }
+    },
+    {
+      "id": "design",
+      "title": "角色想像與具體設計",
+      "exams": [
+        "BCT097-1",
+        "CAP109",
+        "CAP115"
+      ],
+      "guide": {
+        "id": "JT-design",
+        "title": "讓想像中的安排，回應真實需要",
+        "paragraphs": [
+          "這一類題目提供角色、場景或改造任務，讓你用具體安排表達想法。當一天老師、開一家店或賦予事物新面貌，看似自由，仍需要回答為何如此設計，以及這些做法會帶來什麼改變。想像不是隨意堆疊細節，而是讓每個安排具有理由。",
+          "可以從一個生活需要開始，先決定最重要的目的，再挑選能實踐目的的做法。若店希望使人交流，空間與服務就應有助對話；若改造物品，也要交代原來用途與新的價值如何相連。文章不必寫成完整企畫書，但仍須顧及基本可理解性，避免只列商品、裝潢或操作步驟。適度呈現限制與調整，反而能讓願景更有說服力。最後回到自己為何重視這項需要，想像便能同時帶著生活經驗、情感與對他人的理解。"
+        ],
+        "keywords": [
+          "想像",
+          "目的",
+          "做法"
+        ],
+        "keySentence": "這一類題目提供角色、場景或改造任務，讓你用具體安排表達想法。",
+        "count": 281,
+        "label": "題型分析引導"
+      }
+    },
+    {
+      "id": "argument",
+      "title": "生活議題與觀點論述",
+      "exams": [
+        "BCT095T",
+        "BCT100-2",
+        "BCT101",
+        "CAP103",
+        "CAP106",
+        "CAP107",
+        "CAP108",
+        "CAP111"
+      ],
+      "guide": {
+        "id": "JT-argument",
+        "title": "從生活事例，建立有條件的觀點",
+        "paragraphs": [
+          "這一類題目要求你對生活中的現象或主張提出看法。發明的影響、意見分歧、傳統習俗、世代互動與多做多得，都不只需要表態，也需要說明判斷的理由。生活經驗可以成為依據，但必須讓讀者看見，它如何連到你的觀點。",
+          "可以先界定自己正在討論什麼，再選一項具體情境，說明事情如何發生與產生影響。若存在不同需要或反面情況，也應說清主張在何種條件下成立。不要把敘事全部刪掉，只留下抽象道理；也不要說完故事便以一句所以很重要收尾。讓事例中的細節承擔推理工作，再回到可行的回應，文章會更完整。題目未必要求兩面平均篇幅，重點是回應指定任務、理由能被理解，並避免以少數經驗概括所有人。"
+        ],
+        "keywords": [
+          "觀點",
+          "理由",
+          "條件"
+        ],
+        "keySentence": "這一類題目要求你對生活中的現象或主張提出看法。",
+        "count": 274,
+        "label": "題型分析引導"
+      }
+    },
+    {
+      "id": "materials",
+      "title": "多模態閱讀與材料轉化",
+      "exams": [
+        "CAP112",
+        "CAP113",
+        "CAP114"
+      ],
+      "guide": {
+        "id": "JT-materials",
+        "title": "先解讀材料，再把它轉成自己的思路",
+        "paragraphs": [
+          "這一類題目要求分析圖表、標題或圖像，並結合經驗發展想法。讀者需要看見你如何從材料取得訊息，而不是只在開頭提到圖片，接著換成無關的故事。材料解讀與生活連結是同一篇文章的兩個步驟，必須彼此支持。",
+          "作答前先圈出任務動詞與順序。統計圖可以選一項比較或分布作為起點，標題分析要說明設計、原因與現象，選詞看圖則需交代詞彙與具體圖像的關係。後續事例可以支持、補充或反思這個解讀，但要說清連結。也應區分可見資訊與自己的推測，避免編造精確數字或替所有人猜動機。不必訂題時，仍可依材料與要求形成集中的主旨。這種寫作同時訓練閱讀、統整、判斷與表達，不能只靠預先背好的情感故事完成。"
+        ],
+        "keywords": [
+          "材料",
+          "解讀",
+          "連結"
+        ],
+        "keySentence": "這一類題目要求分析圖表、標題或圖像，並結合經驗發展想法。",
+        "count": 278,
+        "label": "題型分析引導"
+      }
+    }
+  ],
+  "refs": {
+    "official": "https://cap.rcpet.edu.tw/examination.html",
+    "rubric": "https://cap.rcpet.edu.tw/exam3-1.html",
+    "writing": "https://cap.rcpet.edu.tw/test4-1.html",
+    "copyright": "https://www.tipo.gov.tw/tw/copyright/692-17261.html"
+  },
+  "extensions": [
+    {
+      "id": "JD01",
+      "title": "注意力、推薦內容與自己的選擇",
+      "paragraphs": [
+        "每天看見的內容，可能也在慢慢安排我們在意什麼。短影音接著播放、推薦清單不斷更新，帶來方便與新發現，也可能使人忘記自己原先想做的事。討論這個議題，可以從一次實際使用經驗開始，觀察什麼吸引你停留，以及停留之後發生了什麼。",
+        "寫作不必把科技一概說成敵人，也不應只用自制力不足責怪個人。可以比較介面提示、同儕分享與自己的需要如何共同影響選擇，再提出能實際嘗試的調整。例如關閉某種通知、先訂觀看目的，或在重要相處時保留注意力。更深的問題是，方便的安排有沒有讓自己失去判斷的機會。當文章能同時說明便利、代價與回應，數位生活便能成為有條件、有細節的思辨材料。"
+      ],
+      "keywords": [
+        "注意力",
+        "選擇",
+        "判斷"
+      ],
+      "keySentence": "每天看見的內容，可能也在慢慢安排我們在意什麼。",
+      "count": 270,
+      "label": "研究主題引導",
+      "exams": [
+        "CAP107",
+        "CAP113",
+        "CAP114"
+      ],
+      "concepts": [
+        "J16",
+        "J21"
+      ],
+      "sourceID": "R1",
+      "basis": "UNESCO的新教材討論AI、演算法與資訊環境中的自主判斷。",
+      "inference": "由此延伸注意力與自主選擇的生活練習；不是官方命題預測。",
+      "question": "請結合一項數位生活經驗，說明什麼曾影響你的注意力，以及你如何重新決定。"
+    },
+    {
+      "id": "JD02",
+      "title": "生成式AI、學習與自己的理解",
+      "paragraphs": [
+        "工具能幫忙完成工作，也可能使人跳過本來需要學習的過程。當生成式AI提供摘要、建議或文字時，學生可以比較不同想法，卻也需要知道內容是否可靠、自己是否真的理解。重點不只在能不能使用，而在使用方式與學習目的是否相符。",
+        "可以選一項熟悉的任務，說明哪些部分適合請工具協助，哪些部分需要親自判斷。若答案看似流暢卻沒有依據，應如何核對？若只接受結果，下一次遇到相似問題能否自己說明？文章也可討論標示協助範圍、遵守課堂規定與保護個人資料等具體做法。不要把所有使用者概括成偷懶，也不必假定新工具必然提升能力。讓便利、理解與責任互相檢查，才能提出適合自己處境的選擇與理由。"
+      ],
+      "keywords": [
+        "工具",
+        "理解",
+        "責任"
+      ],
+      "keySentence": "工具能幫忙完成工作，也可能使人跳過本來需要學習的過程。",
+      "count": 275,
+      "label": "研究主題引導",
+      "exams": [
+        "BCT101",
+        "CAP103",
+        "CAP111"
+      ],
+      "concepts": [
+        "J06",
+        "J23"
+      ],
+      "sourceID": "R2",
+      "basis": "UNESCO指南強調以人的能動性、包容及能力培養為中心使用生成式AI。",
+      "inference": "延伸為國中生可觀察的學習分工、查證與責任問題，不提供工具代寫範文。",
+      "question": "請以一次學習任務為例，說明你希望保留哪些親自完成的思考，以及原因。"
+    },
+    {
+      "id": "JD03",
+      "title": "修理、再利用與物品的第二段生活",
+      "paragraphs": [
+        "一件物品不再適合原本的用途，未必已經失去所有價值。修理、轉送、改作或重新安排使用方式，都可能讓它進入另一段生活。這個主題也能連到記憶：我們留下某件東西，是因為仍然有用，還是因為捨不得它所承載的經驗？",
+        "寫作可以先描述物品原來的狀態，再呈現一次取捨與實際行動，說明保留、改變或放下各有什麼理由。不要只以環保口號代替過程，也應考慮維修成本、安全與真正的使用需要。有些物品值得修理，有些則需要妥善處理，不能因為珍惜就無限堆積。當人能比較不同做法的影響，文章就能同時包含感情與判斷。新價值不必來自驚人的創意，也可能只是讓一件平常物品重新回應生活。"
+      ],
+      "keywords": [
+        "物品",
+        "修理",
+        "價值"
+      ],
+      "keySentence": "一件物品不再適合原本的用途，未必已經失去所有價值。",
+      "count": 267,
+      "label": "研究主題引導",
+      "exams": [
+        "CAP104",
+        "CAP110",
+        "CAP115"
+      ],
+      "concepts": [
+        "J09",
+        "J22"
+      ],
+      "sourceID": "R3",
+      "basis": "UNEP循環性架構包括減量、再使用、修理及改作等保留價值的方式。",
+      "inference": "把資源保留概念連到個人物件、取捨與改造經驗；未宣稱所有改造都較環保。",
+      "question": "選一件舊物，說明你會保留、修理、改作或放下它的理由與做法。"
+    },
+    {
+      "id": "JD04",
+      "title": "跨世代合作與雙向照顧",
+      "paragraphs": [
+        "不同年齡的人相遇，可以帶來新的理解，也可能暴露習慣與期待的差異。長者未必總是需要被照顧，年輕人也未必只是提供科技協助；每個人的能力、生活經驗與需要，都值得透過實際交流重新認識，而不是先由年齡決定位置。",
+        "可以從共同完成一件小事開始，描寫雙方原先的想法、遇到的分歧，以及哪個詢問或合作使安排改變。重點不是把所有代溝化解，而是找到彼此能參與、也能拒絕的相處方式。若需要幫助，應說清楚具體困難；若想付出，也要確認是否符合需要。這樣的文章可以同時呈現關懷與界線，避免用孝順或年輕人都不懂事概括一切。當合作能保留雙方的主體性，照顧便有可能成為互相學習的關係。"
+      ],
+      "keywords": [
+        "年齡",
+        "合作",
+        "需要"
+      ],
+      "keySentence": "不同年齡的人相遇，可以帶來新的理解，也可能暴露習慣與期待的差異。",
+      "count": 272,
+      "label": "研究主題引導",
+      "exams": [
+        "BCT095T",
+        "CAP108"
+      ],
+      "concepts": [
+        "J02",
+        "J07"
+      ],
+      "sourceID": "R4",
+      "basis": "WHO報告將教育及跨世代接觸列為回應年齡歧視的重要策略。",
+      "inference": "延伸為共同活動中的互助、詢問與界線；不把單次互動保證為有效介入。",
+      "question": "請描述一次跨世代相處，說明你如何理解對方，也如何表達自己的需要。"
+    },
+    {
+      "id": "JD05",
+      "title": "圖表、事實與生活中的判斷",
+      "paragraphs": [
+        "圖表能讓差異一眼可見，卻不會自動解釋差異的原因。看見某類型較多人喜歡，可以描述它與其他類型的關係；若進一步認為所有人都因相同理由選擇，便已加入自己的推測。先分清資料與解釋，是建立可信觀點的重要步驟。",
+        "練習時可以選一個清楚的圖表訊息，用簡短語言重述，再連到自己熟悉的生活情境。這段經驗可以補充解釋，也可以提出例外，但不能取代整體資料。若圖表沒有標示精確數字，就不要自行編出百分比；若不知道調查條件，也應保留判斷。文章的深度不是數字越多越好，而是每項資訊都有作用，推論也有合適範圍。讓材料、經驗與理由形成連結，就能從讀圖走向有依據的表達。"
+      ],
+      "keywords": [
+        "圖表",
+        "資料",
+        "推論"
+      ],
+      "keySentence": "圖表能讓差異一眼可見，卻不會自動解釋差異的原因。",
+      "count": 266,
+      "label": "研究主題引導",
+      "exams": [
+        "CAP112",
+        "CAP113"
+      ],
+      "concepts": [
+        "J17",
+        "J24"
+      ],
+      "sourceID": "R5",
+      "basis": "OECD閱讀架構重視理解、整合、評估可信度與處理多來源訊息。",
+      "inference": "本庫將閱讀架構延伸為圖表寫作練習，不宣稱會考依PISA的題型或配分命題。",
+      "question": "先指出圖表中的一項訊息，再說明你的經驗如何支持、補充或反思它。"
+    },
+    {
+      "id": "JD06",
+      "title": "群體標籤與被聽見的聲音",
+      "paragraphs": [
+        "一個群體的名稱，可能幫助溝通，也可能讓個別經驗被看不見。當人們談年輕世代、某種社團或某類學生時，常會用少數特徵概括所有成員。若沒有詢問當事人的想法，方便的分類便可能變成限制，甚至影響誰能參與決定。",
+        "文章可以從一次被命名、被誤解或原先附和標籤的經驗開始，描述哪個細節使看法改變。除了提出尊重，也應說明如何讓不同聲音真正進入討論，例如改變發言方式、保留等待時間或詢問沒有開口的人。參與不代表每個人都必須做相同的事，也需要尊重意願與界線。當主張由具體互動支撐，群體認同便能與個人差異並存，文章也能從替某一代辯護，走向理解共同生活如何更公平。"
+      ],
+      "keywords": [
+        "標籤",
+        "參與",
+        "差異"
+      ],
+      "keySentence": "一個群體的名稱，可能幫助溝通，也可能讓個別經驗被看不見。",
+      "count": 266,
+      "label": "研究主題引導",
+      "exams": [
+        "BCT096-2",
+        "CAP107",
+        "CAP108"
+      ],
+      "concepts": [
+        "J05",
+        "J21"
+      ],
+      "sourceID": "R6",
+      "basis": "UNICEF參與指南強調青少年參與應具包容性、自願性，並回應不同背景。",
+      "inference": "延伸到班級、世代與群體標籤的生活寫作，並非對任何群體的統計結論。",
+      "question": "請說明一次群體印象與個人經驗不一致的情況，以及你後來如何調整做法。"
+    },
+    {
+      "id": "JD07",
+      "title": "便利的設計，誰還沒被考慮",
+      "paragraphs": [
+        "一個安排對多數人方便，仍可能讓部分使用者無法參與。文字太小、路線不清楚、只有單一操作方式，都可能形成障礙。觀察設計時，除了問自己用起來是否順手，也可以追問，有哪些人的處境尚未被放進考量。",
+        "這個主題適合從熟悉的校園、活動或數位服務開始，具體描寫誰在哪個步驟遇到困難，再提出一項可行改善。不要只把他人當成需要幫助的形象，而應詢問實際需要，讓使用者的回饋改變安排。不同需求也可能衝突，仍須比較資源與替代方法。文章可以透過一次修改呈現自己的理解如何擴大：原來方便不是固定標準，而是設計者願不願意看見差異。當改善使更多人能自主使用，體貼便有了具體形式。"
+      ],
+      "keywords": [
+        "設計",
+        "障礙",
+        "參與"
+      ],
+      "keySentence": "一個安排對多數人方便，仍可能讓部分使用者無法參與。",
+      "count": 270,
+      "label": "研究主題引導",
+      "exams": [
+        "BCT097-1",
+        "CAP109",
+        "CAP115"
+      ],
+      "concepts": [
+        "J19",
+        "J22"
+      ],
+      "sourceID": "R7",
+      "basis": "W3C WAI說明網路無障礙與不同使用需求，強調部分人不可或缺的設計也能幫助其他人。",
+      "inference": "由網路可近性延伸到校園及活動設計，實體空間部分為本庫教學推論。",
+      "question": "觀察一項熟悉安排，說明它遺漏了誰的需要，以及你會如何修改並確認效果。"
+    },
+    {
+      "id": "JD08",
+      "title": "創意從第一次想法之後開始",
+      "paragraphs": [
+        "想到一個新點子，只是創意過程的一部分。真正使用時，可能發現它不方便、資源不足，或沒有回應原來的需要；願意比較、測試與修改，才能讓想像逐漸形成合適的做法。沒有一次成功，也不表示先前嘗試完全沒有意義。",
+        "寫作可以記錄一個方案如何從最初構想到後來調整，具體交代哪項回饋改變了你的判斷。避免只以獨特證明價值，也要說明新做法對誰有用、解決什麼問題。若最後仍有不足，可以指出限制與下一步，而不是勉強安排完美結局。這種題材能連結物品改造、活動規畫與未成功經驗，讓成長不只靠情緒轉折，也透過實際修正被看見。當人能說清為何改變，創意便同時包含想像、判斷與對使用者的理解。"
+      ],
+      "keywords": [
+        "創意",
+        "修正",
+        "需要"
+      ],
+      "keySentence": "想到一個新點子，只是創意過程的一部分。",
+      "count": 274,
+      "label": "研究主題引導",
+      "exams": [
+        "BCT098-2",
+        "CAP109",
+        "CAP110",
+        "CAP115"
+      ],
+      "concepts": [
+        "J11",
+        "J22"
+      ],
+      "sourceID": "R8",
+      "basis": "OECD創意思考架構包含產生多樣想法、提出原創想法，以及評估與改進想法。",
+      "inference": "延伸為生活方案與修正歷程的寫作，不把測驗能力框架當成會考評分細則。",
+      "question": "請描述一個曾修改過的想法，說明你根據什麼回饋調整，以及改變帶來的意義。"
+    }
+  ],
+  "research": [
+    {
+      "id": "R1",
+      "org": "UNESCO",
+      "title": "AI Answers. You Decide：媒體與資訊素養新教材介紹",
+      "url": "https://www.unesco.org/en/articles/ai-answers-you-decide-unesco-launches-new-media-and-information-literacy-curriculum",
+      "year": "2026-11-10",
+      "supports": "討論AI及演算法如何影響資訊、知識與人的判斷。",
+      "limit": "教育資源介紹，不是臺灣會考命題預告。"
+    },
+    {
+      "id": "R2",
+      "org": "UNESCO",
+      "title": "Guidance for generative AI in education and research",
+      "url": "https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research",
+      "year": "2023；網頁更新2026",
+      "supports": "以人的能動性、包容與能力培養為中心使用生成式AI。",
+      "limit": "國際政策與教育指引，不取代個別學校使用規定。"
+    },
+    {
+      "id": "R3",
+      "org": "UNEP",
+      "title": "Circularity",
+      "url": "https://www.unep.org/en/circularity",
+      "year": "持續更新頁面",
+      "supports": "減量、再使用、修理及改作等價值保留方式。",
+      "limit": "具體物品仍需檢查安全、成本及實際環境影響。"
+    },
+    {
+      "id": "R4",
+      "org": "WHO等聯合國機構",
+      "title": "Global report on ageism",
+      "url": "https://www.who.int/publications/i/item/9789240016866",
+      "year": "2021",
+      "supports": "回應年齡歧視的教育、政策與跨世代接觸策略。",
+      "limit": "本庫只用於概念與互動問題，不提供醫療建議或效果保證。"
+    },
+    {
+      "id": "R5",
+      "org": "OECD",
+      "title": "PISA 2018 Reading Framework",
+      "url": "https://www.oecd.org/en/publications/pisa-2018-assessment-and-analytical-framework_b25efab8-en/full-report/component-3.html",
+      "year": "2019",
+      "supports": "理解、整合、評估可信度與處理多來源訊息。",
+      "limit": "與會考屬不同測驗，不能直接移植規格或配分。"
+    },
+    {
+      "id": "R6",
+      "org": "UNICEF",
+      "title": "Guide: Adolescents and participation",
+      "url": "https://www.unicef.org/adolescentkit/reports/guide-adolescents-and-participation",
+      "year": "網頁未標示出版年",
+      "supports": "青少年參與應具包容性與自願性，回應不同背景及能力。",
+      "limit": "參與指南不是對任何世代的統計概括。"
+    },
+    {
+      "id": "R7",
+      "org": "W3C WAI",
+      "title": "About W3C WAI",
+      "url": "https://www.w3.org/WAI/about/",
+      "year": "持續更新頁面",
+      "supports": "網路無障礙與不同使用需求。",
+      "limit": "延伸至實體校園空間屬本庫推論，並非原頁的建築設計指引。"
+    },
+    {
+      "id": "R8",
+      "org": "OECD",
+      "title": "PISA 2022 Creative Thinking Framework",
+      "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-iii_765ee8c2-en/full-report/component-15.html",
+      "year": "2024",
+      "supports": "產生、評估與改進想法的創意思考架構。",
+      "limit": "不是國中會考作文的官方評分細則。"
+    }
+  ],
+  "trend": {
+    "formalCAP": 13,
+    "named": 6,
+    "unnamed": 7,
+    "visualMaterial": 10,
+    "explicitAnalysis": [
+      "CAP112",
+      "CAP113",
+      "CAP114"
+    ],
+    "note": "以上為本庫依103–115年正式會考原題逐題編碼，屬教學分析；不是官方難度統計，也不能據此預測下次題目。"
+  }
+}

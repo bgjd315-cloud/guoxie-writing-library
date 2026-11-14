@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#214b45">
+  <meta name="description" content="48 張概念型情意題材卡、107 至 115 學年度逐題扣題工作台，以及有來源依據的八個延伸練習方向。不收錄教材原文。">
+  <title>拾光・國寫情意題材庫</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳至主要內容</a>
+  <aside class="sidebar" aria-label="主選單">
+    <a class="brand" href="#library" aria-label="拾光首頁"><span class="brand-symbol">拾</span><span>拾光<small>國寫情意題材庫</small></span></a>
+    <div class="sidebar-caption">把日常，寫成自己的故事。</div>
+    <nav id="nav"></nav>
+    <div class="side-bottom"><div class="side-note"><span class="tiny-dot"></span> 一點觀察，一點練習<br><strong>好題材，藏在你的生活裡。</strong></div><a href="#guide">從這裡開始寫作 <span>↗</span></a><small>概念構思 × 生命經驗<br>資料整理於 2026.11.14</small></div>
+  </aside>
+  <div class="shell">
+    <header class="topbar"><div class="breadcrumb">寫作的準備室 <span>/</span> <strong id="crumb">題材探索</strong></div><div class="top-actions"><span class="private-label">個人學習空間</span><button class="button quiet" id="header-notes">我的練習 <span class="note-badge" id="note-count">0</span></button></div></header>
+    <main id="main" tabindex="-1"><div class="loading">正在翻開題材庫…</div></main>
+    <footer>拾光 <span>・</span> 以概念開展，回到自己的生活。<a href="#sources">概念地圖與整理範圍 ↗</a></footer>
+  </div>
+  <dialog id="card-dialog" aria-labelledby="detail-title"><div id="detail"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

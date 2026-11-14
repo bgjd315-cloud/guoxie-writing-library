@@ -1,0 +1,11 @@
+{
+  "site": "拾光寫作",
+  "sourceCommit": "487331b618ae12ae3a10a5f19d5f978c5cb33b6d",
+  "base": "/guoxie-writing-library/",
+  "version": "writing-paths-v8",
+  "features": {
+    "topics": 20,
+    "prompts": 60,
+    "modelEntries": 195
+  }
+}

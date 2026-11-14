@@ -1,0 +1,3 @@
+'use strict';
+const originalReader=openReader;openReader=function(id){originalReader(id);document.querySelector('#reader-content .reader-source')?.insertAdjacentHTML('afterend',window.essayHTML('T'+id));document.querySelector('#reader-content .reader-actions')?.insertAdjacentHTML('beforebegin',`<a class="unified-return" href="/#exams?kind=T&card=T${id}">閱讀完整原題並比對此概念 ↗</a>`);};
+const deepLink=new URLSearchParams(location.search);if(deepLink.has('card'))openReader(deepLink.get('card'));document.querySelector('footer')?.insertAdjacentHTML('beforeend','<a href="/#exams?kind=T">完整原題文字版 ↗</a>');

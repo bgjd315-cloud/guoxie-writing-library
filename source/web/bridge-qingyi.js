@@ -1,0 +1,5 @@
+'use strict';
+const oldCardOpen=openCard;openCard=function(id){oldCardOpen(id);document.querySelector('#detail').dataset.writingModel='E'+id;document.querySelector('#detail .intro')?.insertAdjacentHTML('afterend',window.essayHTML('E'+id));document.querySelector('#detail .exam-workbench')?.insertAdjacentHTML('beforeend',`<a class="unified-return" href="/#exams?year=${document.querySelector('#detail-exam').value}&kind=E&card=E${id}">閱讀完整原題並比對這張卡 ↗</a>`);document.querySelector('#detail-exam')?.addEventListener('change',e=>{document.querySelector('#detail .unified-return').href='/#exams?year='+e.target.value+'&kind=E&card=E'+id;});};
+const rawInit=init; // Async init has already started; wait for its data before applying deep links.
+const deep=new URLSearchParams(location.search);const wait=setInterval(()=>{if(typeof data==='undefined')return;clearInterval(wait);if(deep.has('card'))openCard(deep.get('card'));if(deep.has('draft')&&drafts[deep.get('draft')]){selectedDraft=deep.get('draft');go('practice');}},40);setTimeout(()=>clearInterval(wait),12000);
+document.querySelector('footer')?.insertAdjacentHTML('beforeend','<a href="/#exams?kind=E">完整原題文字版 ↗</a>');

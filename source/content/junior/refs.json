@@ -1,0 +1,10 @@
+[
+ {"id":"R1","org":"UNESCO","title":"AI Answers. You Decide：媒體與資訊素養新教材介紹","url":"https://www.unesco.org/en/articles/ai-answers-you-decide-unesco-launches-new-media-and-information-literacy-curriculum","year":"2026-11-10","supports":"討論AI及演算法如何影響資訊、知識與人的判斷。","limit":"教育資源介紹，不是臺灣會考命題預告。"},
+ {"id":"R2","org":"UNESCO","title":"Guidance for generative AI in education and research","url":"https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research","year":"2023；網頁更新2026","supports":"以人的能動性、包容與能力培養為中心使用生成式AI。","limit":"國際政策與教育指引，不取代個別學校使用規定。"},
+ {"id":"R3","org":"UNEP","title":"Circularity","url":"https://www.unep.org/en/circularity","year":"持續更新頁面","supports":"減量、再使用、修理及改作等價值保留方式。","limit":"具體物品仍需檢查安全、成本及實際環境影響。"},
+ {"id":"R4","org":"WHO等聯合國機構","title":"Global report on ageism","url":"https://www.who.int/publications/i/item/9789240016866","year":"2021","supports":"回應年齡歧視的教育、政策與跨世代接觸策略。","limit":"本庫只用於概念與互動問題，不提供醫療建議或效果保證。"},
+ {"id":"R5","org":"OECD","title":"PISA 2018 Reading Framework","url":"https://www.oecd.org/en/publications/pisa-2018-assessment-and-analytical-framework_b25efab8-en/full-report/component-3.html","year":"2019","supports":"理解、整合、評估可信度與處理多來源訊息。","limit":"與會考屬不同測驗，不能直接移植規格或配分。"},
+ {"id":"R6","org":"UNICEF","title":"Guide: Adolescents and participation","url":"https://www.unicef.org/adolescentkit/reports/guide-adolescents-and-participation","year":"網頁未標示出版年","supports":"青少年參與應具包容性與自願性，回應不同背景及能力。","limit":"參與指南不是對任何世代的統計概括。"},
+ {"id":"R7","org":"W3C WAI","title":"About W3C WAI","url":"https://www.w3.org/WAI/about/","year":"持續更新頁面","supports":"網路無障礙與不同使用需求。","limit":"延伸至實體校園空間屬本庫推論，並非原頁的建築設計指引。"},
+ {"id":"R8","org":"OECD","title":"PISA 2022 Creative Thinking Framework","url":"https://www.oecd.org/en/publications/pisa-2022-results-volume-iii_765ee8c2-en/full-report/component-15.html","year":"2024","supports":"產生、評估與改進想法的創意思考架構。","limit":"不是國中會考作文的官方評分細則。"}
+]

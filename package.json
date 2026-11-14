@@ -1,0 +1,8 @@
+{
+  "name": "guoxie-writing-library",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-pages.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}
