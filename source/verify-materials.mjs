@@ -24,7 +24,7 @@ for(const c of junior.concepts){const m=jm[c.id];if(!m)fail('Missing junior mate
  m.self.forEach((x,i)=>{const w=`${c.id} self ${i+1}`;range(x.scene,[8,40],w+' scene');if(x.questions?.length!==3)fail(w+' questions');x.questions.forEach((q,j)=>range(q,[6,44],w+' q'+(j+1)));range(x.angle,[16,75],w+' angle');});}
 if(Object.keys(jm).length!==junior.concepts.length)fail('Unknown junior materials');
 const repeated=[...titles].filter(([,n])=>n>3);if(repeated.length)fail('Overused examples '+repeated.map(([t,n])=>t+'×'+n).join('、'));
-const groups=['T-1','T-2','T-3','T-4','T-5','T-6','T-7','T-8','E-1','E-2','E-3','E-4','E-5','E-6'];
+const groups=['T-1','T-2','T-3','T-4','T-5','T-6','T-7','T-8','T-9','T-10','T-11','E-1','E-2','E-3','E-4','E-5','E-6'];
 const counts={};
 for(const g of groups){const f=full[g];if(!f)fail('Missing full model '+g);const n=len(f.paragraphs.join(''));const [a,b]=g[0]==='T'?[360,400]:[580,720];if(n<a||n>b)fail(`${g} full model length ${n}`);if(f.count!==n)fail(g+' count field '+f.count+' vs '+n);if(f.roles.length!==f.paragraphs.length||f.notes.length!==f.paragraphs.length)fail(g+' roles/notes');if(!f.task||!f.title)fail(g+' task/title');if(g[0]==='T'&&!f.others?.length)fail(g+' must use a real example');counts[g]=n;}
 console.log(JSON.stringify({juniorCards:junior.concepts.length,juniorOthers,materialCards:uids.length,othersExamples:others,selfPrompts:selves,distinctOthers:titles.size,fullModels:Object.keys(counts).length,fullModelRange:{T:[Math.min(...groups.filter(g=>g[0]==='T').map(g=>counts[g])),Math.max(...groups.filter(g=>g[0]==='T').map(g=>counts[g]))],E:[Math.min(...groups.filter(g=>g[0]==='E').map(g=>counts[g])),Math.max(...groups.filter(g=>g[0]==='E').map(g=>counts[g]))]}}));

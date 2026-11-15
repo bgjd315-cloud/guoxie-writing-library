@@ -5,14 +5,14 @@
   "sitesVersion": 9,
   "base": "/guoxie-writing-library/",
   "features": {
-    "topics": 20,
-    "prompts": 60,
-    "modelEntries": 195,
-    "conceptExplanations": 93,
-    "othersExamples": 324,
-    "selfPrompts": 186,
-    "fullLengthModels": 14,
-    "juniorMaterialCards": 24,
+    "topics": 23,
+    "prompts": 69,
+    "modelEntries": 216,
+    "conceptExplanations": 111,
+    "othersExamples": 392,
+    "selfPrompts": 222,
+    "fullLengthModels": 17,
+    "juniorMaterialCards": 27,
     "materialBank": true
   }
 }
