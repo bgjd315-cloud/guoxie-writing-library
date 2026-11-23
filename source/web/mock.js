@@ -201,7 +201,7 @@ function renderIndex(filterKind){
   const all=window.MOCK_PROMPTS||[],drafts=readDrafts();
   const list=all.filter(p=>!filterKind||p.kind===filterKind);
   const doneCount=all.filter(p=>{const d=drafts[p.id];return d&&(countChars(d.q1)+countChars(d.q2Full)+countChars((d.q2Parts||[]).join(''))>0);}).length;
-  $('#main').innerHTML=title('COMPLETE MOCK PROMPTS · 一題到底','完整仿題演練室','24 道大考規格完整仿題（高中知性 8 題甲乙雙文・高中情意 8 題情境引文・國中會考 8 題素養仿題），全部打通「讀題審題 → 延伸取材與題材庫連動 → 鷹架／全文作答 → 自評與匯出」單頁閉環。')+`
+  $('#main').innerHTML=title('COMPLETE MOCK PROMPTS · 一題到底','完整仿題演練室','24 道大考規格完整仿題（高中知性 8 題甲乙雙文・高中情意 8 題情境引文・國中會考 8 題素養仿題），一頁完成「讀題審題 → 延伸取材與題材庫連動 → 分段／全文作答 → 自評與輸出」。')+`
     <section class="filters" style="margin-bottom:18px">
       <div class="filter-row" style="border-top:0;margin-top:0;padding-top:0">
         <div class="tabs" role="group" aria-label="篩選仿題類型">
@@ -315,11 +315,14 @@ function renderWorkspace(prompt){
     const q2Label=q2Limit?`${q2Len} / ${q2Limit} 字`:`${q2Len} 字（建議 ${prompt.q2.recommendedRange?.[0]||550}–${prompt.q2.recommendedRange?.[1]||700} 字）`;
 
     const renderMatBody=m=>{
+      const ep=String(m.essayParagraph||'').trim();
+      const epHTML=ep?`<div class="mat-essay-para ${m.kind==='other'?'other':''}"><div class="mat-essay-para-head"><strong>${m.kind==='other'?'他例完整段落示範':'己例完整段落示範'}</strong><span>約 ${countChars(ep)} 字・可直接參考寫入</span></div><p>${esc(ep)}</p></div>`:'';
       const el=m.elements;
       const elHTML=el?`<div class="mat-elements">${el.who?`<div><b>人：</b>${esc(el.who)}</div>`:''}${el.when?`<div><b>時：</b>${esc(el.when)}</div>`:''}${el.where?`<div><b>地：</b>${esc(el.where)}</div>`:''}${el.what?`<div><b>物：</b>${esc(el.what)}</div>`:''}${el.event?`<div class="mat-el-full"><b>事：</b>${esc(el.event)}</div>`:''}</div>`:'';
-      const kpHTML=Array.isArray(m.keyPoints)&&m.keyPoints.length?`<div class="mat-keypoints"><div class="mat-keypoints-title">扣題要點與寫入攻略</div><ul>${m.keyPoints.map(k=>`<li>${esc(k)}</li>`).join('')}</ul></div>`:'';
+      const kpHTML=Array.isArray(m.keyPoints)&&m.keyPoints.length?`<div class="mat-keypoints"><div class="mat-keypoints-title">扣題要點</div><ul>${m.keyPoints.map(k=>`<li>${esc(k)}</li>`).join('')}</ul></div>`:'';
       const metaHTML=(m.source||(!kpHTML&&m.angle)||m.caution)?`<div class="mat-meta">${m.source?`<div><strong>出處：</strong>${esc(m.source)}</div>`:''}${!kpHTML&&m.angle?`<div><strong>扣題切入：</strong>${esc(m.angle)}</div>`:''}${m.caution?`<div class="caution-text"><strong>使用提醒：</strong>${esc(m.caution)}</div>`:''}</div>`:'';
-      return `${elHTML}<p class="mat-detail-text">${esc(m.detail)}</p>${kpHTML}${metaHTML}`;
+      const bgHTML=ep?`<details class="mat-bg-details" data-stop-toggle><summary>展開完整背景詳述（${countChars(m.detail)} 字・免上網查證）<span>▾</span></summary><p class="mat-detail-text">${esc(m.detail)}</p>${metaHTML}</details>`:`<p class="mat-detail-text">${esc(m.detail)}</p>${metaHTML}`;
+      return `${epHTML}${elHTML}${kpHTML}${bgHTML}`;
     };
 
     const figureHTML=()=>prompt.figure?`<figure class="mock-figure"><img src="${esc(prompt.figure.src)}" alt="${esc(prompt.figure.alt)}" loading="lazy">${prompt.figure.caption?`<figcaption>${esc(prompt.figure.caption)}</figcaption>`:''}</figure>`:'';
@@ -357,7 +360,7 @@ function renderWorkspace(prompt){
           </div>
 
           <div>
-            ${st.examMode?`<div class="mock-card"><h3>考場實戰模式進行中</h3><p class="small">已自動隱藏審題解析與立場鷹架，模擬真實考場獨立審題。完成讀題後可直接前往作答，或於頂部切回「引導模式」。</p><button type="button" class="btn primary" data-mock-step="3">直接開始作答 →</button></div>`:`
+            ${st.examMode?`<div class="mock-card"><h3>考場實戰模式進行中</h3><p class="small">已自動隱藏審題解析與立場提示，模擬真實考場獨立審題。完成讀題後可直接前往作答，或於頂部切回「引導模式」。</p><button type="button" class="btn primary" data-mock-step="3">直接開始作答 →</button></div>`:`
               <div class="mock-card">
                 <h3>審題 30 秒：先拆任務再動筆</h3>
                 <div class="mock-tip"><strong>1. ${prompt.q1?'問題（一）閱讀理解與分歧摘述':'核心任務與切入重點'}</strong><p>${esc(prompt.analysis.q1Tip)}</p></div>
@@ -366,7 +369,7 @@ function renderWorkspace(prompt){
               </div>
               <div class="mock-card">
                 <h3>先定下你的基本立場／切入視角</h3>
-                <p class="small" style="margin-bottom:10px">選一個最貼近你想法的方向，系統會帶入步驟 3 的段落鷹架提示：</p>
+                <p class="small" style="margin-bottom:10px">選一個最貼近你想法的方向，系統會帶入步驟 3 的分段寫作提示：</p>
                 ${prompt.stances.map(s=>`
                   <button type="button" class="stance-btn ${st.stance===s.id?'active':''}" data-mock-stance="${esc(s.id)}">
                     <strong>${esc(s.title)}</strong>
@@ -489,12 +492,12 @@ function renderWorkspace(prompt){
             <div class="mock-head-row" style="margin-bottom:12px">
               <div>
                 <h2 style="font-size:18px;margin:0">${prompt.q1?'問題（二）':'全文'}作答區：${esc(prompt.q2.coreTitle)}</h2>
-                <p class="small" style="margin:2px 0 0">${esc(prompt.q2.meta)}${st.examMode?'（實戰模式：純全文作答）':'・可先用四段鷹架分拆草稿，再安全合併為整篇定稿'}</p>
+                <p class="small" style="margin:2px 0 0">${esc(prompt.q2.meta)}${st.examMode?'（實戰模式：純全文作答）':'・可先用四段引導分開起稿，再一鍵合併為整篇定稿'}</p>
               </div>
               <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
                 ${st.examMode?'':`
                   <div class="mode-switch">
-                    <button type="button" class="${st.q2Mode==='scaffold'?'active':''}" data-q2-mode="scaffold">四段鷹架</button>
+                    <button type="button" class="${st.q2Mode==='scaffold'?'active':''}" data-q2-mode="scaffold">四段引導</button>
                     <button type="button" class="${st.q2Mode==='full'?'active':''}" data-q2-mode="full">整篇定稿</button>
                   </div>`}
                 <span id="mock-q2-count" class="mock-pill ${q2StatusClass}">${q2Label}</span>
@@ -521,7 +524,7 @@ function renderWorkspace(prompt){
             `:`
               <div>
                 <textarea id="mock-q2-full" rows="12" placeholder="在此撰寫完整文章……">${esc(st.q2Full)}</textarea>
-                ${!st.examMode&&combinedParts()&&!st.q2Full.trim()?`<p class="small" style="margin-top:8px">偵測到你在「四段鷹架」已有草稿：<button type="button" class="btn compact" id="mock-pull-scaffold">匯入四段草稿到此處</button></p>`:''}
+                ${!st.examMode&&combinedParts()&&!st.q2Full.trim()?`<p class="small" style="margin-top:8px">偵測到你在「四段引導」已有草稿：<button type="button" class="btn compact" id="mock-pull-scaffold">匯入四段草稿到此處</button></p>`:''}
               </div>
             `}
 
@@ -671,7 +674,7 @@ function renderWorkspace(prompt){
           ${[
             [1,'讀題與審題',prompt.q1?'甲乙雙文・偏題警示':'完整引文・審題拆解'],
             [2,'延伸取材庫','文本追問・30 秒快記'],
-            [3,'鷹架／全文作答',prompt.q1?'問題一二・即時字數':'四段鷹架・安全合併'],
+            [3,'分段／全文作答',prompt.q1?'問題一二・即時字數':'四段引導・合併全文'],
             [4,'自評與匯出','檢核對照・反存素材']
           ].map(([n,t,sub])=>`
             <button type="button" class="mock-step-tab ${st.step===n?'active':st.step>n?'done':''}" data-mock-step="${n}">
@@ -706,7 +709,7 @@ function renderWorkspace(prompt){
           if(pill)pill.textContent='考場倒數 '+formatTimer(st.remainingSec);
           if(st.remainingSec===0){clearInterval(timerHandle);timerHandle=null;toast(`${examMinutes} 分鐘考場計時結束，可前往步驟 4 自評與匯出！`);}
         },1000);
-        toast(`已切換考場實戰模式：隱藏標色與鷹架，開始 ${examMinutes} 分鐘計時`);
+        toast(`已切換考場實戰模式：隱藏標色與寫作提示，開始 ${examMinutes} 分鐘計時`);
       }else{
         st.timerRunning=false;
         if(timerHandle){clearInterval(timerHandle);timerHandle=null;}
@@ -744,11 +747,17 @@ function renderWorkspace(prompt){
       const originKey='mock:'+prompt.id+':'+item.id;
       if(window.materialBank?.hasOrigin?.(originKey)){toast('這則他例已在「我的題材庫」中 ✓');return;}
       const el=item.elements;
+      const epText=item.essayParagraph?`【實戰段落示範】${item.essayParagraph}\n\n`:'';
       const elSummary=el?`【人事時地物】人：${el.who||''}｜時：${el.when||''}｜地：${el.where||''}｜物：${el.what||''}｜事：${el.event||''}\n\n`:'';
       const kpSummary=Array.isArray(item.keyPoints)&&item.keyPoints.length?item.keyPoints.join('；'):(item.angle||`可用於《${prompt.title}》`);
-      const newId=window.materialBank?.put?.({kind:'other',title:item.title,theme:prompt.theme,type:'其他',fact:elSummary+item.detail,source:item.source||'',point:kpSummary,caution:item.caution||'',origin:originKey});
+      const newId=window.materialBank?.put?.({kind:'other',title:item.title,theme:prompt.theme,type:'其他',fact:epText+elSummary+item.detail,source:item.source||'',point:kpSummary,caution:item.caution||'',origin:originKey});
       if(newId){st.selectedIds=['bank:'+newId,...st.selectedIds.filter(x=>x!==item.id)];persist();toast('已將這則完整他例存入「我的題材庫」✓');draw();}
       else toast('無法儲存，請稍後再試或請老師於後台備份');
+    });
+
+    document.querySelectorAll('[data-stop-toggle]').forEach(el=>{
+      el.onclick=e=>e.stopPropagation();
+      el.onkeydown=e=>e.stopPropagation();
     });
 
     document.querySelectorAll('[data-toggle-mat]').forEach(card=>{
@@ -757,8 +766,8 @@ function renderWorkspace(prompt){
         st.selectedIds=st.selectedIds.includes(id)?st.selectedIds.filter(x=>x!==id):[...st.selectedIds,id];
         persist();draw();
       };
-      card.onclick=toggle;
-      card.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle();}};
+      card.onclick=e=>{if(e.target.closest('[data-stop-toggle],button,a,summary,details'))return;toggle();};
+      card.onkeydown=e=>{if(e.target.closest('[data-stop-toggle],button,a,summary,details'))return;if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle();}};
     });
 
     const qaForm=$('#mock-quick-add');

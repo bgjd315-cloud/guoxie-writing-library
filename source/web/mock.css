@@ -86,10 +86,22 @@
 .mat-tag.other{background:var(--clay-light);color:var(--clay)}
 .mat-tag.mine{background:#fff3d6;color:#8a5a14}
 .mat-tag.demo{background:#eef1ea;color:#62705d}
+.mat-essay-para{margin:8px 0 9px;padding:11px 14px;border-radius:10px;background:#fffdf6;border:1px solid #e0e5d5;border-left:4px solid var(--forest)}
+.mat-essay-para.other{border-left-color:var(--clay);background:#fffaf6}
+.mat-essay-para-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:5px;font-size:11.5px;font-weight:700;color:var(--forest)}
+.mat-essay-para.other .mat-essay-para-head{color:var(--clay)}
+.mat-essay-para-head span{font-weight:500;padding:1px 7px;border-radius:999px;background:#eef3ea;color:var(--forest);font-size:11px}
+.mat-essay-para.other .mat-essay-para-head span{background:var(--clay-light);color:var(--clay)}
+.mat-essay-para p{margin:0 !important;font-family:"Noto Serif TC","PMingLiU",serif;font-size:14.5px !important;line-height:1.92 !important;color:var(--ink) !important;text-indent:2em;text-align:justify}
 .mat-elements{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 12px;margin:8px 0;padding:9px 11px;border-radius:9px;background:#f6f8f3;border:1px solid #dfe7d9;font-size:12px;line-height:1.65;color:var(--ink)}
 .mat-elements .mat-el-full{grid-column:1 / -1}
 .mat-elements b{display:inline-block;color:var(--forest);margin-right:4px}
-.mat-detail-text{margin:8px 0 0 !important;font-size:13.5px !important;line-height:1.88 !important;color:var(--ink) !important;text-align:justify}
+.mat-detail-text{margin:8px 0 0 !important;font-size:13px !important;line-height:1.85 !important;color:var(--ink-soft) !important;text-align:justify}
+.mat-bg-details{margin-top:9px;border:1px solid #dfe6d8;border-radius:9px;background:#fafbf8;padding:7px 11px}
+.mat-bg-details summary{cursor:pointer;font-size:12px;font-weight:700;color:var(--forest);list-style:none;display:flex;align-items:center;justify-content:space-between;gap:6px}
+.mat-bg-details summary::-webkit-details-marker{display:none}
+.mat-bg-details[open]{background:#fff;padding-bottom:10px}
+.mat-bg-details[open] summary{padding-bottom:6px;border-bottom:1px dashed #dde5d7;margin-bottom:4px}
 .mat-keypoints{margin:9px 0 0;padding:9px 12px;border-radius:9px;background:#fbf5ee;border-left:3px solid var(--clay)}
 .mat-keypoints-title{font-size:12px;font-weight:700;color:var(--clay);margin-bottom:4px}
 .mat-keypoints ul{margin:0;padding-left:18px;font-size:12px;line-height:1.75;color:#4a3c32}

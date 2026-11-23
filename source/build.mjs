@@ -53,6 +53,8 @@ for(const m of mockPrompts){
   for(const sm of m.sampleMaterials||[]){
     const el=sm.elements;
     if(!el||!el.who||!el.when||!el.where||!el.what||!el.event)throw Error('Incomplete material elements '+m.id+' '+sm.id);
+    const epLen=[...String(sm.essayParagraph||'').replace(/\s/gu,'')].length;
+    if(epLen<70||epLen>95)throw Error('Invalid essayParagraph length '+m.id+' '+sm.id+' '+epLen);
     if([...String(sm.detail||'').replace(/\s/gu,'')].length<200)throw Error('Short material detail '+m.id+' '+sm.id);
     if(!Array.isArray(sm.keyPoints)||sm.keyPoints.length<2)throw Error('Missing material keyPoints '+m.id+' '+sm.id);
   }
