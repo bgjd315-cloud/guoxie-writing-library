@@ -1,0 +1,145 @@
+/* 完整仿題（一題到底模式）樣式：延續拾光寫作鼠尾草綠、奶油紙底、森林綠與陶土暖橘 */
+.mock-shell{--forest:#1e5641;--forest-dark:#143d2d;--sage:#e8ede4;--sage-dark:#d4dfd0;--paper:#faf9f5;--clay:#b85328;--clay-light:#f9ebe4;--ink-soft:#4a554f}
+.mock-topbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border:1px solid var(--sage-dark);border-radius:12px;background:var(--sage);margin-bottom:16px}
+.mock-topbar-title{min-width:0}
+.mock-topbar-sub{font-size:11px;color:var(--ink-soft);letter-spacing:.03em}
+.mock-topbar h1{font-size:22px;margin:2px 0 0;line-height:1.4}
+.mock-topbar-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.mock-pill{display:inline-flex;align-items:center;gap:5px;font-size:11px;padding:4px 10px;border-radius:999px;background:#fff;border:1px solid var(--sage-dark);color:var(--forest)}
+.mock-pill.warn{background:var(--clay-light);border-color:#e2b8a3;color:var(--clay);font-weight:700}
+.mock-pill.timer-on{background:#244e40;border-color:#244e40;color:#fff;font-weight:700}
+
+.mock-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-bottom:20px}
+.mock-step-tab{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:11px;border:1px solid var(--sage-dark);background:#fffef9;text-align:left;transition:.15s;color:var(--ink-soft)}
+.mock-step-tab:hover{background:#f2f6ee}
+.mock-step-tab .badge{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:700;flex:none;background:var(--sage);color:var(--forest)}
+.mock-step-tab strong{display:block;font-size:13px;line-height:1.35;color:var(--ink)}
+.mock-step-tab small{display:block;font-size:11px;opacity:.85;line-height:1.35}
+.mock-step-tab.done{background:#eef4ea;border-color:#bfd0b8;color:var(--forest)}
+.mock-step-tab.active{background:var(--forest);border-color:var(--forest);color:#fff;box-shadow:0 4px 14px rgba(30,86,65,.18)}
+.mock-step-tab.active strong,.mock-step-tab.active small{color:#fff}
+.mock-step-tab.active .badge{background:#fff;color:var(--forest)}
+
+.mock-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:20px;align-items:start}
+.mock-grid.split-writing{grid-template-columns:minmax(0,5fr) minmax(0,7fr)}
+.mock-card{background:#fffef9;border:1px solid var(--sage-dark);border-radius:14px;padding:20px 22px;margin-bottom:16px}
+.mock-card h2{font-family:"Noto Serif TC",serif;font-size:19px;margin:0 0 8px}
+.mock-card h3{font-family:"Noto Serif TC",serif;font-size:16px;margin:0 0 8px}
+.mock-head-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding-bottom:12px;margin-bottom:14px;border-bottom:1px solid #e4eadc}
+.mock-badge{display:inline-block;font-size:11px;font-weight:700;padding:3px 10px;border-radius:999px;background:#e6efe9;color:var(--forest);margin-bottom:6px}
+.mock-badge.feeling{background:var(--clay-light);color:var(--clay)}
+.mock-instruction{font-size:12px;color:var(--ink-soft);background:var(--paper);border:1px solid #e2e8da;border-radius:8px;padding:8px 12px;margin-bottom:14px}
+
+.mock-passage{background:var(--paper);border:1px solid #dde4d5;border-radius:12px;padding:16px 18px;margin-bottom:14px}
+.mock-passage-label{font-family:"Noto Serif TC",serif;font-weight:700;font-size:15px;margin-bottom:8px;color:var(--forest)}
+.mock-passage-label.clay{color:var(--clay)}
+.mock-passage p{font-family:"Noto Serif TC","PMingLiU",serif;font-size:16px;line-height:2.05;margin:0 0 10px;text-indent:2em}
+.mock-passage p:last-child{margin-bottom:0}
+.hl-key{background:#dcece2;color:#143d2d;padding:0 3px;border-radius:3px}
+.hl-theme{background:#f6e3d7;color:#8a3812;padding:0 3px;border-radius:3px;font-weight:600}
+.no-highlight .hl-key,.no-highlight .hl-theme{background:transparent;color:inherit;padding:0;font-weight:inherit}
+
+.mock-qbox{border-left:4px solid var(--forest);background:#eef4ec;border-radius:0 10px 10px 0;padding:13px 15px;margin-bottom:12px}
+.mock-qbox.q2{border-left-color:var(--clay);background:#fbf1eb}
+.mock-qbox-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px;font-size:12px;margin-bottom:6px}
+.mock-qbox-head strong{font-size:14px;color:var(--forest)}
+.mock-qbox.q2 .mock-qbox-head strong{color:var(--clay)}
+.mock-qbox p{margin:0;font-size:14px;line-height:1.85}
+
+.mock-tip{background:var(--paper);border:1px solid #dfe6d7;border-radius:10px;padding:12px 14px;margin-bottom:10px}
+.mock-tip strong{display:block;font-size:13px;color:var(--forest);margin-bottom:4px}
+.mock-tip p,.mock-tip li{font-size:12.5px;line-height:1.8;color:var(--ink-soft);margin:0}
+.mock-tip.pitfall{background:#fdf3ee;border-color:#e9c7b6}
+.mock-tip.pitfall strong{color:var(--clay)}
+.mock-tip ul{margin:4px 0 0;padding-left:18px}
+
+.stance-btn{width:100%;text-align:left;padding:12px 14px;border-radius:11px;border:1px solid var(--sage-dark);background:var(--paper);margin-bottom:9px;transition:.15s}
+.stance-btn:hover{background:#eff4ec}
+.stance-btn.active{border:2px solid var(--forest);background:#ebf3ec}
+.stance-btn strong{display:block;font-size:13.5px;color:var(--ink);margin-bottom:2px}
+.stance-btn span{display:block;font-size:12px;color:var(--ink-soft);line-height:1.65}
+
+/* 步驟 2：從文本長出素材追問橋樑 ＋ 題材庫連動 */
+.bridge-box{background:#f4f8f1;border:1px solid #cfe0cb;border-radius:12px;padding:15px 17px;margin-bottom:16px}
+.bridge-box h3{color:var(--forest);margin-bottom:4px}
+.bridge-list{display:grid;gap:8px;margin-top:10px}
+.bridge-btn{text-align:left;padding:10px 13px;border-radius:10px;border:1px dashed #9eb89a;background:#fff;transition:.15s}
+.bridge-btn:hover{border-style:solid;border-color:var(--forest);background:#eef6ee}
+.bridge-btn small{display:inline-block;font-size:11px;font-weight:700;color:var(--clay);background:var(--clay-light);padding:1px 8px;border-radius:999px;margin-bottom:4px}
+.bridge-btn p{margin:0;font-size:13px;line-height:1.7;color:var(--ink)}
+.bridge-btn em{display:block;font-style:normal;font-size:11px;color:var(--forest);margin-top:3px}
+
+.mat-group-title{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:16px 0 8px;font-size:14px;color:var(--forest)}
+.mat-card{padding:13px 15px;border-radius:12px;border:1px solid var(--sage-dark);background:#fff;margin-bottom:10px;cursor:pointer;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;transition:.15s}
+.mat-card:hover{border-color:#7ba189}
+.mat-card.selected{border:2px solid var(--forest);background:#f5faf6}
+.mat-card h4{margin:4px 0;font-size:14px;line-height:1.5}
+.mat-card p{margin:0;font-size:12.5px;color:var(--ink-soft);line-height:1.75}
+.mat-check{width:22px;height:22px;border-radius:6px;border:1px solid #b8c6b2;display:grid;place-items:center;font-size:12px;font-weight:700;flex:none;margin-top:2px;color:transparent}
+.mat-card.selected .mat-check{background:var(--forest);border-color:var(--forest);color:#fff}
+.mat-tag{display:inline-block;font-size:11px;font-weight:700;padding:1px 8px;border-radius:999px;margin-right:6px}
+.mat-tag.self{background:#e4f0e8;color:var(--forest)}
+.mat-tag.other{background:var(--clay-light);color:var(--clay)}
+.mat-tag.mine{background:#fff3d6;color:#8a5a14}
+.mat-tag.demo{background:#eef1ea;color:#62705d}
+
+.quick-add-box{position:sticky;top:20px}
+.quick-radio{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}
+.quick-radio label{cursor:pointer}
+.quick-radio input{position:absolute;opacity:0;pointer-events:none}
+.quick-radio span{display:block;text-align:center;font-size:12px;padding:8px 10px;border-radius:8px;border:1px solid var(--sage-dark);background:var(--paper);transition:.15s}
+.quick-radio input:checked+span{background:var(--forest);color:#fff;border-color:var(--forest);font-weight:700}
+
+/* 步驟 3：作答區、釘選素材詳情、安全切換 */
+.pinned-bar{background:#eef3ea;border:1px solid var(--sage-dark);border-radius:12px;padding:14px 16px;margin-bottom:16px}
+.pinned-bar-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
+.pinned-chips{display:flex;flex-wrap:wrap;gap:8px}
+.pinned-chip{font-size:12px;padding:6px 11px;border-radius:8px;background:#fff;border:1px solid #cbd7c4;color:var(--ink);transition:.15s}
+.pinned-chip:hover,.pinned-chip.active{border-color:var(--forest);background:#e3efe7;color:var(--forest)}
+.pinned-detail{margin-top:10px;padding:12px 14px;border-radius:10px;background:#fff;border:1px solid #d4dfd0;font-size:13px;line-height:1.8}
+.ref-drawer{margin-top:12px;padding-top:12px;border-top:1px solid #cfdaca}
+.ref-tabs{display:inline-flex;background:#fff;border:1px solid var(--sage-dark);border-radius:8px;padding:2px;gap:2px;margin-bottom:10px}
+.ref-tabs button{font-size:11px;padding:4px 10px;border-radius:6px;color:var(--ink-soft)}
+.ref-tabs button.active{background:var(--forest);color:#fff;font-weight:600}
+
+.mode-switch{display:inline-flex;background:var(--sage);padding:3px;border-radius:9px;gap:3px}
+.mode-switch button{font-size:12px;padding:5px 12px;border-radius:7px;color:var(--ink-soft)}
+.mode-switch button.active{background:var(--forest);color:#fff;font-weight:600}
+.scaffold-item{margin-bottom:14px}
+.scaffold-item-head{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;margin-bottom:5px}
+.scaffold-item-head label{font-weight:700;color:var(--forest)}
+.scaffold-item-head .clay-label{color:var(--clay)}
+.stance-banner{font-size:12.5px;line-height:1.75;background:#f4f7f0;border:1px solid #d6e1cf;border-radius:10px;padding:10px 13px;margin-bottom:14px;color:var(--ink-soft)}
+.merge-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding:11px 14px;border-radius:10px;background:#f7f4ea;border:1px solid #e1d7ba;margin-top:8px;font-size:12px;color:#68552d}
+
+/* 步驟 4：檢核表、軟性防劇透、反存素材、輸出 */
+.check-item{display:flex;align-items:flex-start;gap:10px;padding:11px 13px;border-radius:10px;border:1px solid #dde4d5;background:var(--paper);margin-bottom:8px;cursor:pointer;font-size:13px;line-height:1.7}
+.check-item.checked{border-color:var(--forest);background:#eef6ef}
+.check-item input{margin-top:4px;accent-color:var(--forest);width:16px;height:16px;flex:none}
+.spoiler-box{background:#fbf8ef;border:1px dashed #ccb888;border-radius:10px;padding:12px 14px;font-size:12.5px;color:#6d592e;margin-bottom:10px}
+.ref-answer{border:1px solid #dde4d5;border-radius:10px;background:var(--paper);padding:12px 15px;margin-bottom:10px}
+.ref-answer summary{cursor:pointer;font-weight:700;font-size:13.5px;color:var(--forest)}
+.ref-answer.clay summary{color:var(--clay)}
+.ref-answer-body{margin-top:10px;padding-top:10px;border-top:1px solid #e2e8da;font-size:13.5px;line-height:1.9}
+.ref-answer-body p{margin:0 0 8px}
+.ref-answer-body p:last-child{margin-bottom:0}
+.export-preview{font-family:inherit;font-size:12.5px;line-height:1.85;background:var(--paper);border:1px solid #d6dfd0;border-radius:10px;padding:13px 15px;max-height:280px;overflow:auto;margin:10px 0 14px}
+.step-nav-foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;margin-top:18px;padding-top:14px;border-top:1px solid #e4eadc}
+
+/* 總覽頁 */
+.mock-index-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:14px}
+.mock-index-card{background:#fffef9;border:1px solid var(--sage-dark);border-radius:12px;padding:16px 18px;display:flex;flex-direction:column;gap:7px;transition:.15s}
+.mock-index-card:hover{border-color:var(--forest);box-shadow:0 6px 20px rgba(30,86,65,.09);transform:translateY(-1px)}
+.mock-index-card h3{margin:0;font-family:"Noto Serif TC",serif;font-size:17px;line-height:1.45}
+.mock-index-card p{margin:0;font-size:12.5px;color:var(--ink-soft);line-height:1.75}
+.mock-index-meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:11px}
+.mock-index-foot{margin-top:auto;padding-top:10px;display:flex;justify-content:space-between;align-items:center;gap:8px;border-top:1px solid #ebf0e4}
+
+/* 歷屆原題 #exams 素材抽屜 */
+.exam-bank-drawer{margin-bottom:14px;border:1px solid #d5e0cf;border-radius:10px;background:#f4f8f1;padding:12px 14px}
+.exam-bank-drawer summary{cursor:pointer;font-weight:700;font-size:13px;color:#1e5641}
+.exam-bank-list{display:grid;gap:8px;margin-top:10px;max-height:260px;overflow:auto}
+.exam-bank-item{background:#fff;border:1px solid #dce5d6;border-radius:8px;padding:9px 11px;font-size:12px;line-height:1.65}
+
+@media(max-width:960px){.mock-grid,.mock-grid.split-writing{grid-template-columns:1fr}.quick-add-box{position:static}.mock-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.mock-index-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.mock-card{padding:15px 14px}.mock-topbar{padding:12px 14px}.mock-topbar h1{font-size:19px}}
