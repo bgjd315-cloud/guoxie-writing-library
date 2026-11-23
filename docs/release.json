@@ -7,7 +7,7 @@
   "features": {
     "topics": 23,
     "prompts": 69,
-    "completeMockPrompts": 16,
+    "completeMockPrompts": 24,
     "modelEntries": 216,
     "conceptExplanations": 111,
     "othersExamples": 392,

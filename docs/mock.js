@@ -89,7 +89,7 @@ function buildTopicMock(topicExId){
   return {
     id:'TOPIC_'+ex.id,
     topicExId:ex.id,
-    kind:isT?'T':'E',
+    kind:isT?'T':(isJ?'J':'E'),
     theme:group.id,
     modelId:ex.model,
     title:ex.title,
@@ -198,13 +198,14 @@ function renderIndex(filterKind){
   const all=window.MOCK_PROMPTS||[],drafts=readDrafts();
   const list=all.filter(p=>!filterKind||p.kind===filterKind);
   const doneCount=all.filter(p=>{const d=drafts[p.id];return d&&(countChars(d.q1)+countChars(d.q2Full)+countChars((d.q2Parts||[]).join(''))>0);}).length;
-  $('#main').innerHTML=title('COMPLETE MOCK PROMPTS · 一題到底','完整仿題演練室','16 道大考規格完整仿題（知性 8 題甲乙雙文・情意 8 題完整情境引文），全部打通「讀題審題 → 延伸取材與題材庫連動 → 鷹架／全文作答 → 自評與匯出」單頁閉環。')+`
+  $('#main').innerHTML=title('COMPLETE MOCK PROMPTS · 一題到底','完整仿題演練室','24 道大考規格完整仿題（高中知性 8 題甲乙雙文・高中情意 8 題情境引文・國中會考 8 題素養仿題），全部打通「讀題審題 → 延伸取材與題材庫連動 → 鷹架／全文作答 → 自評與匯出」單頁閉環。')+`
     <section class="filters" style="margin-bottom:18px">
       <div class="filter-row" style="border-top:0;margin-top:0;padding-top:0">
         <div class="tabs" role="group" aria-label="篩選仿題類型">
-          <a href="#mock" class="${!filterKind?'active':''}">全部 16 題</a>
-          <a href="#mock?kind=T" class="${filterKind==='T'?'active':''}">知性雙文仿題（D01–D08）</a>
-          <a href="#mock?kind=E" class="${filterKind==='E'?'active':''}">情意引文仿題（E41–E48）</a>
+          <a href="#mock" class="${!filterKind?'active':''}">全部 24 題</a>
+          <a href="#mock?kind=T" class="${filterKind==='T'?'active':''}">高中知性（D01–D08）</a>
+          <a href="#mock?kind=E" class="${filterKind==='E'?'active':''}">高中情意（E41–E48）</a>
+          <a href="#mock?kind=J" class="${filterKind==='J'?'active':''}">國中會考（JD01–JD08）</a>
         </div>
         <span class="mock-pill">已開始練筆 ${doneCount} / ${all.length} 題</span>
       </div>
@@ -214,9 +215,11 @@ function renderIndex(filterKind){
         const d=drafts[p.id];
         const written=d?Math.max(countChars(d.q2Full),countChars((d.q2Parts||[]).join('')))+countChars(d.q1):0;
         const themeName=window.MATERIALS?.categories?.find(c=>c.id===p.theme)?.title||p.theme;
+        const badgeCls=p.kind==='E'?'feeling':p.kind==='J'?'junior':'';
+        const kindTag=p.kind==='T'?'高中知性雙文':p.kind==='J'?'國中會考仿題':'高中情意引文';
         return `<article class="mock-index-card">
           <div class="mock-index-meta">
-            <span class="mock-badge ${p.kind==='E'?'feeling':''}" style="margin:0">${p.kind==='T'?'知性雙文':'情意引文'}・${esc(p.id)}</span>
+            <span class="mock-badge ${badgeCls}" style="margin:0">${kindTag}・${esc(p.id)}</span>
             <span class="small">${esc(themeName)}</span>
             ${written?`<span class="mock-pill" style="margin-left:auto">已寫 ${written} 字</span>`:''}
           </div>
@@ -230,10 +233,13 @@ function renderIndex(filterKind){
       }).join('')}
     </div>
     <section class="panel" style="margin-top:24px">
-      <h2>也可以練全站 69 道主題仿題</h2>
-      <p>在「高中主題分類」的每一個主題裡，51 道高中原創練習題皆已升級完整閱讀材料；點開任一練習題的「進入一題到底完整練筆 →」，都能直接套用這套四步驟工作台與「我的題材庫」連動。</p>
-      <a class="btn" href="#library?kind=T">前往知性 11 主題（33 題）→</a>
-      <a class="btn" href="#library?kind=E" style="margin-left:8px">前往情意 6 主題（18 題）→</a>
+      <h2>也可以練全站 69 道主題仿題（高中 51 題＋國中 18 題）</h2>
+      <p>全站 23 個國高中主題的 69 道原創練習題皆已升級完整閱讀材料；點開任一練習題的「進入一題到底完整練筆 →」，都能直接套用這套四步驟工作台與「我的題材庫」連動。</p>
+      <div style="display:flex;flex-wrap:wrap;gap:8px">
+        <a class="btn" href="#library?kind=T">高中知性 11 主題（33 題）→</a>
+        <a class="btn" href="#library?kind=E">高中情意 6 主題（18 題）→</a>
+        <a class="btn" href="/guoxie-writing-library/junior/#library">國中會考 6 主題（18 題）→</a>
+      </div>
     </section>
   `;
 }
@@ -241,6 +247,7 @@ function renderIndex(filterKind){
 function renderWorkspace(prompt){
   if(timerHandle){clearInterval(timerHandle);timerHandle=null;}
   const allDrafts=readDrafts(),saved=allDrafts[prompt.id]||{},clsCfg=readClassCfg();
+  const examMinutes=prompt.kind==='J'?50:45;
   const st={
     step:saved.step||1,
     highlightOn:saved.highlightOn!==undefined?saved.highlightOn:true,
@@ -260,7 +267,7 @@ function renderWorkspace(prompt){
     stuClass:saved.stuClass||clsCfg.klass||'',
     stuSeat:saved.stuSeat||clsCfg.seat||'',
     stuName:saved.stuName||clsCfg.name||'',
-    remainingSec:45*60,
+    remainingSec:examMinutes*60,
     timerRunning:false
   };
 
@@ -317,7 +324,7 @@ function renderWorkspace(prompt){
           <div class="mock-card">
             <div class="mock-head-row">
               <div>
-                <span class="mock-badge ${prompt.kind==='E'?'feeling':''}">${esc(prompt.badge)}</span>
+                <span class="mock-badge ${prompt.kind==='E'?'feeling':prompt.kind==='J'?'junior':''}">${esc(prompt.badge)}</span>
                 <h2>${esc(prompt.id.replace(/^TOPIC_/,''))}｜${esc(prompt.title)}</h2>
               </div>
               <button type="button" class="btn compact" id="mock-toggle-hl">${st.highlightOn&&!st.examMode?'標色提示：開啟中':'標色提示：已關閉'}</button>
@@ -341,7 +348,7 @@ function renderWorkspace(prompt){
                 <h3>審題 30 秒：先拆任務再動筆</h3>
                 <div class="mock-tip"><strong>1. ${prompt.q1?'問題（一）閱讀理解與分歧摘述':'核心任務與切入重點'}</strong><p>${esc(prompt.analysis.q1Tip)}</p></div>
                 <div class="mock-tip"><strong>2. ${prompt.q1?'問題（二）立場與推論結構':'寫作張力與篇幅提醒'}</strong><p>${esc(prompt.analysis.q2Tip)}</p></div>
-                <div class="mock-tip pitfall"><strong>常見偏題警示（避免落入 B 等陷阱）</strong><ul>${prompt.analysis.pitfalls.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>
+                <div class="mock-tip pitfall"><strong>${prompt.kind==='J'?'常見偏題警示（避免停留在三／四級分）':'常見偏題警示（避免落入 B 等陷阱）'}</strong><ul>${prompt.analysis.pitfalls.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>
               </div>
               <div class="mock-card">
                 <h3>先定下你的基本立場／切入視角</h3>
@@ -552,7 +559,7 @@ function renderWorkspace(prompt){
           <div>
             <div class="mock-card">
               <div class="mock-head-row" style="margin-bottom:12px">
-                <h2 style="font-size:18px;margin:0">${prompt.kind==='T'?'B+（14–17 分）知性題自評檢核表':'情意題層次自評檢核表'}</h2>
+                <h2 style="font-size:18px;margin:0">${prompt.kind==='T'?'B+（14–17 分）知性題自評檢核表':prompt.kind==='J'?'國中會考 5–6 級分自評檢核表':'情意題層次自評檢核表'}</h2>
                 <span class="mock-pill">${doneCheck} / ${prompt.checklist.length} 項達標</span>
               </div>
               ${prompt.checklist.map(c=>`
@@ -631,7 +638,7 @@ function renderWorkspace(prompt){
           </div>
           <div class="mock-topbar-actions">
             <span class="mock-pill ${st.timerRunning?'timer-on':''}" id="mock-timer-pill">${st.examMode?'考場倒數 '+formatTimer(st.remainingSec):'本機自動儲存'}</span>
-            <button type="button" class="btn compact" id="mock-toggle-exam">${st.examMode?'切回引導模式':'考場實戰模式（45分）'}</button>
+            <button type="button" class="btn compact" id="mock-toggle-exam">${st.examMode?'切回引導模式':`考場實戰模式（${examMinutes}分）`}</button>
             <button type="button" class="btn compact" id="mock-reset">重設本題</button>
           </div>
         </div>
@@ -667,15 +674,15 @@ function renderWorkspace(prompt){
       if(st.examMode){
         st.q2Mode='full';
         if(!st.q2Full.trim()&&combinedParts())st.q2Full=combinedParts();
-        st.remainingSec=45*60;st.timerRunning=true;
+        st.remainingSec=examMinutes*60;st.timerRunning=true;
         if(timerHandle)clearInterval(timerHandle);
         timerHandle=setInterval(()=>{
           if(st.remainingSec>0)st.remainingSec--;
           const pill=$('#mock-timer-pill');
           if(pill)pill.textContent='考場倒數 '+formatTimer(st.remainingSec);
-          if(st.remainingSec===0){clearInterval(timerHandle);timerHandle=null;toast('45 分鐘考場計時結束，可前往步驟 4 自評與匯出！');}
+          if(st.remainingSec===0){clearInterval(timerHandle);timerHandle=null;toast(`${examMinutes} 分鐘考場計時結束，可前往步驟 4 自評與匯出！`);}
         },1000);
-        toast('已切換考場實戰模式：隱藏標色與鷹架，開始 45 分鐘計時');
+        toast(`已切換考場實戰模式：隱藏標色與鷹架，開始 ${examMinutes} 分鐘計時`);
       }else{
         st.timerRunning=false;
         if(timerHandle){clearInterval(timerHandle);timerHandle=null;}
@@ -897,8 +904,8 @@ if(typeof notebook==='function'){
             const body=(d.q2Mode==='full'&&d.q2Full?.trim())?d.q2Full:(d.q2Parts||[]).join('');
             const total=countChars(d.q1)+countChars(body);
             const href=d.topicExId?`#mock?topic=${encodeURIComponent(d.topicExId)}`:`#mock?id=${encodeURIComponent(d.id)}`;
-            return `<a class="record" href="${href}"><strong>${esc(d.title||d.id)}</strong><span>${d.kind==='T'?'知性':'情意'} · 共 ${total} 字 · 步驟 ${d.step||1}/4</span><p>${esc((body||d.q1||'繼續完成作答').slice(0,80))}</p></a>`;
-          }).join('')||'<p class="empty-line">還沒有完整仿題紀錄。<a href="#mock">前往 16 道完整仿題演練室 →</a></p>'}
+            return `<a class="record" href="${href}"><strong>${esc(d.title||d.id)}</strong><span>${d.kind==='T'?'知性':d.kind==='J'?'國中會考':'情意'} · 共 ${total} 字 · 步驟 ${d.step||1}/4</span><p>${esc((body||d.q1||'繼續完成作答').slice(0,80))}</p></a>`;
+          }).join('')||'<p class="empty-line">還沒有完整仿題紀錄。<a href="#mock">前往 24 道完整仿題演練室 →</a></p>'}
         </div>
       </section>`);
   };

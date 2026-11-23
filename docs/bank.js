@@ -11,7 +11,8 @@ const TRANSFER_MAP={
   'T-1':['T-8','T-10'],'T-2':['T-7','T-8'],'T-3':['T-5','T-6'],'T-4':['T-1','T-6'],
   'T-5':['T-3','E-2'],'T-6':['T-3','T-4'],'T-7':['T-2','T-8'],'T-8':['T-1','T-7'],
   'T-9':['T-4','T-10'],'T-10':['T-1','T-8'],'T-11':['T-6','E-5'],
-  'E-1':['E-2','E-5'],'E-2':['E-1','E-3'],'E-3':['E-2','E-4'],'E-4':['E-3','E-6'],'E-5':['E-1','E-6'],'E-6':['E-4','E-5']
+  'E-1':['E-2','E-5'],'E-2':['E-1','E-3'],'E-3':['E-2','E-4'],'E-4':['E-3','E-6'],'E-5':['E-1','E-6'],'E-6':['E-4','E-5'],
+  'J-1':['J-2','J-4'],'J-2':['J-1','J-3'],'J-3':['J-4','J-5'],'J-4':['J-1','J-6'],'J-5':['J-3','J-6'],'J-6':['J-4','J-5']
 };
 const qingyiDrafts=()=>Object.entries(readStore('qingyi-v1-drafts',{})).map(([id,d])=>({id,d,theme:db.themes['E'+d.cardId]||''}));
 function entries(){return Object.values(bank.read()).filter(m=>m&&typeof m==='object').map(m=>m.concept&&db.themes[m.concept]?{...m,theme:db.themes[m.concept]}:m).sort((a,b)=>(b.updated||0)-(a.updated||0));}
