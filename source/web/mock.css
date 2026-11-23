@@ -83,6 +83,13 @@
 .mat-tag.other{background:var(--clay-light);color:var(--clay)}
 .mat-tag.mine{background:#fff3d6;color:#8a5a14}
 .mat-tag.demo{background:#eef1ea;color:#62705d}
+.mat-meta{margin-top:8px;padding-top:8px;border-top:1px dashed #dde5d7;font-size:11.5px;line-height:1.7;color:var(--ink-soft);display:grid;gap:3px}
+.mat-meta strong{color:var(--forest)}
+.mat-meta .caution-text strong{color:var(--clay)}
+.mock-full-essay{background:#fffdf7;border:1px solid #e2dfd0;border-radius:10px;padding:18px 22px;margin:10px 0}
+.mock-full-essay p{font-family:"Noto Serif TC","PMingLiU",serif;font-size:15.5px;line-height:2.05;text-indent:2em;margin:0 0 11px;color:var(--ink)}
+.mock-full-essay p:last-child{margin-bottom:0}
+.mock-rubric-note{margin-top:12px;padding:12px 14px;border-radius:9px;background:#eef5ec;border-left:4px solid var(--forest);font-size:12.5px;line-height:1.85;color:#234436}
 
 .quick-add-box{position:sticky;top:20px}
 .quick-radio{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}

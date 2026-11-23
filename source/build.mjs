@@ -43,7 +43,14 @@ const juniorCats=juniorThemes.map((title,i)=>({id:'J-'+(i+1),kind:'J',title}));
 fs.writeFileSync('dist/materials-data.js','window.MATERIALS='+JSON.stringify({items:{...realMaterials,...juniorMaterials},fullModels,themes:{...Object.fromEntries(cards.map(c=>[c.uid,c.category])),...Object.fromEntries(junior.concepts.map(c=>[c.id,conceptTopics[c.id]]))},categories:[...categories.map(({id,kind,title})=>({id,kind,title})),...juniorCats],concepts:{...Object.fromEntries(cards.map(c=>[c.uid,{title:c.title,theme:c.category}])),...Object.fromEntries(junior.concepts.map(c=>[c.id,{title:c.title,theme:conceptTopics[c.id]}]))}})+';');
 fs.writeFileSync('dist/topic-examples-data.js','window.TOPIC_EXAMPLES='+JSON.stringify({groups:topicGroups,conceptTopics,teachingPaths,modelTopics})+';');
 const mockPrompts=[...json('content/mock-prompts-thinking.json'),...json('content/mock-prompts-feeling.json'),...json('content/mock-prompts-junior.json')];
-for(const m of mockPrompts){for(const p of m.passages){for(const k of [...(p.keyPhrases||[]),...(p.themePhrases||[])])if(!p.text.includes(k))throw Error('Mock highlight '+m.id+' '+k);}if(m.kind==='T'&&m.reference?.q1Sample&&[...m.reference.q1Sample.replace(/\s/gu,'')].length>80)throw Error('Mock q1Sample length '+m.id);}
+for(const m of mockPrompts){
+  for(const p of m.passages){for(const k of [...(p.keyPhrases||[]),...(p.themePhrases||[])])if(!p.text.includes(k))throw Error('Mock highlight '+m.id+' '+k);}
+  if(m.kind==='T'&&m.reference?.q1Sample&&[...m.reference.q1Sample.replace(/\s/gu,'')].length>80)throw Error('Mock q1Sample length '+m.id);
+  const fullLen=[...(m.reference?.fullEssay||[]).join('').replace(/\s/gu,'')].length;
+  if(!fullLen)throw Error('Missing fullEssay '+m.id);
+  if(m.kind==='T'&&fullLen>400)throw Error('Mock fullEssay exceeds 400 '+m.id+' '+fullLen);
+  if(JSON.stringify(m).includes('**'))throw Error('Stray markdown ** in '+m.id);
+}
 fs.writeFileSync('dist/mock-prompts.js','window.MOCK_PROMPTS='+JSON.stringify(mockPrompts)+';');
 const globalHeader=`<div class="unified-bar"><a href="/">拾光寫作・題材庫</a><nav aria-label="整合網站"><a href="/junior/">國中作文</a><a href="/#library">高中主題分類</a><a href="/#exams">高中原題</a><a href="/#mock">完整仿題演練</a><a href="/#bank">我的題材庫</a><a href="/#notebook">我的紀錄</a><a href="/zhixing/#practice">知性工作台</a><a href="/qingyi/#practice">情意工作台</a></nav></div>`;
 for(const kind of ['qingyi','zhixing']){fs.cpSync('modules/'+kind,'dist/'+kind,{recursive:true});if(kind==='zhixing'){const themeById=Object.fromEntries(cards.filter(c=>c.kind==='T').map(c=>[c.id,c.theme]));fs.appendFileSync('dist/zhixing/data.js','\n(()=>{const m='+JSON.stringify(themeById)+';for(const c of window.LIBRARY.concepts)if(m[c.id])c.theme=m[c.id];})();\n');}

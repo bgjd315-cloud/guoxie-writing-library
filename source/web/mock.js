@@ -80,11 +80,11 @@ function buildTopicMock(topicExId){
   const sampleMaterials=[];
   if(realItem?.others?.length){
     realItem.others.slice(0,3).forEach((o,i)=>{
-      sampleMaterials.push({id:`tm_o_${i}`,kind:'other',title:`[${o.type}] ${o.title}`,detail:`${o.fact}（出處：${o.source}；可用於：${o.use}）`});
+      sampleMaterials.push({id:`tm_o_${i}`,kind:'other',title:`[${o.type}] ${o.title}`,detail:o.fact,source:o.source,angle:o.use,caution:o.caution});
     });
   }
   if(m){
-    sampleMaterials.push({id:'tm_s_0',kind:'self',title:`同概念示範切入：${m.title}`,detail:m.paragraphs[isT?1:0]});
+    sampleMaterials.push({id:'tm_s_0',kind:'self',title:`同概念己例示範：${m.title}`,detail:m.paragraphs[isT?1:0],angle:'觀察示範段如何用具體細節支持想法，正式寫作請換成自己的親身經驗。'});
   }
   return {
     id:'TOPIC_'+ex.id,
@@ -145,7 +145,9 @@ function buildTopicMock(topicExId){
     ],
     reference:{
       q1Sample:m?.short||'',
-      q2Outline:m?m.paragraphs.map((p,i)=>`第${i+1}段（${m.roles[i]}）：${p}`):ex.steps
+      q2Outline:m?m.roles.map((r,i)=>`第${i+1}段（${r}）：${m.paragraphNotes?.[i]||ex.steps[i]||''}`):ex.steps,
+      fullEssay:m?.paragraphs||null,
+      rubricNote:m?`本示範對應同概念「${m.title}」，呈現段落功能與推進節奏；正式作答請緊扣本題材料並換成自己的事例與觀點。`:''
     }
   };
 }
@@ -287,13 +289,13 @@ function renderWorkspace(prompt){
   function activeQ2Text(){return st.q2Mode==='full'?st.q2Full:combinedParts();}
   function allSelectableMaterials(){
     const mine=bankEntriesForTheme(prompt.theme).map(m=>({
-      id:'bank:'+m.id,bankId:m.id,source:'mine',kind:m.kind==='other'?'other':'self',
+      id:'bank:'+m.id,bankId:m.id,from:'mine',kind:m.kind==='other'?'other':'self',
       sameTheme:m.theme===prompt.theme,
       themeTitle:window.MATERIALS?.categories?.find(c=>c.id===m.theme)?.title||'未分類',
       title:m.title||m.scene||'未命名素材',
       detail:bankDetailText(m)||'（尚未補充細節）'
     }));
-    const demo=prompt.sampleMaterials.map(m=>({...m,source:'demo'}));
+    const demo=prompt.sampleMaterials.map(m=>({...m,from:'demo'}));
     return {mine,demo,all:[...mine,...demo]};
   }
 
@@ -348,7 +350,7 @@ function renderWorkspace(prompt){
                 <h3>審題 30 秒：先拆任務再動筆</h3>
                 <div class="mock-tip"><strong>1. ${prompt.q1?'問題（一）閱讀理解與分歧摘述':'核心任務與切入重點'}</strong><p>${esc(prompt.analysis.q1Tip)}</p></div>
                 <div class="mock-tip"><strong>2. ${prompt.q1?'問題（二）立場與推論結構':'寫作張力與篇幅提醒'}</strong><p>${esc(prompt.analysis.q2Tip)}</p></div>
-                <div class="mock-tip pitfall"><strong>${prompt.kind==='J'?'常見偏題警示（避免停留在三／四級分）':'常見偏題警示（避免落入 B 等陷阱）'}</strong><ul>${prompt.analysis.pitfalls.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>
+                <div class="mock-tip pitfall"><strong>${prompt.kind==='J'?'對標會考六級分：避開常見三／四級分陷阱':'對標學測 A 等第：避開常見 B 等扣分陷阱'}</strong><ul>${prompt.analysis.pitfalls.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>
               </div>
               <div class="mock-card">
                 <h3>先定下你的基本立場／切入視角</h3>
@@ -408,15 +410,18 @@ function renderWorkspace(prompt){
               }).join(''):`<p class="small" style="padding:10px 12px;background:var(--paper);border-radius:8px;border:1px dashed var(--sage-dark)">你的題材庫目前還沒有素材——直接用右側「30 秒靈感快記」寫下第一則，它會自動存進「我的題材庫」並釘選到本題！</p>`}
 
               <div class="mat-group-title" style="margin-top:18px">
-                <strong>本站示範素材（啟發參考用，寫作請換成自己的經驗或查證轉述）</strong>
+                <strong>本站示範素材（完整成文範例・可查證他例可直接存入題材庫，己例請換成自身經驗）</strong>
               </div>
               ${demo.map(m=>{
                 const sel=st.selectedIds.includes(m.id);
+                const originKey='mock:'+prompt.id+':'+m.id;
+                const savedInBank=window.materialBank?.hasOrigin?.(originKey);
                 return `<div class="mat-card ${sel?'selected':''}" data-toggle-mat="${esc(m.id)}" role="button" tabindex="0">
-                  <div>
-                    <div><span class="mat-tag demo">示範參考</span><span class="mat-tag ${m.kind}">${m.kind==='other'?'他例':'己例'}</span></div>
+                  <div style="min-width:0;flex:1">
+                    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:6px"><span class="mat-tag demo">示範成文</span><span class="mat-tag ${m.kind}">${m.kind==='other'?'可查證他例':'己例範段'}</span>${m.kind==='other'?`<button type="button" class="btn compact" style="margin-left:auto;padding:3px 9px;font-size:11px" data-save-demo-other="${esc(m.id)}">${savedInBank?'已在題材庫 ✓':'＋存入我的題材庫'}</button>`:''}</div>
                     <h4>${esc(m.title)}</h4>
                     <p>${esc(m.detail)}</p>
+                    ${m.source||m.angle||m.caution?`<div class="mat-meta">${m.source?`<div><strong>出處：</strong>${esc(m.source)}</div>`:''}${m.angle?`<div><strong>寫入切入：</strong>${esc(m.angle)}</div>`:''}${m.caution?`<div class="caution-text"><strong>使用注意：</strong>${esc(m.caution)}</div>`:''}</div>`:''}
                   </div>
                   <span class="mat-check">✓</span>
                 </div>`;
@@ -538,6 +543,7 @@ function renderWorkspace(prompt){
                 <button type="button" class="small" id="mock-close-pin">收合 ×</button>
               </div>
               <p style="margin:0">${esc(activePinned.detail)}</p>
+              ${activePinned.source||activePinned.angle||activePinned.caution?`<div class="mat-meta">${activePinned.source?`<div><strong>出處：</strong>${esc(activePinned.source)}</div>`:''}${activePinned.angle?`<div><strong>寫入切入：</strong>${esc(activePinned.angle)}</div>`:''}${activePinned.caution?`<div class="caution-text"><strong>使用注意：</strong>${esc(activePinned.caution)}</div>`:''}</div>`:''}
             </div>`:''}
           ${st.splitView?'':`
             <div id="mock-ref-drawer" class="ref-drawer" style="display:none">
@@ -559,7 +565,7 @@ function renderWorkspace(prompt){
           <div>
             <div class="mock-card">
               <div class="mock-head-row" style="margin-bottom:12px">
-                <h2 style="font-size:18px;margin:0">${prompt.kind==='T'?'B+（14–17 分）知性題自評檢核表':prompt.kind==='J'?'國中會考 5–6 級分自評檢核表':'情意題層次自評檢核表'}</h2>
+                <h2 style="font-size:18px;margin:0">${prompt.kind==='T'?'學測知性 A 等第（18–21 分）自評檢核表':prompt.kind==='J'?'國中會考六級分自評檢核表':'學測情意 A 等第（22–25 分）自評檢核表'}</h2>
                 <span class="mock-pill">${doneCheck} / ${prompt.checklist.length} 項達標</span>
               </div>
               ${prompt.checklist.map(c=>`
@@ -570,20 +576,29 @@ function renderWorkspace(prompt){
             </div>
 
             <div class="mock-card">
-              <h3>寫完再看：參考解題方向（非唯一標準答案）</h3>
+              <h3>寫完再看：${prompt.kind==='J'?'會考六級分規格':'學測 A 等第規格'}完整成文範文與評析</h3>
               ${needSpoilerGuard?`
                 <div class="spoiler-box">
-                  <p style="margin:0 0 8px">你的正文目前為 <strong>${q2Len} 字</strong>。建議先在步驟 3 寫出至少 50 字的個人初稿再對照參考方向，學習效果最好喔！（老師備課或考前複習也可直接展開）</p>
-                  <button type="button" class="btn compact" id="mock-open-spoiler">仍要展開參考方向</button>
+                  <p style="margin:0 0 8px">你的正文目前為 <strong>${q2Len} 字</strong>。建議先在步驟 3 寫出至少 50 字的個人初稿再對照範文，進步最有感！（老師備課或考前複習也可直接展開）</p>
+                  <button type="button" class="btn compact" id="mock-open-spoiler">仍要展開完整範文與評析</button>
                 </div>
               `:`
                 ${prompt.reference.q1Sample?`
                   <details class="ref-answer" open>
-                    <summary>問題（一）參考答題要點（${countChars(prompt.reference.q1Sample)} 字）</summary>
+                    <summary>問題（一）滿分規格參考答題（${countChars(prompt.reference.q1Sample)} 字）</summary>
                     <div class="ref-answer-body"><p>${esc(prompt.reference.q1Sample)}</p></div>
                   </details>`:''}
-                <details class="ref-answer clay" open>
-                  <summary>${prompt.q1?'問題（二）':'全文'}論證／敘事骨幹示範</summary>
+                ${prompt.reference.fullEssay?.length?`
+                  <details class="ref-answer clay" open>
+                    <summary>${prompt.kind==='T'?'問題（二）A 等第完整成文示範':prompt.kind==='J'?'會考六級分完整成文示範':'情意 A 等第完整成文示範'}（共 ${countChars(prompt.reference.fullEssay.join(''))} 字・${prompt.reference.fullEssay.length} 段）</summary>
+                    <div class="ref-answer-body">
+                      <article class="mock-full-essay">${prompt.reference.fullEssay.map(p=>`<p>${esc(p)}</p>`).join('')}</article>
+                      ${prompt.reference.rubricNote?`<div class="mock-rubric-note">${esc(prompt.reference.rubricNote)}</div>`:''}
+                      <p class="small" style="margin-top:8px">※ 本站原創教學示範（依大考中心／心測中心評分規準編寫，未經官方評級）；請學習其立意、推論與細節鋪陳，勿直接背誦套用。</p>
+                    </div>
+                  </details>`:''}
+                <details class="ref-answer">
+                  <summary>段落架構與推論拆解速覽</summary>
                   <div class="ref-answer-body">${prompt.reference.q2Outline.map(line=>`<p>${esc(line)}</p>`).join('')}</div>
                 </details>
                 ${prompt.modelId&&window.WRITING_MODELS?.[prompt.modelId]?`<a class="btn compact" href="/imitation.html?id=${encodeURIComponent(prompt.modelId)}">延伸看同概念逐段範文與仿寫 →</a>`:''}
@@ -711,6 +726,17 @@ function renderWorkspace(prompt){
       if(detail)detail.placeholder=item.placeholder||item.question;
       if(titleEl){titleEl.placeholder=`回應「${item.tag}」的一句話標題`;titleEl.focus();}
       toast('已帶入追問提示，寫下你的靈感即可存入題材庫！');
+    });
+
+    document.querySelectorAll('[data-save-demo-other]').forEach(btn=>btn.onclick=e=>{
+      e.stopPropagation();
+      const id=btn.dataset.saveDemoOther,item=prompt.sampleMaterials.find(x=>x.id===id);
+      if(!item)return;
+      const originKey='mock:'+prompt.id+':'+item.id;
+      if(window.materialBank?.hasOrigin?.(originKey)){toast('這則他例已在「我的題材庫」中 ✓');return;}
+      const newId=window.materialBank?.put?.({kind:'other',title:item.title,theme:prompt.theme,type:'其他',fact:item.detail,source:item.source||'',point:item.angle||`可用於《${prompt.title}》`,caution:item.caution||'',origin:originKey});
+      if(newId){st.selectedIds=['bank:'+newId,...st.selectedIds.filter(x=>x!==item.id)];persist();toast('已將這則可查證他例存入「我的題材庫」✓');draw();}
+      else toast('無法儲存，請先匯出備份');
     });
 
     document.querySelectorAll('[data-toggle-mat]').forEach(card=>{
