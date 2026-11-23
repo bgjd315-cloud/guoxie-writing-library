@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" role="img" aria-label="幸福國中400位學生放學後最常安排休閒活動單選調查長條圖">
+  <title>幸福國中400位學生放學後最常安排休閒活動單選調查長條圖</title>
+  <defs>
+    <style>
+      .f { font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; }
+      .s { font-family: 'Noto Serif TC', 'PMingLiU', serif; }
+      .t-ink { fill: #22352c; }
+      .t-soft { fill: #526359; }
+      .t-forest { fill: #1e5641; }
+      .t-clay { fill: #b85328; }
+      .t-white { fill: #ffffff; }
+    </style>
+  </defs>
+  <rect width="760" height="390" rx="16" fill="#faf8f1" stroke="#d5dfd0" stroke-width="2"/>
+  
+    <rect x="20" y="18" width="720" height="44" rx="10" fill="#e8ede4"/>
+    <text x="380" y="38" text-anchor="middle" class="s t-forest" font-size="16" font-weight="700">幸福國中「放學後最常安排的休閒活動」問卷統計圖</text>
+    <text x="380" y="55" text-anchor="middle" class="f t-soft" font-size="11">調查對象：全校學生（有效問卷 400 份・每人限單選一項）</text>
+
+    <!-- 座標區底板 -->
+    <rect x="30" y="76" width="700" height="218" rx="12" fill="#ffffff" stroke="#d5dfd0"/>
+    <!-- 格線 0%, 10%, 20%, 30%, 40%, 50% (x: 230 to 670, width 440 -> 8.8px per 1%) -->
+    <line x1="230" y1="92" x2="230" y2="262" stroke="#8aa18c" stroke-width="1.5"/>
+    <line x1="318" y1="92" x2="318" y2="262" stroke="#e8ede4" stroke-dasharray="4 3"/>
+    <line x1="406" y1="92" x2="406" y2="262" stroke="#e8ede4" stroke-dasharray="4 3"/>
+    <line x1="494" y1="92" x2="494" y2="262" stroke="#e8ede4" stroke-dasharray="4 3"/>
+    <line x1="582" y1="92" x2="582" y2="262" stroke="#e8ede4" stroke-dasharray="4 3"/>
+    <line x1="670" y1="92" x2="670" y2="262" stroke="#e8ede4" stroke-dasharray="4 3"/>
+
+    <!-- 橫軸刻度 -->
+    <text x="230" y="280" text-anchor="middle" class="f t-soft" font-size="10.5">0%</text>
+    <text x="318" y="280" text-anchor="middle" class="f t-soft" font-size="10.5">10%</text>
+    <text x="406" y="280" text-anchor="middle" class="f t-soft" font-size="10.5">20%</text>
+    <text x="494" y="280" text-anchor="middle" class="f t-soft" font-size="10.5">30%</text>
+    <text x="582" y="280" text-anchor="middle" class="f t-soft" font-size="10.5">40%</text>
+    <text x="670" y="280" text-anchor="middle" class="f t-soft" font-size="10.5">50%</text>
+
+    <!-- Bar 1: 42% (369.6px) -->
+    <text x="220" y="116" text-anchor="end" class="f t-ink" font-size="12.5" font-weight="700">滑手機／短影音社群</text>
+    <rect x="230" y="100" width="370" height="23" rx="5" fill="#b85328"/>
+    <text x="608" y="116" class="f t-clay" font-size="12" font-weight="700">42%（168人）</text>
+
+    <!-- Bar 2: 23% (202.4px) -->
+    <text x="220" y="149" text-anchor="end" class="f t-ink" font-size="12.5">打球或戶外運動</text>
+    <rect x="230" y="133" width="202" height="23" rx="5" fill="#1e5641"/>
+    <text x="440" y="149" class="f t-forest" font-size="12" font-weight="700">23%（92人）</text>
+
+    <!-- Bar 3: 20% (176px) -->
+    <text x="220" y="182" text-anchor="end" class="f t-ink" font-size="12.5">玩線上遊戲</text>
+    <rect x="230" y="166" width="176" height="23" rx="5" fill="#527b66"/>
+    <text x="414" y="182" class="f t-ink" font-size="12">20%（80人）</text>
+
+    <!-- Bar 4: 10% (88px) -->
+    <text x="220" y="215" text-anchor="end" class="f t-ink" font-size="12.5">閱讀課外書或手作</text>
+    <rect x="230" y="199" width="88" height="23" rx="5" fill="#82a88c"/>
+    <text x="326" y="215" class="f t-ink" font-size="12">10%（40人）</text>
+
+    <!-- Bar 5: 5% (44px) -->
+    <text x="220" y="248" text-anchor="end" class="f t-ink" font-size="12.5">其他（練樂器、散步）</text>
+    <rect x="230" y="232" width="44" height="23" rx="5" fill="#b7cab9"/>
+    <text x="282" y="248" class="f t-soft" font-size="12">5%（20人）</text>
+
+    <!-- 下方思辨對話氣泡 -->
+    <rect x="30" y="308" width="335" height="62" rx="11" fill="#f9ebe4" stroke="#e4b8a1"/>
+    <text x="46" y="330" class="f t-clay" font-size="12" font-weight="700">💬 觀點甲：</text>
+    <text x="46" y="352" class="f t-ink" font-size="11.5">「超過四成都在滑手機，證明學生都不愛看書運動！」</text>
+
+    <rect x="395" y="308" width="335" height="62" rx="11" fill="#eef5ee" stroke="#a6c4ad"/>
+    <text x="411" y="330" class="f t-forest" font-size="12" font-weight="700">💬 觀點乙：</text>
+    <text x="411" y="352" class="f t-ink" font-size="11.5">「只能單選又沒問原因，表格看得見全部實情嗎？」</text>
+  
+</svg>

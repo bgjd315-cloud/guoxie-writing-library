@@ -30,7 +30,7 @@ const topicGroups={},conceptTopics={};for(const cat of categories)topicGroups[ca
 for(const c of cards)conceptTopics[c.uid]=c.category;for(const c of junior.concepts)conceptTopics[c.id]='J-'+(juniorThemes.indexOf(c.theme)+1);for(const d of junior.extensions)conceptTopics[d.id]=conceptTopics[d.concepts[0]];
 const promptMaterials=json('content/prompt-materials.json');
 for(const line of fs.readFileSync('content/topic-examples.txt','utf8').replace(/^\uFEFF/,'').trim().split(/\r?\n/)){const[theme,model,title,task,steps,avoid]=line.split('|'),g=topicGroups[theme];if(!g||!writingModels[model]||!avoid)throw Error('Topic example '+line);const e={id:theme+'-'+(g.examples.length+1),theme,model,title,task,steps:steps.split('；'),avoid,status:'本站原創仿題',links:[]};const card=cards.find(c=>c.uid===model);if(card){e.links=(card.kind==='T'?card.years:card.examLinks.filter(l=>l.level==='優先構思').map(l=>l.year)).slice(0,2).map(year=>({label:year+'學測｜'+(card.kind==='T'?t:q).exams.find(x=>Number(x.year)===Number(year)).title,url:'/#exams?year='+year+'&kind='+card.kind}));}if(model.startsWith('HT'))e.links=[{label:model.slice(2)+'學測知性原題',url:'/#exams?year='+model.slice(2)+'&kind=T'}];if(theme.startsWith('J-')){const jc=junior.concepts.find(c=>c.id===model);if(jc)e.links=jc.exams.slice(0,2).map(id=>({label:junior.papers.find(p=>p.id===id).label+'｜'+junior.papers.find(p=>p.id===id).title,url:'/junior/#exam?id='+id}));}
-const prompt=promptMaterials[model];if(!prompt||prompt.title!==title||!prompt.material)throw Error('Incomplete prompt '+model);e.material=prompt.material;e.form=prompt.form;e.question1=prompt.question1||'';e.intent=promptIntents[model];e.sourceModel=model;if(model==='JP_CAP112')e.model='PX_J112';if(model==='JP_CAP114')e.model='PX_J114';g.examples.push(e);}
+const prompt=promptMaterials[model];if(!prompt||prompt.title!==title||!prompt.material)throw Error('Incomplete prompt '+model);e.material=prompt.material;e.form=prompt.form;e.question1=prompt.question1||'';e.figure=prompt.figure||null;if(e.figure&&!fs.existsSync('dist'+e.figure.src))throw Error('Missing topic figure '+e.figure.src);e.intent=promptIntents[model];e.sourceModel=model;if(model==='JP_CAP112')e.model='PX_J112';if(model==='JP_CAP114')e.model='PX_J114';g.examples.push(e);}
 for(const g of Object.values(topicGroups))if(g.examples.length!==3)throw Error('Three examples required '+g.id);
 const modelTopics={};const explicitTopics={HT107:'T-1',HT108:'T-9',HT109:'T-1',HT110:'T-10',HT111:'T-5',HT112:'T-4',HT113:'T-7',HT114:'T-8',HT115:'T-5',HE107:'E-1',HE108:'E-2',HE109:'E-3',HE110:'E-5',HE111:'E-6',HE112:'E-1',HE113:'E-4',HE114:'E-3',HE115:'E-2',PX_J112:'J-6',PX_J114:'J-6','JP_CAP114':'J-6'};const extraThemes={TD01:'T-1',TD02:'T-7',TD03:'T-8',TD04:'T-8',TD05:'T-3',TD06:'T-8',TD07:'T-6',TD08:'T-6',JD01:'J-6',JD02:'J-6',JD03:'J-5',JD04:'J-1',JD05:'J-6',JD06:'J-4',JD07:'J-5',JD08:'J-5'};
 for(const[id,m]of Object.entries(writingModels)){let theme=conceptTopics[id]||explicitTopics[id]||extraThemes[id]||conceptTopics[m.sourceModel]||explicitTopics[m.sourceModel]||extraThemes[m.sourceModel];if(!theme&&id.startsWith('JP_')){const paper=junior.papers.find(p=>p.id===id.slice(3));theme=conceptTopics[paper?.concepts?.[0]]||'J-1';}if(!theme)throw Error('No teaching path '+id);modelTopics[id]=theme;}
@@ -49,6 +49,13 @@ for(const m of mockPrompts){
   const fullLen=[...(m.reference?.fullEssay||[]).join('').replace(/\s/gu,'')].length;
   if(!fullLen)throw Error('Missing fullEssay '+m.id);
   if(m.kind==='T'&&fullLen>400)throw Error('Mock fullEssay exceeds 400 '+m.id+' '+fullLen);
+  if(m.figure&&!fs.existsSync('dist'+m.figure.src))throw Error('Missing mock figure '+m.id+' '+m.figure.src);
+  for(const sm of m.sampleMaterials||[]){
+    const el=sm.elements;
+    if(!el||!el.who||!el.when||!el.where||!el.what||!el.event)throw Error('Incomplete material elements '+m.id+' '+sm.id);
+    if([...String(sm.detail||'').replace(/\s/gu,'')].length<200)throw Error('Short material detail '+m.id+' '+sm.id);
+    if(!Array.isArray(sm.keyPoints)||sm.keyPoints.length<2)throw Error('Missing material keyPoints '+m.id+' '+sm.id);
+  }
   if(JSON.stringify(m).includes('**'))throw Error('Stray markdown ** in '+m.id);
 }
 fs.writeFileSync('dist/mock-prompts.js','window.MOCK_PROMPTS='+JSON.stringify(mockPrompts)+';');

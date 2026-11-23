@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 310" role="img" aria-label="桌面上三件沒有完成的作品：鬆開接縫的布袋、卡住的模型與反覆塗改的畫">
+  <title>桌面上三件沒有完成的作品：鬆開接縫的布袋、卡住的模型與反覆塗改的畫</title>
+  <defs>
+    <style>
+      .f { font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; }
+      .s { font-family: 'Noto Serif TC', 'PMingLiU', serif; }
+      .t-ink { fill: #22352c; }
+      .t-soft { fill: #526359; }
+      .t-forest { fill: #1e5641; }
+      .t-clay { fill: #b85328; }
+      .t-white { fill: #ffffff; }
+    </style>
+  </defs>
+  <rect width="760" height="310" rx="16" fill="#faf8f1" stroke="#d5dfd0" stroke-width="2"/>
+  
+    <rect x="20" y="18" width="720" height="36" rx="10" fill="#e8ede4"/>
+    <text x="380" y="42" text-anchor="middle" class="s t-forest" font-size="15.5" font-weight="700">手作展示桌｜三件「不完美」的作品，留下了什麼線索？</text>
+    <rect x="30" y="72" width="218" height="214" rx="14" fill="#fffdf7" stroke="#d5dfd0"/>
+    <rect x="82" y="96" width="114" height="90" rx="10" fill="#eef3ea"/>
+    <rect x="108" y="114" width="62" height="58" rx="6" fill="#d9e6d8" stroke="#1e5641" stroke-width="2"/>
+    <path d="M 108 152 L 122 162 L 116 172" fill="none" stroke="#b85328" stroke-width="2" stroke-dasharray="3 2"/>
+    <text x="139" y="216" text-anchor="middle" class="s t-forest" font-size="14" font-weight="700">① 鬆開接縫的布袋</text>
+    <text x="139" y="242" text-anchor="middle" class="f t-soft" font-size="11.5">拉鍊略歪、針腳散開</text>
+    <text x="139" y="262" text-anchor="middle" class="f t-clay" font-size="11">記下第一次拿針的摸索</text>
+
+    <rect x="271" y="72" width="218" height="214" rx="14" fill="#fffdf7" stroke="#d5dfd0"/>
+    <rect x="323" y="96" width="114" height="90" rx="10" fill="#f9ebe4"/>
+    <circle cx="380" cy="136" r="24" fill="none" stroke="#b85328" stroke-width="3" stroke-dasharray="7 4"/>
+    <line x1="380" y1="160" x2="380" y2="180" stroke="#8a5a2b" stroke-width="4"/>
+    <text x="380" y="216" text-anchor="middle" class="s t-clay" font-size="14" font-weight="700">② 轉不動的風車模型</text>
+    <text x="380" y="242" text-anchor="middle" class="f t-soft" font-size="11.5">齒輪卡住、葉片偏斜</text>
+    <text x="380" y="262" text-anchor="middle" class="f t-clay" font-size="11">暴露結構修正的關鍵點</text>
+
+    <rect x="512" y="72" width="218" height="214" rx="14" fill="#fffdf7" stroke="#d5dfd0"/>
+    <rect x="564" y="96" width="114" height="90" rx="10" fill="#eef5ee"/>
+    <rect x="582" y="108" width="78" height="64" rx="4" fill="#ffffff" stroke="#8aa18c" stroke-width="1.5"/>
+    <path d="M 590 156 Q 612 126 632 146 T 654 134" fill="none" stroke="#537864" stroke-width="2.5"/>
+    <ellipse cx="642" cy="122" rx="12" ry="7" fill="#f6e3d7" stroke="#b85328" stroke-dasharray="2 2"/>
+    <text x="621" y="216" text-anchor="middle" class="s t-forest" font-size="14" font-weight="700">③ 反覆塗改的水彩畫</text>
+    <text x="621" y="242" text-anchor="middle" class="f t-soft" font-size="11.5">角落擦到微微起毛</text>
+    <text x="621" y="262" text-anchor="middle" class="f t-clay" font-size="11">留下不肯敷衍交差的痕跡</text>
+  
+</svg>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 350" role="img" aria-label="自動澆水花盆從第一版淹水、第二版傾倒到第三版成功的三版創作演進圖">
+  <title>自動澆水花盆從第一版淹水、第二版傾倒到第三版成功的三版創作演進圖</title>
+  <defs>
+    <style>
+      .f { font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; }
+      .s { font-family: 'Noto Serif TC', 'PMingLiU', serif; }
+      .t-ink { fill: #22352c; }
+      .t-soft { fill: #526359; }
+      .t-forest { fill: #1e5641; }
+      .t-clay { fill: #b85328; }
+      .t-white { fill: #ffffff; }
+    </style>
+  </defs>
+  <rect width="760" height="350" rx="16" fill="#faf8f1" stroke="#d5dfd0" stroke-width="2"/>
+  
+    <rect x="20" y="18" width="720" height="38" rx="10" fill="#e8ede4"/>
+    <text x="380" y="43" text-anchor="middle" class="s t-forest" font-size="16" font-weight="700">展示桌過程紀錄卡｜創意，從第一個點子行不通之後開始</text>
+
+    <!-- 第一版 -->
+    <rect x="26" y="76" width="212" height="214" rx="14" fill="#fff9f5" stroke="#e4b8a1" stroke-width="2"/>
+    <rect x="42" y="88" width="74" height="22" rx="11" fill="#b85328"/>
+    <text x="79" y="103" text-anchor="middle" class="f t-white" font-size="11" font-weight="700">第一版</text>
+    <text x="192" y="104" text-anchor="middle" class="f t-clay" font-size="12" font-weight="700">✕ 淹大水</text>
+    <!-- 花盆淹水圖 -->
+    <ellipse cx="132" cy="196" rx="68" ry="12" fill="#cde3ee"/>
+    <polygon points="104,154 160,154 152,194 112,194" fill="#d48c5c" stroke="#8a4d24" stroke-width="2"/>
+    <rect x="148" y="122" width="24" height="32" rx="4" fill="#89bdd4" stroke="#3c738c" stroke-width="1.5"/>
+    <path d="M 152 154 L 152 192 M 162 154 L 174 192" stroke="#4f8fa8" stroke-width="3"/>
+    <text x="132" y="232" text-anchor="middle" class="f t-ink" font-size="12" font-weight="700">十分鐘畫完酷炫草圖</text>
+    <text x="132" y="253" text-anchor="middle" class="f t-soft" font-size="11">出水管太大，一測試</text>
+    <text x="132" y="271" text-anchor="middle" class="f t-soft" font-size="11">整張書桌立刻淹水</text>
+
+    <text x="256" y="186" text-anchor="middle" class="f t-forest" font-size="22" font-weight="700">→</text>
+
+    <!-- 第二版 -->
+    <rect x="274" y="76" width="212" height="214" rx="14" fill="#fdfaf0" stroke="#d9bd78" stroke-width="2"/>
+    <rect x="290" y="88" width="74" height="22" rx="11" fill="#a67c24"/>
+    <text x="327" y="103" text-anchor="middle" class="f t-white" font-size="11" font-weight="700">第二版</text>
+    <text x="438" y="104" text-anchor="middle" class="f" fill="#9a6b12" font-size="12" font-weight="700">△ 一碰就倒</text>
+    <!-- 傾斜高瓶圖 -->
+    <polygon points="336,154 388,154 380,194 344,194" fill="#d48c5c" stroke="#8a4d24" stroke-width="2"/>
+    <g transform="rotate(18 408 164)">
+      <rect x="396" y="114" width="22" height="72" rx="5" fill="#89bdd4" stroke="#3c738c" stroke-width="1.5"/>
+    </g>
+    <path d="M 380 156 Q 392 140 404 146" fill="none" stroke="#8a5a2b" stroke-width="2" stroke-dasharray="3 2"/>
+    <text x="380" y="232" text-anchor="middle" class="f t-ink" font-size="12" font-weight="700">改用棉線緩慢吸水</text>
+    <text x="380" y="253" text-anchor="middle" class="f t-soft" font-size="11">不再漏水了，卻因</text>
+    <text x="380" y="271" text-anchor="middle" class="f t-soft" font-size="11">儲水瓶太高重心不穩</text>
+
+    <text x="504" y="186" text-anchor="middle" class="f t-forest" font-size="22" font-weight="700">→</text>
+
+    <!-- 第三版 -->
+    <rect x="522" y="76" width="212" height="214" rx="14" fill="#f2f8f3" stroke="#1e5641" stroke-width="2"/>
+    <rect x="538" y="88" width="74" height="22" rx="11" fill="#1e5641"/>
+    <text x="575" y="103" text-anchor="middle" class="f t-white" font-size="11" font-weight="700">第三版</text>
+    <text x="684" y="104" text-anchor="middle" class="f t-forest" font-size="12" font-weight="700">✓ 存活七天</text>
+    <!-- 穩固鐵盒＋水位線＋綠芽 -->
+    <rect x="574" y="156" width="108" height="40" rx="6" fill="#dcece2" stroke="#1e5641" stroke-width="2"/>
+    <line x1="658" y1="164" x2="672" y2="164" stroke="#1e5641" stroke-width="1.5"/>
+    <line x1="658" y1="174" x2="672" y2="174" stroke="#1e5641" stroke-width="1.5"/>
+    <line x1="658" y1="184" x2="672" y2="184" stroke="#1e5641" stroke-width="1.5"/>
+    <ellipse cx="628" cy="144" rx="18" ry="12" fill="#4f8c5c"/>
+    <ellipse cx="614" cy="136" rx="12" ry="8" fill="#68a875"/>
+    <ellipse cx="642" cy="136" rx="12" ry="8" fill="#68a875"/>
+    <text x="628" y="232" text-anchor="middle" class="f t-forest" font-size="12" font-weight="700">寬底座鐵盒＋水位刻度</text>
+    <text x="628" y="253" text-anchor="middle" class="f t-soft" font-size="11">穩固好用，成功讓盆栽</text>
+    <text x="628" y="271" text-anchor="middle" class="f t-soft" font-size="11">在寒假七天裡安穩存活</text>
+
+    <!-- 底部老師的話 -->
+    <rect x="26" y="304" width="708" height="30" rx="8" fill="#1e5641"/>
+    <text x="380" y="324" text-anchor="middle" class="f t-white" font-size="12">老師小語：「真正的創意，是在第一個點子行不通後，願意蹲下來測試、修改的那一段路。」</text>
+  
+</svg>

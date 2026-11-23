@@ -96,6 +96,7 @@ function buildTopicMock(topicExId){
     badge:`${group.title}・${ex.form}（一題到底模式）`,
     years:[],
     instruction:isT?'閱讀下列材料，並依序回答問題（一）與問題（二）。':'閱讀下列引導材料，依作答要求完成一篇有組織的文章。',
+    figure:ex.figure||null,
     passages,
     q1:ex.question1?{label:'問題（一）',meta:'占 4 分・文長限 80 字以內（約 4 行）',limit:80,prompt:ex.question1.replace(/^問題（一）[：:]\s*/,'')}:null,
     q2:{
@@ -223,6 +224,7 @@ function renderIndex(filterKind){
           <div class="mock-index-meta">
             <span class="mock-badge ${badgeCls}" style="margin:0">${kindTag}・${esc(p.id)}</span>
             <span class="small">${esc(themeName)}</span>
+            ${p.figure?'<span class="mock-pill" style="padding:2px 8px">附引導圖</span>':''}
             ${written?`<span class="mock-pill" style="margin-left:auto">已寫 ${written} 字</span>`:''}
           </div>
           <h3>${esc(p.title)}</h3>
@@ -312,6 +314,15 @@ function renderWorkspace(prompt){
     const q2StatusClass=q2Limit&&q2Len>q2Limit?'warn':'';
     const q2Label=q2Limit?`${q2Len} / ${q2Limit} 字`:`${q2Len} 字（建議 ${prompt.q2.recommendedRange?.[0]||550}–${prompt.q2.recommendedRange?.[1]||700} 字）`;
 
+    const renderMatBody=m=>{
+      const el=m.elements;
+      const elHTML=el?`<div class="mat-elements">${el.who?`<div><b>人：</b>${esc(el.who)}</div>`:''}${el.when?`<div><b>時：</b>${esc(el.when)}</div>`:''}${el.where?`<div><b>地：</b>${esc(el.where)}</div>`:''}${el.what?`<div><b>物：</b>${esc(el.what)}</div>`:''}${el.event?`<div class="mat-el-full"><b>事：</b>${esc(el.event)}</div>`:''}</div>`:'';
+      const kpHTML=Array.isArray(m.keyPoints)&&m.keyPoints.length?`<div class="mat-keypoints"><div class="mat-keypoints-title">扣題要點與寫入攻略</div><ul>${m.keyPoints.map(k=>`<li>${esc(k)}</li>`).join('')}</ul></div>`:'';
+      const metaHTML=(m.source||(!kpHTML&&m.angle)||m.caution)?`<div class="mat-meta">${m.source?`<div><strong>出處：</strong>${esc(m.source)}</div>`:''}${!kpHTML&&m.angle?`<div><strong>扣題切入：</strong>${esc(m.angle)}</div>`:''}${m.caution?`<div class="caution-text"><strong>使用提醒：</strong>${esc(m.caution)}</div>`:''}</div>`:'';
+      return `${elHTML}<p class="mat-detail-text">${esc(m.detail)}</p>${kpHTML}${metaHTML}`;
+    };
+
+    const figureHTML=()=>prompt.figure?`<figure class="mock-figure"><img src="${esc(prompt.figure.src)}" alt="${esc(prompt.figure.alt)}" loading="lazy">${prompt.figure.caption?`<figcaption>${esc(prompt.figure.caption)}</figcaption>`:''}</figure>`:'';
     const passagesHTML=(compact=false)=>prompt.passages.map(p=>`
       <div class="mock-passage ${!st.highlightOn||st.examMode?'no-highlight':''}">
         ${p.label?`<div class="mock-passage-label ${p.tone==='clay'?'clay':''}">${esc(p.label)}</div>`:''}
@@ -332,6 +343,7 @@ function renderWorkspace(prompt){
               <button type="button" class="btn compact" id="mock-toggle-hl">${st.highlightOn&&!st.examMode?'標色提示：開啟中':'標色提示：已關閉'}</button>
             </div>
             <p class="mock-instruction">${esc(prompt.instruction)}</p>
+            ${figureHTML()}
             ${passagesHTML(false)}
             ${prompt.q1?`
               <div class="mock-qbox">
@@ -400,17 +412,17 @@ function renderWorkspace(prompt){
               ${mine.length?mine.slice(0,12).map(m=>{
                 const sel=st.selectedIds.includes(m.id);
                 return `<div class="mat-card ${sel?'selected':''}" data-toggle-mat="${esc(m.id)}" role="button" tabindex="0">
-                  <div>
+                  <div style="min-width:0;flex:1">
                     <div><span class="mat-tag mine">我的題材庫</span><span class="mat-tag ${m.kind}">${m.kind==='other'?'他例':'己例'}</span><span class="small">${esc(m.themeTitle)}${m.sameTheme?'（本題主題）':''}</span></div>
                     <h4>${esc(m.title)}</h4>
-                    <p>${esc(m.detail.slice(0,130))}${m.detail.length>130?'…':''}</p>
+                    <p class="mat-detail-text">${esc(m.detail)}</p>
                   </div>
                   <span class="mat-check">✓</span>
                 </div>`;
               }).join(''):`<p class="small" style="padding:10px 12px;background:var(--paper);border-radius:8px;border:1px dashed var(--sage-dark)">你的題材庫目前還沒有素材——直接用右側「30 秒靈感快記」寫下第一則，它會自動存進「我的題材庫」並釘選到本題！</p>`}
 
               <div class="mat-group-title" style="margin-top:18px">
-                <strong>本站示範素材（完整成文範例・可查證他例可直接存入題材庫，己例請換成自身經驗）</strong>
+                <strong>本站完整示範素材（含人事時地物、完整敘述與扣題要點・免另上網查證）</strong>
               </div>
               ${demo.map(m=>{
                 const sel=st.selectedIds.includes(m.id);
@@ -418,10 +430,9 @@ function renderWorkspace(prompt){
                 const savedInBank=window.materialBank?.hasOrigin?.(originKey);
                 return `<div class="mat-card ${sel?'selected':''}" data-toggle-mat="${esc(m.id)}" role="button" tabindex="0">
                   <div style="min-width:0;flex:1">
-                    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:6px"><span class="mat-tag demo">示範成文</span><span class="mat-tag ${m.kind}">${m.kind==='other'?'可查證他例':'己例範段'}</span>${m.kind==='other'?`<button type="button" class="btn compact" style="margin-left:auto;padding:3px 9px;font-size:11px" data-save-demo-other="${esc(m.id)}">${savedInBank?'已在題材庫 ✓':'＋存入我的題材庫'}</button>`:''}</div>
+                    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:6px"><span class="mat-tag demo">完整素材</span><span class="mat-tag ${m.kind}">${m.kind==='other'?'可查證他例':'己例範段'}</span>${m.kind==='other'?`<button type="button" class="btn compact" style="margin-left:auto;padding:3px 9px;font-size:11px" data-save-demo-other="${esc(m.id)}">${savedInBank?'已在題材庫 ✓':'＋存入我的題材庫'}</button>`:''}</div>
                     <h4>${esc(m.title)}</h4>
-                    <p>${esc(m.detail)}</p>
-                    ${m.source||m.angle||m.caution?`<div class="mat-meta">${m.source?`<div><strong>出處：</strong>${esc(m.source)}</div>`:''}${m.angle?`<div><strong>寫入切入：</strong>${esc(m.angle)}</div>`:''}${m.caution?`<div class="caution-text"><strong>使用注意：</strong>${esc(m.caution)}</div>`:''}</div>`:''}
+                    ${renderMatBody(m)}
                   </div>
                   <span class="mat-check">✓</span>
                 </div>`;
@@ -542,8 +553,7 @@ function renderWorkspace(prompt){
                 <strong>[${activePinned.kind==='other'?'他例':'己例'}] ${esc(activePinned.title)}</strong>
                 <button type="button" class="small" id="mock-close-pin">收合 ×</button>
               </div>
-              <p style="margin:0">${esc(activePinned.detail)}</p>
-              ${activePinned.source||activePinned.angle||activePinned.caution?`<div class="mat-meta">${activePinned.source?`<div><strong>出處：</strong>${esc(activePinned.source)}</div>`:''}${activePinned.angle?`<div><strong>寫入切入：</strong>${esc(activePinned.angle)}</div>`:''}${activePinned.caution?`<div class="caution-text"><strong>使用注意：</strong>${esc(activePinned.caution)}</div>`:''}</div>`:''}
+              ${renderMatBody(activePinned)}
             </div>`:''}
           ${st.splitView?'':`
             <div id="mock-ref-drawer" class="ref-drawer" style="display:none">
@@ -551,11 +561,11 @@ function renderWorkspace(prompt){
                 <button type="button" class="${st.refTab==='full'?'active':''}" data-ref-tab="full">完整原文</button>
                 <button type="button" class="${st.refTab==='summary'?'active':''}" data-ref-tab="summary">重點摘要</button>
               </div>
-              <div id="mock-ref-body">${passagesHTML(st.refTab==='summary')}</div>
+              <div id="mock-ref-body">${figureHTML()}${passagesHTML(st.refTab==='summary')}</div>
             </div>`}
         </div>`;
 
-      panelHTML=st.splitView?`${pinnedBar}<div class="mock-grid split-writing"><div class="mock-card" style="position:sticky;top:16px;max-height:calc(100vh - 40px);overflow:auto"><div class="mock-head-row"><h3 style="margin:0">完整題本對照</h3><div class="ref-tabs" style="margin:0"><button type="button" class="${st.refTab==='full'?'active':''}" data-ref-tab="full">原文</button><button type="button" class="${st.refTab==='summary'?'active':''}" data-ref-tab="summary">摘要</button></div></div>${passagesHTML(st.refTab==='summary')}${prompt.q1?`<div class="mock-qbox"><div class="mock-qbox-head"><strong>問題（一）</strong><span>${esc(prompt.q1.meta)}</span></div><p>${esc(prompt.q1.prompt)}</p></div>`:''}<div class="mock-qbox q2"><div class="mock-qbox-head"><strong>${esc(prompt.q2.label)}</strong><span>${esc(prompt.q2.meta)}</span></div><p>${esc(prompt.q2.prompt)}</p></div></div>${writingArea}</div>`:`${pinnedBar}${writingArea}`;
+      panelHTML=st.splitView?`${pinnedBar}<div class="mock-grid split-writing"><div class="mock-card" style="position:sticky;top:16px;max-height:calc(100vh - 40px);overflow:auto"><div class="mock-head-row"><h3 style="margin:0">完整題本對照</h3><div class="ref-tabs" style="margin:0"><button type="button" class="${st.refTab==='full'?'active':''}" data-ref-tab="full">原文</button><button type="button" class="${st.refTab==='summary'?'active':''}" data-ref-tab="summary">摘要</button></div></div>${figureHTML()}${passagesHTML(st.refTab==='summary')}${prompt.q1?`<div class="mock-qbox"><div class="mock-qbox-head"><strong>問題（一）</strong><span>${esc(prompt.q1.meta)}</span></div><p>${esc(prompt.q1.prompt)}</p></div>`:''}<div class="mock-qbox q2"><div class="mock-qbox-head"><strong>${esc(prompt.q2.label)}</strong><span>${esc(prompt.q2.meta)}</span></div><p>${esc(prompt.q2.prompt)}</p></div></div>${writingArea}</div>`:`${pinnedBar}${writingArea}`;
     }else if(st.step===4){
       const doneCheck=prompt.checklist.filter(c=>st.checked[c.id]).length;
       const needSpoilerGuard=q2Len<50&&!st.spoilerOpened;
@@ -623,7 +633,7 @@ function renderWorkspace(prompt){
           <div>
             <div class="mock-card">
               <h3>我的作答預覽與課堂輸出</h3>
-              <p class="small" style="margin-bottom:10px">已自動帶入班級版設定（可隨時修改）。一鍵複製含追蹤標記的格式即可貼上 Padlet 觀摩牆，或下載備份；本題紀錄也已同步納入「我的學習紀錄」全站備份。</p>
+              <p class="small" style="margin-bottom:10px">已自動帶入班級版設定（可隨時修改）。一鍵複製含追蹤標記的格式即可貼上 Padlet 觀摩牆，或直接列印／另存 PDF 留存。</p>
               <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:10px">
                 <input id="mock-stu-class" value="${esc(st.stuClass)}" placeholder="班級（如 305）" style="width:100%;min-width:0;border:1px solid var(--sage-dark);border-radius:7px;padding:7px 9px;background:var(--paper);font-size:12px">
                 <input id="mock-stu-seat" value="${esc(st.stuSeat)}" placeholder="座號（如 12）" style="width:100%;min-width:0;border:1px solid var(--sage-dark);border-radius:7px;padding:7px 9px;background:var(--paper);font-size:12px">
@@ -632,8 +642,7 @@ function renderWorkspace(prompt){
               <pre class="export-preview" id="mock-export-preview">${esc(preview)}</pre>
               <div style="display:grid;gap:8px">
                 <button type="button" class="btn primary" id="mock-copy-padlet" style="width:100%">一鍵複製（Padlet 觀摩牆格式）</button>
-                <button type="button" class="btn" id="mock-dl-md" style="width:100%">下載本次作答（Markdown .md）</button>
-                <button type="button" class="btn" id="mock-dl-json" style="width:100%">匯出本次完整紀錄（.json）</button>
+                <button type="button" class="btn" id="mock-print-sheet" style="width:100%">列印本次作答（可另存 PDF）</button>
               </div>
               <div class="step-nav-foot">
                 <button type="button" class="btn" data-mock-step="3">← 返回修改作答</button>
@@ -734,9 +743,12 @@ function renderWorkspace(prompt){
       if(!item)return;
       const originKey='mock:'+prompt.id+':'+item.id;
       if(window.materialBank?.hasOrigin?.(originKey)){toast('這則他例已在「我的題材庫」中 ✓');return;}
-      const newId=window.materialBank?.put?.({kind:'other',title:item.title,theme:prompt.theme,type:'其他',fact:item.detail,source:item.source||'',point:item.angle||`可用於《${prompt.title}》`,caution:item.caution||'',origin:originKey});
-      if(newId){st.selectedIds=['bank:'+newId,...st.selectedIds.filter(x=>x!==item.id)];persist();toast('已將這則可查證他例存入「我的題材庫」✓');draw();}
-      else toast('無法儲存，請先匯出備份');
+      const el=item.elements;
+      const elSummary=el?`【人事時地物】人：${el.who||''}｜時：${el.when||''}｜地：${el.where||''}｜物：${el.what||''}｜事：${el.event||''}\n\n`:'';
+      const kpSummary=Array.isArray(item.keyPoints)&&item.keyPoints.length?item.keyPoints.join('；'):(item.angle||`可用於《${prompt.title}》`);
+      const newId=window.materialBank?.put?.({kind:'other',title:item.title,theme:prompt.theme,type:'其他',fact:elSummary+item.detail,source:item.source||'',point:kpSummary,caution:item.caution||'',origin:originKey});
+      if(newId){st.selectedIds=['bank:'+newId,...st.selectedIds.filter(x=>x!==item.id)];persist();toast('已將這則完整他例存入「我的題材庫」✓');draw();}
+      else toast('無法儲存，請稍後再試或請老師於後台備份');
     });
 
     document.querySelectorAll('[data-toggle-mat]').forEach(card=>{
@@ -789,7 +801,7 @@ function renderWorkspace(prompt){
       else{
         document.querySelectorAll('[data-ref-tab]').forEach(x=>x.classList.toggle('active',x.dataset.refTab===st.refTab));
         const body=$('#mock-ref-body');
-        if(body)body.innerHTML=prompt.passages.map(p=>`<div class="mock-passage ${!st.highlightOn||st.examMode?'no-highlight':''}">${p.label?`<div class="mock-passage-label ${p.tone==='clay'?'clay':''}">${esc(p.label)}</div>`:''}${st.refTab==='summary'?`<p style="text-indent:0;font-family:inherit;font-size:13px;line-height:1.75">${esc(p.summary)}</p>`:highlightPassageText(p.text,p.keyPhrases,p.themePhrases)}</div>`).join('');
+        if(body)body.innerHTML=(prompt.figure?`<figure class="mock-figure"><img src="${esc(prompt.figure.src)}" alt="${esc(prompt.figure.alt)}" loading="lazy">${prompt.figure.caption?`<figcaption>${esc(prompt.figure.caption)}</figcaption>`:''}</figure>`:'')+prompt.passages.map(p=>`<div class="mock-passage ${!st.highlightOn||st.examMode?'no-highlight':''}">${p.label?`<div class="mock-passage-label ${p.tone==='clay'?'clay':''}">${esc(p.label)}</div>`:''}${st.refTab==='summary'?`<p style="text-indent:0;font-family:inherit;font-size:13px;line-height:1.75">${esc(p.summary)}</p>`:highlightPassageText(p.text,p.keyPhrases,p.themePhrases)}</div>`).join('');
       }
     });
 
@@ -878,16 +890,14 @@ function renderWorkspace(prompt){
       const ok=await copyText(padletText(prompt,st));
       toast(ok?'已複製觀摩牆格式，可直接貼上 Padlet ✓':'無法自動複製，請手動選取文字');
     };
-    const dlMd=$('#mock-dl-md');
-    if(dlMd)dlMd.onclick=()=>{
-      download(`拾光-${prompt.id}-${prompt.title}.md`,padletText(prompt,st),'text/markdown;charset=utf-8');
-      toast('已下載 Markdown 作答檔');
-    };
-    const dlJson=$('#mock-dl-json');
-    if(dlJson)dlJson.onclick=()=>{
-      const payload={promptId:prompt.id,title:prompt.title,theme:prompt.theme,exportedAt:new Date().toISOString(),student:{classNo:st.stuClass,seat:st.stuSeat,name:st.stuName},stance:st.stance,q1:st.q1,q2:activeQ2Text(),q2Parts:st.q2Parts};
-      download(`拾光-${prompt.id}-練習紀錄.json`,JSON.stringify(payload,null,2),'application/json;charset=utf-8');
-      toast('已匯出本次練習 JSON 檔');
+    const prBtn=$('#mock-print-sheet');
+    if(prBtn)prBtn.onclick=()=>{
+      const w=window.open('','_blank');
+      if(!w){toast('瀏覽器阻擋了新分頁，請允許彈出視窗或改用一鍵複製');return;}
+      const who=[st.stuClass,st.stuSeat?st.stuSeat+'號':'',st.stuName].filter(Boolean).join(' ')||'未填寫';
+      const q2Text=activeQ2Text().trim()||'（尚未填寫）';
+      w.document.write(`<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><title>${esc(prompt.title)}｜作答列印</title><style>body{font-family:"Noto Serif TC","Microsoft JhengHei",serif;max-width:740px;margin:28px auto;padding:0 20px;line-height:2;color:#1f2b24}h1{border-bottom:2px solid #1e5641;padding-bottom:8px;font-size:22px}h2{color:#1e5641;font-size:16px;margin-top:22px}p{text-indent:2em;white-space:pre-wrap;font-size:15.5px}.meta{font-size:12.5px;color:#555}@media print{.noprint{display:none}}</style></head><body><div class="noprint" style="margin-bottom:16px"><button onclick="window.print()">列印／另存 PDF</button></div><h1>拾光寫作｜${esc(prompt.id.replace(/^TOPIC_/,''))} ${esc(prompt.title)}</h1><p class="meta" style="text-indent:0">班級姓名：${esc(who)}　｜　日期：${new Date().toLocaleDateString('zh-TW')}</p>${prompt.q1?`<h2>問題（一）（${countChars(st.q1)} 字）</h2><p>${esc(st.q1.trim()||'（尚未填寫）')}</p>`:''}<h2>${prompt.q1?'問題（二）':'正文'}：${esc(prompt.q2.coreTitle)}（${countChars(q2Text)} 字）</h2><p>${esc(q2Text)}</p></body></html>`);
+      w.document.close();
     };
   }
 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img" aria-label="兩個都有手機螢幕的生活場景對照圖：餐桌低頭滑手機與視訊向遠方外公展示作品">
+  <title>兩個都有手機螢幕的生活場景對照圖：餐桌低頭滑手機與視訊向遠方外公展示作品</title>
+  <defs>
+    <style>
+      .f { font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; }
+      .s { font-family: 'Noto Serif TC', 'PMingLiU', serif; }
+      .t-ink { fill: #22352c; }
+      .t-soft { fill: #526359; }
+      .t-forest { fill: #1e5641; }
+      .t-clay { fill: #b85328; }
+      .t-white { fill: #ffffff; }
+    </style>
+  </defs>
+  <rect width="760" height="320" rx="16" fill="#faf8f1" stroke="#d5dfd0" stroke-width="2"/>
+  
+    <rect x="20" y="18" width="720" height="36" rx="10" fill="#e8ede4"/>
+    <text x="380" y="42" text-anchor="middle" class="s t-forest" font-size="15.5" font-weight="700">生活雙場景對照｜兩個畫面都有手機螢幕，映照出什麼不同的距離？</text>
+
+    <!-- 場景一 -->
+    <rect x="30" y="72" width="336" height="224" rx="14" fill="#fff9f5" stroke="#e4b8a1" stroke-width="2"/>
+    <rect x="48" y="86" width="84" height="24" rx="12" fill="#b85328"/>
+    <text x="90" y="102" text-anchor="middle" class="f t-white" font-size="11.5" font-weight="700">場景一</text>
+    <!-- 餐桌與四支發光手機 -->
+    <rect x="74" y="168" width="248" height="14" rx="6" fill="#c79e79"/>
+    <ellipse cx="198" cy="162" rx="34" ry="8" fill="#ffffff" stroke="#b85328" stroke-width="1.5"/>
+    <circle cx="118" cy="132" r="12" fill="#537864"/>
+    <rect x="132" y="144" width="14" height="20" rx="3" fill="#dcebf2" stroke="#1e5641"/>
+    <circle cx="278" cy="132" r="12" fill="#537864"/>
+    <rect x="250" y="144" width="14" height="20" rx="3" fill="#dcebf2" stroke="#1e5641"/>
+    <text x="198" y="218" text-anchor="middle" class="s t-clay" font-size="14" font-weight="700">同桌共餐，卻各自低頭滑手機</text>
+    <text x="198" y="242" text-anchor="middle" class="f t-soft" font-size="11.5">除了通知震動與碗筷輕碰，幾乎無人交談</text>
+    <text x="198" y="264" text-anchor="middle" class="f t-clay" font-size="11.5">桌上的熱湯，在螢幕冷光旁漸漸變涼</text>
+
+    <!-- 場景二 -->
+    <rect x="394" y="72" width="336" height="224" rx="14" fill="#f5faf6" stroke="#a6c4ad" stroke-width="2"/>
+    <rect x="412" y="86" width="84" height="24" rx="12" fill="#1e5641"/>
+    <text x="454" y="102" text-anchor="middle" class="f t-white" font-size="11.5" font-weight="700">場景二</text>
+    <!-- 視訊畫面與筆筒 -->
+    <rect x="478" y="114" width="106" height="72" rx="10" fill="#1e5641"/>
+    <rect x="486" y="122" width="90" height="56" rx="6" fill="#eef5ee"/>
+    <circle cx="531" cy="144" r="13" fill="#d9a75a"/>
+    <path d="M 524 148 Q 531 155 538 148" fill="none" stroke="#22352c" stroke-width="1.8"/>
+    <text x="531" y="172" text-anchor="middle" class="f t-forest" font-size="9.5">遠方外公笑著稱讚</text>
+    <rect x="604" y="138" width="38" height="44" rx="5" fill="#d9a75a" stroke="#8a5a2b" stroke-width="2"/>
+    <line x1="614" y1="120" x2="614" y2="138" stroke="#1e5641" stroke-width="3"/>
+    <line x1="628" y1="124" x2="628" y2="138" stroke="#b85328" stroke-width="3"/>
+    <text x="562" y="218" text-anchor="middle" class="s t-forest" font-size="14" font-weight="700">視訊連線，分享剛完成的木工筆筒</text>
+    <text x="562" y="242" text-anchor="middle" class="f t-soft" font-size="11.5">跨越數百公里，湊近鏡頭細細展示作品</text>
+    <text x="562" y="264" text-anchor="middle" class="f t-forest" font-size="11.5">笑聲透過螢幕，把整個房間都點亮了</text>
+  
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img" aria-label="八年甲班三十人期末同樂會活動偏好投票統計長條圖">
+  <title>八年甲班三十人期末同樂會活動偏好投票統計長條圖</title>
+  <defs>
+    <style>
+      .f { font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; }
+      .s { font-family: 'Noto Serif TC', 'PMingLiU', serif; }
+      .t-ink { fill: #22352c; }
+      .t-soft { fill: #526359; }
+      .t-forest { fill: #1e5641; }
+      .t-clay { fill: #b85328; }
+      .t-white { fill: #ffffff; }
+    </style>
+  </defs>
+  <rect width="760" height="320" rx="16" fill="#faf8f1" stroke="#d5dfd0" stroke-width="2"/>
+  
+    <rect x="20" y="18" width="720" height="42" rx="10" fill="#e8ede4"/>
+    <text x="380" y="38" text-anchor="middle" class="s t-forest" font-size="15.5" font-weight="700">八年甲班「期末班級同樂會」偏好投票統計（共 30 人・每人一票）</text>
+    <text x="380" y="53" text-anchor="middle" class="f t-soft" font-size="11">※ 表格僅記錄投票人數，未記錄每位同學選或不選的原因</text>
+
+    <rect x="30" y="72" width="700" height="178" rx="12" fill="#ffffff" stroke="#d5dfd0"/>
+    <line x1="210" y1="88" x2="210" y2="232" stroke="#8aa18c" stroke-width="1.5"/>
+
+    <text x="200" y="114" text-anchor="end" class="f t-ink" font-size="12.5" font-weight="700">戶外球類競賽</text>
+    <rect x="210" y="97" width="336" height="24" rx="5" fill="#b85328"/>
+    <text x="556" y="114" class="f t-clay" font-size="12" font-weight="700">12 人（40%・最高票）</text>
+
+    <text x="200" y="148" text-anchor="end" class="f t-ink" font-size="12.5">桌上遊戲同樂</text>
+    <rect x="210" y="131" width="252" height="24" rx="5" fill="#1e5641"/>
+    <text x="472" y="148" class="f t-forest" font-size="12">9 人（30%）</text>
+
+    <text x="200" y="182" text-anchor="end" class="f t-ink" font-size="12.5">創意點心手作</text>
+    <rect x="210" y="165" width="168" height="24" rx="5" fill="#527b66"/>
+    <text x="388" y="182" class="f t-ink" font-size="12">6 人（20%）</text>
+
+    <text x="200" y="216" text-anchor="end" class="f t-ink" font-size="12.5">其他（電影、唱歌）</text>
+    <rect x="210" y="199" width="84" height="24" rx="5" fill="#9eb8a3"/>
+    <text x="304" y="216" class="f t-soft" font-size="12">3 人（10%）</text>
+
+    <rect x="30" y="264" width="700" height="38" rx="9" fill="#f9ebe4" stroke="#e4b8a1"/>
+    <text x="380" y="288" text-anchor="middle" class="f t-clay" font-size="12.5" font-weight="700">🔍 思考線索：球類雖拿最高票（12人），但沒投給球類的同學合計高達 18 人（60%）！</text>
+  
+</svg>

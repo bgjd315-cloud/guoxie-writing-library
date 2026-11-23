@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="修鞋改衣小店裡三件舊物獲得第二段生活的引導插圖">
+  <title>修鞋改衣小店裡三件舊物獲得第二段生活的引導插圖</title>
+  <defs>
+    <style>
+      .f { font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; }
+      .s { font-family: 'Noto Serif TC', 'PMingLiU', serif; }
+      .t-ink { fill: #22352c; }
+      .t-soft { fill: #526359; }
+      .t-forest { fill: #1e5641; }
+      .t-clay { fill: #b85328; }
+      .t-white { fill: #ffffff; }
+    </style>
+  </defs>
+  <rect width="760" height="340" rx="16" fill="#faf8f1" stroke="#d5dfd0" stroke-width="2"/>
+  
+    <rect x="20" y="18" width="720" height="38" rx="10" fill="#e8ede4"/>
+    <text x="380" y="43" text-anchor="middle" class="s t-forest" font-size="16" font-weight="700">巷口修理店木牌：「壞掉的地方，不一定是終點。」</text>
+
+    <!-- 卡片 1：帆布袋 -->
+    <rect x="28" y="76" width="220" height="236" rx="14" fill="#fffdf7" stroke="#d5dfd0" stroke-width="1.5"/>
+    <rect x="78" y="96" width="120" height="92" rx="10" fill="#eef3ea"/>
+    <path d="M 116 116 C 116 98, 160 98, 160 116" fill="none" stroke="#1e5641" stroke-width="3"/>
+    <rect x="104" y="116" width="68" height="58" rx="6" fill="#d9e6d8" stroke="#1e5641" stroke-width="2"/>
+    <rect x="138" y="138" width="24" height="22" rx="3" fill="#f6e3d7" stroke="#b85328" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <text x="138" y="212" text-anchor="middle" class="s t-forest" font-size="14" font-weight="700">磨破的帆布袋</text>
+    <text x="138" y="236" text-anchor="middle" class="f t-soft" font-size="11.5">拉鍊卡死、角落破洞</text>
+    <text x="138" y="258" text-anchor="middle" class="f t-clay" font-size="12" font-weight="700">↓ 換拉鍊＋格紋補丁</text>
+    <text x="138" y="284" text-anchor="middle" class="f t-ink" font-size="11.5">成為獨一無二的日常提袋</text>
+
+    <!-- 卡片 2：矮木書架 -->
+    <rect x="270" y="76" width="220" height="236" rx="14" fill="#fffdf7" stroke="#d5dfd0" stroke-width="1.5"/>
+    <rect x="320" y="96" width="120" height="92" rx="10" fill="#f9ebe4"/>
+    <rect x="342" y="138" width="76" height="36" rx="3" fill="#f3dfc7" stroke="#8a5a2b" stroke-width="2"/>
+    <line x1="342" y1="156" x2="418" y2="156" stroke="#8a5a2b" stroke-width="2"/>
+    <ellipse cx="364" cy="126" rx="12" ry="9" fill="#5e9468"/>
+    <rect x="357" y="128" width="14" height="10" rx="2" fill="#b85328"/>
+    <ellipse cx="398" cy="128" rx="10" ry="7" fill="#467d54"/>
+    <rect x="392" y="129" width="12" height="9" rx="2" fill="#c97d4d"/>
+    <text x="380" y="212" text-anchor="middle" class="s t-forest" font-size="14" font-weight="700">搖晃的矮木架</text>
+    <text x="380" y="236" text-anchor="middle" class="f t-soft" font-size="11.5">螺絲鬆脫、沾滿貼紙殘膠</text>
+    <text x="380" y="258" text-anchor="middle" class="f t-clay" font-size="12" font-weight="700">↓ 打磨加固＋刷米白漆</text>
+    <text x="380" y="284" text-anchor="middle" class="f t-ink" font-size="11.5">變身玄關多肉盆栽架</text>
+
+    <!-- 卡片 3：舊行李箱／舊衣 -->
+    <rect x="512" y="76" width="220" height="236" rx="14" fill="#fffdf7" stroke="#d5dfd0" stroke-width="1.5"/>
+    <rect x="562" y="96" width="120" height="92" rx="10" fill="#eef3ea"/>
+    <rect x="594" y="114" width="56" height="52" rx="8" fill="#537864" stroke="#1e5641" stroke-width="2"/>
+    <line x1="612" y1="104" x2="632" y2="104" stroke="#1e5641" stroke-width="3"/>
+    <line x1="614" y1="104" x2="614" y2="114" stroke="#1e5641" stroke-width="2"/>
+    <line x1="630" y1="104" x2="630" y2="114" stroke="#1e5641" stroke-width="2"/>
+    <circle cx="604" cy="172" r="6" fill="#b85328"/>
+    <circle cx="640" cy="172" r="6" fill="#b85328"/>
+    <text x="622" y="212" text-anchor="middle" class="s t-forest" font-size="14" font-weight="700">缺輪的行李箱</text>
+    <text x="622" y="236" text-anchor="middle" class="f t-soft" font-size="11.5">滾輪老化、拉起來卡卡的</text>
+    <text x="622" y="258" text-anchor="middle" class="f t-clay" font-size="12" font-weight="700">↓ 替換新零件重新上油</text>
+    <text x="622" y="284" text-anchor="middle" class="f t-ink" font-size="11.5">陪主人繼續下段旅程</text>
+  
+</svg>

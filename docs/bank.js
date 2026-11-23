@@ -147,13 +147,11 @@ function form(m){
 
 function closeForm(discardDraft=true){const id=$('#bank-form form')?.dataset.id;if(discardDraft&&id){const m=bank.read()[id];if(m?.draft)bank.remove(id);}$('#bank-form').innerHTML='';if(location.hash.includes('edit='))history.replaceState(null,'','#bank');list();}
 
-function markdown(){const all=entries(),drafts=qingyiDrafts();const out=['# 我的題材庫','',`匯出時間：${new Date().toLocaleString('zh-TW')}`,''];for(const g of [...db.categories.map(c=>c.id),'']){const items=all.filter(m=>(m.theme||'')===g),ds=drafts.filter(d=>d.theme===g);if(!items.length&&!ds.length)continue;out.push(`## ${g?catTitle(g):'未分類'}`,'');for(const m of items){out.push(`### ${m.kind==='other'?'【他例】':'【己例】'}${m.title||m.scene||'未命名素材'}`);if(m.concept)out.push(`- 相關概念：${conceptTitle(m.concept)}`);const rows=m.kind==='other'?[['發生了什麼',m.fact],['出處',m.source],['可以支持',m.point],['注意',m.caution]]:[['時間、地點、人物',m.when],['發生了什麼',m.event],['當時的想法',m.feeling],['後來的理解',m.insight],['可以支持',m.point]];for(const[k,v]of rows)if(String(v||'').trim())out.push(`- ${k}：${v}`);out.push('');}for(const{d}of ds){out.push(`### 【己例・情意素材卡】${d.title||'我的故事'}`,'',d.body||d.event||'（尚未寫正文）','');}}return out.join('\n');}
-
 function printStudySheet(){
   const all=entries(),drafts=qingyiDrafts();
   if(!all.length&&!drafts.length){toast('題材庫還是空的，先存幾則素材再產生考前素材本喔');return;}
   const w=window.open('','_blank');
-  if(!w){toast('瀏覽器阻擋了新分頁，請允許彈出視窗或改用匯出 Markdown');return;}
+  if(!w){toast('瀏覽器阻擋了新分頁，請允許彈出視窗以列印或另存 PDF');return;}
   const groups=[...db.categories.map(c=>c.id),''].map(g=>{
     const items=all.filter(m=>(m.theme||'')===g),ds=drafts.filter(d=>d.theme===g);
     if(!items.length&&!ds.length)return '';
@@ -171,9 +169,7 @@ window.bankPage=function(){
         <button type="button" class="btn primary" data-bank-new="self">＋30 秒記下己例</button>
         <button type="button" class="btn" data-bank-new="other">＋新增他例</button>
         <a class="btn" href="#mock">去完整仿題套用素材 →</a>
-        <button type="button" class="btn" data-bank-md>匯出 Markdown ↓</button>
         <button type="button" class="btn" data-bank-print>列印考前素材本</button>
-        <a class="btn" href="#notebook">全站 JSON 備份／還原 ↗</a>
       </div>
     </section>
     <h2 class="bank-subhead">十七個高中主題與國中六個主題的覆蓋情形 <small>點選主題可篩選；每個主題至少準備一則他例、一則己例</small></h2>
@@ -184,7 +180,7 @@ window.bankPage=function(){
     </div>
     <div id="bank-form"></div>
     <div id="bank-list"></div>
-    <p class="notice">題材庫存在目前瀏覽器，並與「完整仿題演練室」及「歷屆原題比對」即時互通。換裝置或清除瀏覽資料前，請到<a href="#notebook">我的學習紀錄</a>執行「匯出全部紀錄（JSON）」。</p>`;
+    <p class="notice">題材庫存在目前瀏覽器，並與「完整仿題演練室」及「歷屆原題比對」即時互通。需要帶去考前複習可按上方「列印考前素材本」另存 PDF。</p>`;
   $('#bank-search').oninput=e=>{view.q=e.target.value;list();};
   list();
   const edit=new URLSearchParams(location.hash.split('?')[1]).get('edit');
@@ -196,9 +192,8 @@ document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||
  if(b.hasAttribute('data-bank-theme')){view.theme=view.theme===b.dataset.bankTheme?'':b.dataset.bankTheme;window.bankPage();}
  else if(b.dataset.bankNew)form({kind:b.dataset.bankNew,theme:view.theme});
  else if(b.dataset.bankEdit){const m=bank.read()[b.dataset.bankEdit];if(m)form(m);}
- else if(b.dataset.bankDelete){const m=bank.read()[b.dataset.bankDelete];if(m&&confirm(`刪除「${m.title||m.scene||'這則素材'}」？刪除後無法復原（若曾匯出備份，可再匯入）。`)){bank.remove(m.id);toast('已刪除');list();}}
+ else if(b.dataset.bankDelete){const m=bank.read()[b.dataset.bankDelete];if(m&&confirm(`刪除「${m.title||m.scene||'這則素材'}」？刪除後無法復原。`)){bank.remove(m.id);toast('已刪除');list();}}
  else if(b.hasAttribute('data-bank-cancel'))closeForm(true);
- else if(b.hasAttribute('data-bank-md')){download('我的題材庫.md',markdown(),'text/markdown;charset=utf-8');toast('已匯出題材庫');}
  else if(b.hasAttribute('data-bank-print'))printStudySheet();});
 
 backupKeys.push(KEY);
