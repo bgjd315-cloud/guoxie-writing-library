@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="群體標籤與真實個人故事對照插圖">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 356" role="img" aria-label="群體標籤與真實個人故事對照插圖">
   <title>群體標籤與真實個人故事對照插圖</title>
   <defs>
     <style>
@@ -12,38 +12,37 @@
       .t-white { fill: #ffffff; }
     </style>
   </defs>
-  <rect width="760" height="340" rx="16" fill="#faf8f1" stroke="#d5dfd0" stroke-width="2"/>
-  
-    <rect x="20" y="18" width="720" height="38" rx="10" fill="#e8ede4"/>
-    <text x="380" y="43" text-anchor="middle" class="s t-forest" font-size="16" font-weight="700">引導圖示｜當一句「他們都這樣」貼上去，我們漏看了什麼？</text>
+  <rect width="760" height="356" rx="16" fill="#faf8f1" stroke="#d5dfd0" stroke-width="2"/>
 
-    <!-- 左側：公車上被貼上的大標籤 -->
-    <rect x="32" y="76" width="322" height="238" rx="14" fill="#fff9f5" stroke="#e4b8a1" stroke-width="1.5"/>
-    <text x="193" y="104" text-anchor="middle" class="s t-clay" font-size="14" font-weight="700">表面聽見的「群體標籤」</text>
-    <!-- 傾斜標籤貼紙 -->
-    <g transform="rotate(-3 193 158)">
-      <rect x="64" y="124" width="258" height="64" rx="10" fill="#b85328"/>
-      <text x="193" y="151" text-anchor="middle" class="f t-white" font-size="13.5" font-weight="700">「現在的國中生都只會滑手機、</text>
-      <text x="193" y="172" text-anchor="middle" class="f t-white" font-size="13.5" font-weight="700">講話大聲、沒耐心！」</text>
-    </g>
-    <rect x="62" y="216" width="262" height="74" rx="10" fill="#ffffff" stroke="#ebd1c2" stroke-dasharray="4 3"/>
-    <text x="193" y="242" text-anchor="middle" class="f t-clay" font-size="12" font-weight="700">但阿翰也想起自己曾貼過的標籤：</text>
-    <text x="193" y="264" text-anchor="middle" class="f t-ink" font-size="11.5">「那個少話的轉學生，一定很難相處…」</text>
+  <rect x="20" y="18" width="720" height="40" rx="10" fill="#e8ede4"/>
+  <text x="380" y="44" text-anchor="middle" class="s t-forest" font-size="16.5" font-weight="700">引導圖示｜貼上一句「他們都這樣」，我們漏看了什麼？</text>
 
-    <!-- 中間箭頭 -->
-    <text x="380" y="198" text-anchor="middle" class="f t-forest" font-size="22" font-weight="700">⇄</text>
+  <!-- 左側：表面聽見的標籤 -->
+  <rect x="28" y="74" width="328" height="258" rx="14" fill="#fff9f5" stroke="#e4b8a1" stroke-width="1.5"/>
+  <text x="192" y="104" text-anchor="middle" class="s t-clay" font-size="15" font-weight="700">表面貼上的標籤</text>
+  <g transform="rotate(-2.5 192 162)">
+    <rect x="52" y="126" width="280" height="68" rx="10" fill="#b85328"/>
+    <text x="192" y="154" text-anchor="middle" class="f t-white" font-size="14" font-weight="700">「現在的國中生只會滑手機、</text>
+    <text x="192" y="177" text-anchor="middle" class="f t-white" font-size="14" font-weight="700">講話大聲、沒耐心！」</text>
+  </g>
+  <rect x="52" y="220" width="280" height="86" rx="10" fill="#ffffff" stroke="#ebd1c2" stroke-dasharray="4 3"/>
+  <text x="192" y="248" text-anchor="middle" class="f t-clay" font-size="13.5" font-weight="700">阿翰也想起自己的偏見：</text>
+  <text x="192" y="274" text-anchor="middle" class="f t-ink" font-size="13">「少話的轉學生，一定不合群…」</text>
+  <text x="192" y="295" text-anchor="middle" class="f t-soft" font-size="12.5">原來自己也曾貼過別人標籤</text>
 
-    <!-- 右側：撕開標籤看見的真實個體 -->
-    <rect x="406" y="76" width="322" height="238" rx="14" fill="#f5faf6" stroke="#a6c4ad" stroke-width="1.5"/>
-    <text x="567" y="104" text-anchor="middle" class="s t-forest" font-size="14" font-weight="700">標籤背後「真實獨特的人」</text>
-    <rect x="430" y="122" width="274" height="78" rx="10" fill="#ffffff" stroke="#c8dccb"/>
-    <text x="446" y="146" class="f t-forest" font-size="12.5" font-weight="700">🎒 靠窗站著的阿翰</text>
-    <text x="446" y="168" class="f t-ink" font-size="11.5">• 剛把位子讓給提重物的老奶奶</text>
-    <text x="446" y="188" class="f t-ink" font-size="11.5">• 書包裡裝著下週當圖書館志工的繪本</text>
+  <!-- 中間箭頭 -->
+  <text x="380" y="206" text-anchor="middle" class="f t-forest" font-size="24" font-weight="700">⇄</text>
 
-    <rect x="430" y="216" width="274" height="74" rx="10" fill="#e4f0e8" stroke="#1e5641"/>
-    <text x="446" y="240" class="f t-forest" font-size="12.5" font-weight="700">✏️ 原本安靜的轉學生</text>
-    <text x="446" y="262" class="f t-ink" font-size="11.5">• 真正合作時點子最多、最細心可靠</text>
-    <text x="446" y="280" class="f t-soft" font-size="11">→ 唯有靠近認識，才聽得見真實聲音</text>
-  
+  <!-- 右側：標籤背後的真實個人 -->
+  <rect x="404" y="74" width="328" height="258" rx="14" fill="#f5faf6" stroke="#a6c4ad" stroke-width="1.5"/>
+  <text x="568" y="104" text-anchor="middle" class="s t-forest" font-size="15" font-weight="700">標籤背後的真實樣貌</text>
+  <rect x="424" y="122" width="288" height="86" rx="10" fill="#ffffff" stroke="#c8dccb"/>
+  <text x="440" y="148" class="f t-forest" font-size="14" font-weight="700">🎒 靠窗站著的阿翰</text>
+  <text x="440" y="173" class="f t-ink" font-size="13">• 剛讓座給提重物的老奶奶</text>
+  <text x="440" y="195" class="f t-ink" font-size="13">• 書包裡裝著當志工要用的繪本</text>
+
+  <rect x="424" y="220" width="288" height="86" rx="10" fill="#e4f0e8" stroke="#1e5641"/>
+  <text x="440" y="246" class="f t-forest" font-size="14" font-weight="700">✏️ 安靜的轉學生</text>
+  <text x="440" y="271" class="f t-ink" font-size="13">• 真正合作時點子最多、最可靠</text>
+  <text x="440" y="294" class="f t-soft" font-size="13">→ 靠近認識，才聽見真實聲音</text>
 </svg>

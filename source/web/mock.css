@@ -1,5 +1,6 @@
 /* 完整仿題（一題到底模式）樣式：延續拾光寫作鼠尾草綠、奶油紙底、森林綠與陶土暖橘 */
 .mock-shell{--forest:#1e5641;--forest-dark:#143d2d;--sage:#e8ede4;--sage-dark:#d4dfd0;--paper:#faf9f5;--clay:#b85328;--clay-light:#f9ebe4;--ink-soft:#4a554f}
+.mock-shell.mock-exam-mode .field-demo{display:none!important}
 .mock-topbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border:1px solid var(--sage-dark);border-radius:12px;background:var(--sage);margin-bottom:16px}
 .mock-topbar-title{min-width:0}
 .mock-topbar-sub{font-size:11px;color:var(--ink-soft);letter-spacing:.03em}

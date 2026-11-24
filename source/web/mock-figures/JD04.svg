@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="長輩與晚輩各有所長、並肩完成一件生活小事的互補圖示">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 342" role="img" aria-label="長輩與晚輩各有所長、並肩完成一件生活小事的互補圖示">
   <title>長輩與晚輩各有所長、並肩完成一件生活小事的互補圖示</title>
   <defs>
     <style>
@@ -12,40 +12,39 @@
       .t-white { fill: #ffffff; }
     </style>
   </defs>
-  <rect width="760" height="330" rx="16" fill="#faf8f1" stroke="#d5dfd0" stroke-width="2"/>
-  
-    <rect x="20" y="18" width="720" height="38" rx="10" fill="#e8ede4"/>
-    <text x="380" y="43" text-anchor="middle" class="s t-forest" font-size="16" font-weight="700">跨世代合作｜不是單向照顧，而是兩個世代各展所長</text>
+  <rect width="760" height="342" rx="16" fill="#faf8f1" stroke="#d5dfd0" stroke-width="2"/>
 
-    <!-- 左圈：長輩的長處 -->
-    <rect x="34" y="80" width="246" height="218" rx="16" fill="#fbf2e6" stroke="#d9a75a" stroke-width="2"/>
-    <text x="157" y="112" text-anchor="middle" class="s t-clay" font-size="16" font-weight="700">長輩帶來的寶藏</text>
-    <rect x="54" y="130" width="206" height="36" rx="8" fill="#ffffff"/>
-    <text x="157" y="153" text-anchor="middle" class="f t-ink" font-size="12.5">🍲 多年累積的生活與料理手感</text>
-    <rect x="54" y="176" width="206" height="36" rx="8" fill="#ffffff"/>
-    <text x="157" y="199" text-anchor="middle" class="f t-ink" font-size="12.5">📖 家族記憶與地方老故事</text>
-    <rect x="54" y="222" width="206" height="36" rx="8" fill="#ffffff"/>
-    <text x="157" y="245" text-anchor="middle" class="f t-ink" font-size="12.5">🌱 看天吃飯的細心與從容耐心</text>
-    <text x="157" y="282" text-anchor="middle" class="f t-soft" font-size="11">「看顏色、聞香味最準啦！」</text>
+  <rect x="20" y="18" width="720" height="40" rx="10" fill="#e8ede4"/>
+  <text x="380" y="44" text-anchor="middle" class="s t-forest" font-size="16.5" font-weight="700">跨世代合作｜不是單向照顧，而是兩個世代各展所長</text>
 
-    <!-- 中央交會徽章 -->
-    <circle cx="380" cy="186" r="68" fill="#1e5641"/>
-    <circle cx="380" cy="186" r="60" fill="none" stroke="#a6c4ad" stroke-width="1.5" stroke-dasharray="4 3"/>
-    <text x="380" y="168" text-anchor="middle" class="s t-white" font-size="15" font-weight="700">並肩完成</text>
-    <text x="380" y="190" text-anchor="middle" class="f" fill="#dcece2" font-size="12">從步調磨合</text>
-    <text x="380" y="209" text-anchor="middle" class="f" fill="#dcece2" font-size="12">走向雙向體貼</text>
-    <path d="M 284 186 L 308 186" stroke="#1e5641" stroke-width="3"/>
-    <path d="M 452 186 L 476 186" stroke="#1e5641" stroke-width="3"/>
+  <!-- 左圈：長輩的長處 -->
+  <rect x="28" y="76" width="256" height="240" rx="16" fill="#fbf2e6" stroke="#d9a75a" stroke-width="2"/>
+  <text x="156" y="110" text-anchor="middle" class="s t-clay" font-size="16.5" font-weight="700">長輩的拿手絕活</text>
+  <rect x="46" y="128" width="220" height="40" rx="8" fill="#ffffff"/>
+  <text x="156" y="153" text-anchor="middle" class="f t-ink" font-size="14">🧰 生活手藝與熟練手感</text>
+  <rect x="46" y="178" width="220" height="40" rx="8" fill="#ffffff"/>
+  <text x="156" y="203" text-anchor="middle" class="f t-ink" font-size="14">📖 家族記憶與地方故事</text>
+  <rect x="46" y="228" width="220" height="40" rx="8" fill="#ffffff"/>
+  <text x="156" y="253" text-anchor="middle" class="f t-ink" font-size="14">🌱 細心觀察與從容耐心</text>
+  <text x="156" y="298" text-anchor="middle" class="f t-soft" font-size="13">多年累積的手感與生活智慧</text>
 
-    <!-- 右圈：晚輩的長處 -->
-    <rect x="480" y="80" width="246" height="218" rx="16" fill="#eef5ee" stroke="#7da38a" stroke-width="2"/>
-    <text x="603" y="112" text-anchor="middle" class="s t-forest" font-size="16" font-weight="700">我們帶來的助力</text>
-    <rect x="500" y="130" width="206" height="36" rx="8" fill="#ffffff"/>
-    <text x="603" y="153" text-anchor="middle" class="f t-ink" font-size="12.5">📷 拍照錄影與圖文整理排版</text>
-    <rect x="500" y="176" width="206" height="36" rx="8" fill="#ffffff"/>
-    <text x="603" y="199" text-anchor="middle" class="f t-ink" font-size="12.5">🔍 查詢新資訊與安全小工具</text>
-    <rect x="500" y="222" width="206" height="36" rx="8" fill="#ffffff"/>
-    <text x="603" y="245" text-anchor="middle" class="f t-ink" font-size="12.5">💡 新鮮點子與大膽嘗試的活力</text>
-    <text x="603" y="282" text-anchor="middle" class="f t-soft" font-size="11">「我先錄下來，再幫你印大字版！」</text>
-  
+  <!-- 中央交會徽章 -->
+  <circle cx="380" cy="196" r="68" fill="#1e5641"/>
+  <circle cx="380" cy="196" r="60" fill="none" stroke="#a6c4ad" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="380" y="178" text-anchor="middle" class="s t-white" font-size="16" font-weight="700">並肩完成</text>
+  <text x="380" y="202" text-anchor="middle" class="f" fill="#dcece2" font-size="13">從步調磨合</text>
+  <text x="380" y="222" text-anchor="middle" class="f" fill="#dcece2" font-size="13">走向互相幫忙</text>
+  <path d="M 288 196 L 310 196" stroke="#1e5641" stroke-width="3"/>
+  <path d="M 450 196 L 472 196" stroke="#1e5641" stroke-width="3"/>
+
+  <!-- 右圈：晚輩的長處 -->
+  <rect x="476" y="76" width="256" height="240" rx="16" fill="#eef5ee" stroke="#7da38a" stroke-width="2"/>
+  <text x="604" y="110" text-anchor="middle" class="s t-forest" font-size="16.5" font-weight="700">我們的年輕助力</text>
+  <rect x="494" y="128" width="220" height="40" rx="8" fill="#ffffff"/>
+  <text x="604" y="153" text-anchor="middle" class="f t-ink" font-size="14">📷 拍照錄影與圖文整理</text>
+  <rect x="494" y="178" width="220" height="40" rx="8" fill="#ffffff"/>
+  <text x="604" y="203" text-anchor="middle" class="f t-ink" font-size="14">🔍 查新資訊與數位工具</text>
+  <rect x="494" y="228" width="220" height="40" rx="8" fill="#ffffff"/>
+  <text x="604" y="253" text-anchor="middle" class="f t-ink" font-size="14">💡 新點子與大膽嘗試</text>
+  <text x="604" y="298" text-anchor="middle" class="f t-soft" font-size="13">用新工具幫忙記錄與整理</text>
 </svg>

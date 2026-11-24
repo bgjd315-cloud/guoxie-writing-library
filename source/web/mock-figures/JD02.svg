@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 350" role="img" aria-label="阿哲與小晴兩種使用 AI 輔助學習方式的對照圖">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 364" role="img" aria-label="阿哲與小晴兩種使用 AI 輔助學習方式的對照圖">
   <title>阿哲與小晴兩種使用 AI 輔助學習方式的對照圖</title>
   <defs>
     <style>
@@ -12,51 +12,50 @@
       .t-white { fill: #ffffff; }
     </style>
   </defs>
-  <rect width="760" height="350" rx="16" fill="#faf8f1" stroke="#d5dfd0" stroke-width="2"/>
-  
-    <rect x="20" y="18" width="720" height="38" rx="10" fill="#e8ede4"/>
-    <text x="380" y="43" text-anchor="middle" class="s t-forest" font-size="16" font-weight="700">雙情境對照｜同一款工具，為什麼學到的深度完全不同？</text>
+  <rect width="760" height="364" rx="16" fill="#faf8f1" stroke="#d5dfd0" stroke-width="2"/>
 
-    <!-- 左卡：阿哲 -->
-    <rect x="28" y="72" width="340" height="256" rx="14" fill="#fff9f5" stroke="#e4b8a1" stroke-width="2"/>
-    <rect x="44" y="86" width="124" height="26" rx="13" fill="#b85328"/>
-    <text x="106" y="104" text-anchor="middle" class="f t-white" font-size="12" font-weight="700">情境一｜阿哲</text>
-    <!-- 步驟三框 -->
-    <rect x="46" y="126" width="304" height="44" rx="9" fill="#ffffff" stroke="#ebd1c2"/>
-    <text x="60" y="145" class="f t-clay" font-size="11.5" font-weight="700">① 直接把題目貼給 AI</text>
-    <text x="60" y="162" class="f t-soft" font-size="11">幾秒拿到流暢短文，微調字詞便交件</text>
+  <rect x="20" y="18" width="720" height="40" rx="10" fill="#e8ede4"/>
+  <text x="380" y="44" text-anchor="middle" class="s t-forest" font-size="16.5" font-weight="700">雙情境對照｜同一款工具，為什麼學到的深度完全不同？</text>
 
-    <text x="198" y="186" text-anchor="middle" class="f t-clay" font-size="14" font-weight="700">↓</text>
+  <!-- 左卡：阿哲 -->
+  <rect x="26" y="74" width="342" height="268" rx="14" fill="#fff9f5" stroke="#e4b8a1" stroke-width="2"/>
+  <rect x="44" y="88" width="132" height="28" rx="14" fill="#b85328"/>
+  <text x="110" y="107" text-anchor="middle" class="f t-white" font-size="13.5" font-weight="700">情境一｜阿哲</text>
 
-    <rect x="46" y="192" width="304" height="44" rx="9" fill="#ffffff" stroke="#ebd1c2"/>
-    <text x="60" y="211" class="f t-clay" font-size="11.5" font-weight="700">② 表面結果：10 分鐘交出工整作業</text>
-    <text x="60" y="228" class="f t-soft" font-size="11">省下大量時間，跳過思考與卡關</text>
+  <rect x="44" y="128" width="306" height="48" rx="9" fill="#ffffff" stroke="#ebd1c2"/>
+  <text x="58" y="149" class="f t-clay" font-size="13.5" font-weight="700">① 直接把題目貼給 AI</text>
+  <text x="58" y="168" class="f t-soft" font-size="13">幾秒拿到短文，改幾個詞便交件</text>
 
-    <text x="198" y="252" text-anchor="middle" class="f t-clay" font-size="14" font-weight="700">↓</text>
+  <text x="197" y="193" text-anchor="middle" class="f t-clay" font-size="15" font-weight="700">↓</text>
 
-    <rect x="46" y="258" width="304" height="54" rx="9" fill="#f9ebe4" stroke="#b85328" stroke-width="1.5"/>
-    <text x="60" y="279" class="f t-clay" font-size="12" font-weight="700">③ 上台被老師追問：「為什麼同意？」</text>
-    <text x="60" y="299" class="f t-ink" font-size="11.5">望著自己的投影片，卻一句理由也答不上來 ❓</text>
+  <rect x="44" y="199" width="306" height="48" rx="9" fill="#ffffff" stroke="#ebd1c2"/>
+  <text x="58" y="220" class="f t-clay" font-size="13.5" font-weight="700">② 十分鐘交出工整作業</text>
+  <text x="58" y="239" class="f t-soft" font-size="13">省下時間，卻跳過思考與卡關</text>
 
-    <!-- 右卡：小晴 -->
-    <rect x="392" y="72" width="340" height="256" rx="14" fill="#f5faf6" stroke="#a6c4ad" stroke-width="2"/>
-    <rect x="408" y="86" width="124" height="26" rx="13" fill="#1e5641"/>
-    <text x="470" y="104" text-anchor="middle" class="f t-white" font-size="12" font-weight="700">情境二｜小晴</text>
+  <text x="197" y="264" text-anchor="middle" class="f t-clay" font-size="15" font-weight="700">↓</text>
 
-    <rect x="410" y="126" width="304" height="44" rx="9" fill="#ffffff" stroke="#c8dccb"/>
-    <text x="424" y="145" class="f t-forest" font-size="11.5" font-weight="700">① 先手寫草稿與卡關疑問</text>
-    <text x="424" y="162" class="f t-soft" font-size="11">自己先動腦整理想法，找出不懂之處</text>
+  <rect x="44" y="270" width="306" height="58" rx="9" fill="#f9ebe4" stroke="#b85328" stroke-width="1.5"/>
+  <text x="58" y="294" class="f t-clay" font-size="13.5" font-weight="700">③ 上台被追問「為什麼同意」</text>
+  <text x="58" y="316" class="f t-ink" font-size="13">望著投影片，一句理由也答不上來</text>
 
-    <text x="562" y="186" text-anchor="middle" class="f t-forest" font-size="14" font-weight="700">↓</text>
+  <!-- 右卡：小晴 -->
+  <rect x="392" y="74" width="342" height="268" rx="14" fill="#f5faf6" stroke="#a6c4ad" stroke-width="2"/>
+  <rect x="410" y="88" width="132" height="28" rx="14" fill="#1e5641"/>
+  <text x="476" y="107" text-anchor="middle" class="f t-white" font-size="13.5" font-weight="700">情境二｜小晴</text>
 
-    <rect x="410" y="192" width="304" height="44" rx="9" fill="#ffffff" stroke="#c8dccb"/>
-    <text x="424" y="211" class="f t-forest" font-size="11.5" font-weight="700">② 請 AI 舉生活例子、檢查邏輯盲點</text>
-    <text x="424" y="228" class="f t-soft" font-size="11">讓 AI 出題考自己，再回到課本核對</text>
+  <rect x="410" y="128" width="306" height="48" rx="9" fill="#ffffff" stroke="#c8dccb"/>
+  <text x="424" y="149" class="f t-forest" font-size="13.5" font-weight="700">① 先手寫草稿與卡關處</text>
+  <text x="424" y="168" class="f t-soft" font-size="13">先自己動腦整理，找出不懂的地方</text>
 
-    <text x="562" y="252" text-anchor="middle" class="f t-forest" font-size="14" font-weight="700">↓</text>
+  <text x="563" y="193" text-anchor="middle" class="f t-forest" font-size="15" font-weight="700">↓</text>
 
-    <rect x="410" y="258" width="304" height="54" rx="9" fill="#e4f0e8" stroke="#1e5641" stroke-width="1.5"/>
-    <text x="424" y="279" class="f t-forest" font-size="12" font-weight="700">③ 真正內化理解：「變聰明的是我」</text>
-    <text x="424" y="299" class="f t-ink" font-size="11.5">工具成了陪練教練，論點與思考更扎實 ✓</text>
-  
+  <rect x="410" y="199" width="306" height="48" rx="9" fill="#ffffff" stroke="#c8dccb"/>
+  <text x="424" y="220" class="f t-forest" font-size="13.5" font-weight="700">② 請 AI 舉例、挑出盲點</text>
+  <text x="424" y="239" class="f t-soft" font-size="13">請 AI 檢查理由清楚嗎、出題考自己</text>
+
+  <text x="563" y="264" text-anchor="middle" class="f t-forest" font-size="15" font-weight="700">↓</text>
+
+  <rect x="410" y="270" width="306" height="58" rx="9" fill="#e4f0e8" stroke="#1e5641" stroke-width="1.5"/>
+  <text x="424" y="294" class="f t-forest" font-size="13.5" font-weight="700">③ 先自己動腦，變聰明的是自己</text>
+  <text x="424" y="316" class="f t-ink" font-size="13">工具當陪練幫手，理解越學越扎實 ✓</text>
 </svg>

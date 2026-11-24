@@ -20,24 +20,25 @@
     <!-- 格 1：太高的水龍頭 -->
     <rect x="28" y="76" width="220" height="212" rx="14" fill="#fffdf7" stroke="#d5dfd0" stroke-width="1.5"/>
     <rect x="52" y="94" width="172" height="102" rx="10" fill="#eef5ee"/>
-    <rect x="132" y="114" width="72" height="10" rx="4" fill="#537864"/>
-    <path d="M 148 124 L 148 138" stroke="#4f8fa8" stroke-width="3" stroke-dasharray="3 3"/>
+    <rect x="132" y="112" width="72" height="10" rx="4" fill="#537864"/>
+    <circle cx="152" cy="134" r="9" fill="#f9ebe4" stroke="#b85328" stroke-width="1.5"/>
+    <text x="152" y="138" text-anchor="middle" class="f t-clay" font-size="11" font-weight="700">✕</text>
+    <text x="168" y="156" text-anchor="middle" class="f t-clay" font-size="10.5" font-weight="700">感應不到出水</text>
     <circle cx="96" cy="154" r="11" fill="#d9a75a"/>
     <path d="M 96 165 L 96 188 M 96 172 L 122 146" stroke="#22352c" stroke-width="3" stroke-linecap="round"/>
-    <text x="138" y="218" text-anchor="middle" class="s t-forest" font-size="13.5" font-weight="700">① 單一高度的洗手台</text>
-    <text x="138" y="242" text-anchor="middle" class="f t-soft" font-size="11.5">小學生踮起腳尖、伸長手臂</text>
-    <text x="138" y="262" text-anchor="middle" class="f t-clay" font-size="11.5" font-weight="700">仍按不到感應水龍頭</text>
+    <text x="138" y="218" text-anchor="middle" class="s t-forest" font-size="13.5" font-weight="700">① 感應不到高水龍頭</text>
+    <text x="138" y="242" text-anchor="middle" class="f t-soft" font-size="11.5">身高較矮的小學生伸長手</text>
+    <text x="138" y="262" text-anchor="middle" class="f t-clay" font-size="11.5" font-weight="700">踮腳仍感應不到出水</text>
 
-    <!-- 格 2：無扶手十公分門檻 -->
+    <!-- 格 2：沒有扶手的階梯 -->
     <rect x="270" y="76" width="220" height="212" rx="14" fill="#fffdf7" stroke="#d5dfd0" stroke-width="1.5"/>
     <rect x="294" y="94" width="172" height="102" rx="10" fill="#f9ebe4"/>
-    <path d="M 298 186 L 382 186 L 382 162 L 462 162" fill="none" stroke="#b85328" stroke-width="3.5"/>
-    <text x="422" y="181" text-anchor="middle" class="f t-clay" font-size="10.5" font-weight="700">10 cm 台階</text>
-    <circle cx="344" cy="130" r="10" fill="#537864"/>
-    <path d="M 344 140 L 344 166 L 336 184 M 344 166 L 354 176 M 332 146 L 326 184 M 356 146 L 364 184" stroke="#22352c" stroke-width="2.5" stroke-linecap="round"/>
-    <text x="380" y="218" text-anchor="middle" class="s t-clay" font-size="13.5" font-weight="700">② 無扶手的高低門檻</text>
-    <text x="380" y="242" text-anchor="middle" class="f t-soft" font-size="11.5">拄柺杖、輪椅與送貨推車</text>
-    <text x="380" y="262" text-anchor="middle" class="f t-clay" font-size="11.5" font-weight="700">每跨一步都戰戰兢兢</text>
+    <path d="M 302 186 L 366 186 L 366 168 L 412 168 L 412 150 L 458 150" fill="none" stroke="#b85328" stroke-width="3.5" stroke-linejoin="round"/>
+    <circle cx="338" cy="130" r="10" fill="#537864"/>
+    <path d="M 338 140 L 338 166 L 330 184 M 338 166 L 348 176 M 326 146 L 320 184 M 350 146 L 358 184" stroke="#22352c" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="380" y="218" text-anchor="middle" class="s t-clay" font-size="13.5" font-weight="700">② 沒有扶手的階梯</text>
+    <text x="380" y="242" text-anchor="middle" class="f t-soft" font-size="11.5">拄柺杖的同學面對階梯</text>
+    <text x="380" y="262" text-anchor="middle" class="f t-clay" font-size="11.5" font-weight="700">每走一步都戰戰兢兢</text>
 
     <!-- 格 3：字太小的自助點餐機 -->
     <rect x="512" y="76" width="220" height="212" rx="14" fill="#fffdf7" stroke="#d5dfd0" stroke-width="1.5"/>
