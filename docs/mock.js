@@ -1115,5 +1115,17 @@ if(typeof notebook==='function'){
   };
 }
 window.addEventListener('hashchange',()=>{if(timerHandle){clearInterval(timerHandle);timerHandle=null;}});
+// 仿題資料（約 480KB）不放在首頁一開始下載，進入仿題演練室時才載入，首頁閒置後也會先在背景載好。
+const promptsSrc=(document.querySelector('script[src*="mock.js"]')?.src||'mock.js').replace(/mock\.js/,'mock-prompts.js');
+let promptsLoading=null;
+window.loadMockPrompts=()=>window.MOCK_PROMPTS?Promise.resolve():(promptsLoading||=new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=promptsSrc;s.onload=resolve;s.onerror=()=>{promptsLoading=null;reject(new Error('mock prompts'));};document.head.append(s);}));
+const renderMockPage=window.mockPage;
+window.mockPage=function(){
+  if(window.MOCK_PROMPTS)return renderMockPage();
+  $('#main').innerHTML='<p class="empty-line" role="status">正在載入完整仿題…</p>';
+  window.loadMockPrompts().then(()=>{if(location.hash.slice(1).split('?')[0]==='mock')renderMockPage();}).catch(()=>{$('#main').innerHTML='<p class="empty-line" role="status">仿題資料載入失敗，請檢查網路後重新整理頁面。</p>';});
+};
 if(location.hash.slice(1).split('?')[0]==='mock')window.mockPage();
+const idle=window.requestIdleCallback||(f=>setTimeout(f,2500));
+window.addEventListener('load',()=>idle(()=>window.loadMockPrompts().catch(()=>{})));
 })();
