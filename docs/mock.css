@@ -21,8 +21,14 @@
 .mock-step-tab.active strong,.mock-step-tab.active small{color:#fff}
 .mock-step-tab.active .badge{background:#fff;color:var(--forest)}
 
-.mock-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:20px;align-items:start}
+.mock-grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:22px;align-items:start}
 .mock-grid.split-writing{grid-template-columns:minmax(0,5fr) minmax(0,7fr)}
+.mock-grid.mock-step1-wide{grid-template-columns:1fr;gap:18px}
+.mock-grid.mock-step1-wide .mock-step1-side{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start}
+.mock-grid.mock-step1-wide .mock-step1-side>.mock-card{margin-bottom:0}
+.mock-grid.mock-step1-wide .mock-step1-side>.mock-card:only-child{grid-column:1/-1}
+.mock-grid.mock-step1-wide .mock-figure{padding:16px 20px}
+.mock-grid.mock-step1-wide .mock-figure img{max-width:820px;margin:0 auto}
 .mock-card{background:#fffef9;border:1px solid var(--sage-dark);border-radius:14px;padding:20px 22px;margin-bottom:16px}
 .mock-card h2{font-family:"Noto Serif TC",serif;font-size:19px;margin:0 0 8px}
 .mock-card h3{font-family:"Noto Serif TC",serif;font-size:16px;margin:0 0 8px}
@@ -175,5 +181,6 @@
 .exam-bank-list{display:grid;gap:8px;margin-top:10px;max-height:260px;overflow:auto}
 .exam-bank-item{background:#fff;border:1px solid #dce5d6;border-radius:8px;padding:9px 11px;font-size:12px;line-height:1.65}
 
-@media(max-width:960px){.mock-grid,.mock-grid.split-writing{grid-template-columns:1fr}.quick-add-box{position:static}.mock-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.mock-index-grid{grid-template-columns:1fr}}
+@media(max-width:1280px){.mock-grid,.mock-grid.split-writing{grid-template-columns:1fr}.quick-add-box{position:static}}
+@media(max-width:960px){.mock-grid.mock-step1-wide .mock-step1-side{grid-template-columns:1fr}.mock-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.mock-index-grid{grid-template-columns:1fr}}
 @media(max-width:560px){.mock-card{padding:15px 14px}.mock-topbar{padding:12px 14px}.mock-topbar h1{font-size:19px}}

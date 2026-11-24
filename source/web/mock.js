@@ -389,8 +389,9 @@ function renderWorkspace(prompt){
 
     let panelHTML='';
     if(st.step===1){
+      const wideStep1=prompt.kind==='J'||!!prompt.figure;
       panelHTML=`
-        <div class="mock-grid">
+        <div class="mock-grid ${wideStep1?'mock-step1-wide':''}">
           <div class="mock-card">
             <div class="mock-head-row">
               <div>
@@ -405,7 +406,7 @@ function renderWorkspace(prompt){
             ${qBoxesHTML()}
           </div>
 
-          <div>
+          <div class="mock-step1-side">
             ${st.examMode?`<div class="mock-card"><h3>考場實戰模式進行中</h3><p class="small">已自動隱藏審題解析與立場提示，模擬真實考場獨立審題。完成讀題後可直接前往作答，或於頂部切回「引導模式」。</p><button type="button" class="btn primary" data-mock-step="3">直接開始作答 →</button></div>`:`
               <div class="mock-card">
                 <h3>審題 30 秒：先拆任務再動筆</h3>
