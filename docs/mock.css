@@ -38,7 +38,7 @@
 .mock-passage{background:var(--paper);border:1px solid #dde4d5;border-radius:12px;padding:16px 18px;margin-bottom:14px}
 .mock-passage-label{font-family:"Noto Serif TC",serif;font-weight:700;font-size:15px;margin-bottom:8px;color:var(--forest)}
 .mock-passage-label.clay{color:var(--clay)}
-.mock-passage p{font-family:"Noto Serif TC","PMingLiU",serif;font-size:16px;line-height:2.05;margin:0 0 10px;text-indent:2em}
+.mock-passage p{font-family:var(--font-serif);font-size:16px;line-height:2.05;margin:0 0 10px;text-indent:2em}
 .mock-passage p:last-child{margin-bottom:0}
 .hl-key{background:#dcece2;color:#143d2d;padding:0 3px;border-radius:3px}
 .hl-theme{background:#f6e3d7;color:#8a3812;padding:0 3px;border-radius:3px;font-weight:600}
@@ -93,7 +93,7 @@
 .mat-essay-para.other .mat-essay-para-head{color:var(--clay)}
 .mat-essay-para-head span{font-weight:500;padding:1px 7px;border-radius:999px;background:#eef3ea;color:var(--forest);font-size:11px}
 .mat-essay-para.other .mat-essay-para-head span{background:var(--clay-light);color:var(--clay)}
-.mat-essay-para p{margin:0 !important;font-family:"Noto Serif TC","PMingLiU",serif;font-size:14.5px !important;line-height:1.92 !important;color:var(--ink) !important;text-indent:2em;text-align:justify}
+.mat-essay-para p{margin:0 !important;font-family:var(--font-serif);font-size:14.5px !important;line-height:1.92 !important;color:var(--ink) !important;text-indent:2em;text-align:justify}
 .mat-elements{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 12px;margin:8px 0;padding:9px 11px;border-radius:9px;background:#f6f8f3;border:1px solid #dfe7d9;font-size:12px;line-height:1.65;color:var(--ink)}
 .mat-elements .mat-el-full{grid-column:1 / -1}
 .mat-elements b{display:inline-block;color:var(--forest);margin-right:4px}
@@ -113,7 +113,7 @@
 .mat-meta .caution-text strong{color:var(--clay)}
 @media(max-width:640px){.mat-elements{grid-template-columns:1fr}}
 .mock-full-essay{background:#fffdf7;border:1px solid #e2dfd0;border-radius:10px;padding:18px 22px;margin:10px 0}
-.mock-full-essay p{font-family:"Noto Serif TC","PMingLiU",serif;font-size:15.5px;line-height:2.05;text-indent:2em;margin:0 0 11px;color:var(--ink)}
+.mock-full-essay p{font-family:var(--font-serif);font-size:15.5px;line-height:2.05;text-indent:2em;margin:0 0 11px;color:var(--ink)}
 .mock-full-essay p:last-child{margin-bottom:0}
 .mock-rubric-note{margin-top:12px;padding:12px 14px;border-radius:9px;background:#eef5ec;border-left:4px solid var(--forest);font-size:12.5px;line-height:1.85;color:#234436}
 
