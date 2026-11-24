@@ -181,6 +181,7 @@
 .exam-bank-list{display:grid;gap:8px;margin-top:10px;max-height:260px;overflow:auto}
 .exam-bank-item{background:#fff;border:1px solid #dce5d6;border-radius:8px;padding:9px 11px;font-size:12px;line-height:1.65}
 
-@media(max-width:1280px){.mock-grid,.mock-grid.split-writing{grid-template-columns:1fr}.quick-add-box{position:static}}
+@media(max-width:1440px){.mock-grid:not(.split-writing){grid-template-columns:1fr}.quick-add-box{position:static}}
+@media(max-width:1200px){.mock-grid.split-writing{grid-template-columns:1fr}}
 @media(max-width:960px){.mock-grid.mock-step1-wide .mock-step1-side{grid-template-columns:1fr}.mock-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.mock-index-grid{grid-template-columns:1fr}}
 @media(max-width:560px){.mock-card{padding:15px 14px}.mock-topbar{padding:12px 14px}.mock-topbar h1{font-size:19px}}

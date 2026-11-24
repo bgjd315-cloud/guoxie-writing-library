@@ -389,9 +389,8 @@ function renderWorkspace(prompt){
 
     let panelHTML='';
     if(st.step===1){
-      const wideStep1=prompt.kind==='J'||!!prompt.figure;
       panelHTML=`
-        <div class="mock-grid ${wideStep1?'mock-step1-wide':''}">
+        <div class="mock-grid mock-step1-wide">
           <div class="mock-card">
             <div class="mock-head-row">
               <div>
